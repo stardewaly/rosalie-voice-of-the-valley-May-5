@@ -158,16 +158,16 @@
 
     },*/
 
-            {
-      "LogName": "Rosalie's Ramp",
-      "Action": "EditMap",
-      "Target": "Maps/Town",
-      "FromFile": "assets/maps/Town with Ramp - Rosalie.tmx",
-      "UpdateRate": "OnLocationChange",
-      "When": {
-        "Hearts: Gus": "1" //TEMPORARY, SAME THING TO HAVE THE RAMP EVENT HAPPEN
-      }
-    },
+    {
+  "LogName": "Rosalie's Ramp",
+  "Action": "EditMap",
+  "Target": "Maps/Town",
+  "FromFile": "assets/maps/Town with Ramp - Rosalie.tmx",
+  "UpdateRate": "OnLocationChange",
+  "When": {
+    "HasSeenEvent": "{{ModId}}_RampEvent" // this should make it so it only changes the map after seeing the event?? Workshopping this
+  }
+  },
 
 
     /* 5. Dialogue (Include must NOT have a Target)*/
