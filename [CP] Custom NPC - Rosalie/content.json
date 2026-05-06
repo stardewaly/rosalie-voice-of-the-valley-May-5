@@ -289,17 +289,18 @@
     },
 
       //NEW CODE AS OF 5'th APRIL (6'th Here, anyway) for Jas ribbon sprites
+      //new update _2
 
     {
         "LogName": "Jas - Portraits - Load Custom",
         "Action": "Load",
-        "Target": "Portraits/{{ModId}}_Jas_RosaliesRibbon",
+        "Target": "Portraits/Jas_RosaliesRibbon",
         "FromFile": "assets/images/Jas_RosaliesRibbon/Jas_RosaliesRibbon.png" 
     },
     {
         "LogName": "Jas - Sprites - Load Custom",
         "Action": "Load",
-        "Target": "Characters/{{ModId}}_Jas_RosaliesRibbon",
+        "Target": "Characters/Jas_RosaliesRibbon",
         "FromFile": "assets/images/Jas_RosaliesRibbon/Jas_RosaliesRibbonS.png"
     },
 
@@ -311,8 +312,8 @@
         "Entries": {
             "{{ModId}}_Jas_RosaliesRibbon": {
                 "Id": "{{ModId}}_Jas_RosaliesRibbon",
-                "Portrait": "Portraits/{{ModId}}_Jas_RosaliesRibbon",
-                "Sprite": "Characters/{{ModId}}_Jas_RosaliesRibbon",
+                "Portrait": "Portraits/Jas_RosaliesRibbon",
+                "Sprite": "Characters/Jas_RosaliesRibbon",
                 "Indoors": true,
                 "Outdoors": true,
                 "IsIslandAttire": false,
