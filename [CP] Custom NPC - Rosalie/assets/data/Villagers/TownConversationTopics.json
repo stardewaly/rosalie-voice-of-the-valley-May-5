@@ -91,6 +91,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Emily",
 			"Entries": {
+				"{{ModId}}_RosalieRamp": "{{i18n:EmilyRosalieRampCT}},
+				
                 "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:EmilyRosalieArrivalCT {{Random: 1, 2}} }}",
 
 				"{{ModId}}_NPCRosalieWalkCT": "{{i18n:EmilyOnRosalieWalkCT}}",
