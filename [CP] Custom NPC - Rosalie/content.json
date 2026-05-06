@@ -1,0 +1,384 @@
+{
+  "Format": "2.9.1",
+
+       "Changes": [ 
+
+
+       //Making Shane Not Datable//
+       		{
+			"LogName": "Shane Non-Datable Change",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Fields": 
+			{
+				"Shane": 
+				{
+					"CanBeRomanced": false
+				}
+			},
+			"When": 
+			{
+				"Relationship:Shane |contains= dating, married": false,
+				"DayEvent |contains= flower dance": false
+        //Add when Rosalie is in town eventually so people have the option still and can remove this. when they get together woop woop
+			}
+
+
+		},
+
+
+    /* 1. Clear out dialogue, schedules, and schedule strings*/
+    {
+      "LogName": "Blank Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/stardewaly.rosalie_Rosalie",
+      "FromFile": "assets/data/blank.json"
+    },
+    {
+      "LogName": "Blank Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/stardewaly.rosalie_Rosalie",
+      "FromFile": "assets/data/blank.json"
+    },
+    {
+      "LogName": "Blank Schedule Strings",
+      "Action": "Load",
+      "Target": "Strings/schedules/stardewaly.rosalie_Rosalie",
+      "FromFile": "assets/data/blank.json"
+    },
+    /* 2. NPC registration (dispositions)*/
+    {
+      "LogName": "Rosalie is alive!",
+      "Action": "Include",
+      "FromFile": "assets/data/dispos.json"
+    },
+    /* 3. Portraits*/
+    {
+      "LogName": "Base Portraits",
+      "Action": "Load",
+      "Target": "Portraits/stardewaly.rosalie_Rosalie",
+      "FromFile": "assets/images/Rosalie_Regular.png"
+    },
+    /* 4. Sprites*/
+
+    {
+      "LogName": "Base Sprites",
+      "Action": "Load",
+      "Target": "Characters/stardewaly.rosalie_Rosalie",
+      "FromFile": "assets/images/Rosalie_Regular-Sprites.png"
+    },
+
+        {
+      "LogName": "Wheelchair Sprites",
+      "Action": "Load",
+      "Target": "Characters/stardewaly.rosalie_Rosalie_WC",
+      "FromFile": "assets/images/Rosalie_WC.png"
+    },
+
+    //ONLY USED FOR SNEEZE EVENT
+    {
+      "LogName": "Sneeze Event Sprites",
+      "Action": "Load",
+      "Target": "Characters/stardewaly.rosalie_Rosalie_Sneeze",
+      "FromFile": "assets/images/Rosalie_SneezeEvent.png"
+    },
+
+
+//SPECIAL CONDITION SPRITES
+{
+	"Action": "EditData",
+	"Target": "Data/Characters",
+	"TargetField": ["stardewaly.rosalie_Rosalie", "Appearance"],
+	"Entries":
+	{
+		"{{ModId}}_rosalie_Rosalie_Regular":
+		{
+			"Id": "{{ModId}}_Rosalie_Regular",
+			"Portrait": "Portraits/{{ModId}}_Rosalie",
+			"Sprite": "Characters/{{ModId}}_Rosalie",
+			"Indoors": true,
+			"Outdoors": true,
+			"Condition": "TRUE",
+			"Precedence": 0, //Importance for same conditions like spring outfits and like Shane and Maru's outfits, lower means higher priority, negatives can be used
+			"Weight": 1 //Rarity, lower the more rare
+		}
+
+//PUTTING THIS ON HOLD UNTIL WE CAN FIGURE OUT HOW TO MAKE THIS WORK, CONDITIONS AREN'T LISTENED TO AS OF MARCH 17 AND BECOEMS DEFAULT 
+  /*  "{{ModId}}_Rosalie_WC": 
+{
+    "Id": "{{ModId}}_Rosalie_WC",
+    "Portrait": "Portraits/{{ModId}}_Rosalie",
+		"Sprite": "Characters/{{ModId}}_Rosalie_WC",
+		"Condition": "PLAYER_HAS_MAIL Current stardewaly.rosalie_RosalieWCFlag Received",
+}*/
+
+
+  }
+},
+
+{
+"LogName":"Rosalie Sneeze Event Sprites - Temp Actor",
+"Action":"Load",
+"Target": "Characters/Rosalie_SneezeEvent",
+"FromFile": "assets/images/Rosalie_SneezeEvent.png"
+},
+
+
+//Rosalie's Room Map// I tried "When" commands, didn't work with TMX (march 8)
+
+     {
+      "LogName": "Rosalie's Room Saloon",
+      "Action": "EditMap",
+      "Target": "Maps/Saloon",
+      "FromFile": "assets/maps/Saloon with Rosalie Room.tmx"
+    },
+
+    
+        {
+      "LogName": "Rosalie's Clean Room",
+      "Action": "EditMap",
+      "Target": "Maps/Saloon",
+      "FromFile": "assets/Maps/Saloon with Rosalie Room-Radio.tmx",
+            "When": {
+              "HasSeenEvent": "{{ModId}}_Rosalie4HeartEvent"//Works, but for the next day
+      }
+    },
+
+
+    //Rosalie's Saloon Ramp// //NOT WORKING! Loads but ramp is not loaded until next day, if not possible, try having Robin measure and it's built tomorrow! or make it so the day before, when it's set, it'll go
+
+    /*
+     {
+      "LogName": "Rosalie's Saloon Ramp",
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "FromFile": "assets/maps/Town with Ramp - Rosalie.tmx"
+
+    },*/
+
+            {
+      "LogName": "Rosalie's Ramp",
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "FromFile": "assets/maps/Town with Ramp - Rosalie.tmx",
+      "When": {
+        "Hearts: Gus": "1" //TEMPORARY, SAME THING TO HAVE THE RAMP EVENT HAPPEN
+      }
+    },
+
+
+    /* 5. Dialogue (Include must NOT have a Target)*/
+    {
+      "LogName": "Rosalie's NPC Dialogue",
+      "Action": "Include",
+      "FromFile": "assets/data/dialogue.json"
+    },
+    /* 6. Schedule*/
+    {
+      "LogName": "Rosalie's NPC Schedule",
+      "Action": "Include",
+      "FromFile": "assets/data/schedule.json"
+
+    },
+    /* 7. Gift Tastes*/
+    {
+      "LogName": "Rosalie Gift Tastes Data",
+      "Action": "Include",
+      "FromFile": "assets/data/gifttastes.json"
+    },
+
+
+ /* 8. ROSALIE MAIL */
+    {
+      "LogName": "Rosalie Mail",
+      "Action": "Include",
+      "FromFile": "assets/data/rosaliemail.json"
+    },
+
+  /* 9. EVENTS */
+
+    {
+    "LogName": "Rosalie Events",
+    "Action": "Include",
+    "FromFile": "assets/data/Events/rosalie-heartevents.json"
+},
+
+{
+    "LogName": "Shane x Rosalie Events",
+    "Action": "Include",
+    "FromFile": "assets/data/Events/Shane x Rosalie Events.json"
+},
+
+/*10. FESTIVALS */
+
+    {
+   		 "LogName": "Festival Include",
+   		 "Action": "Include",
+   		 "FromFile": "assets/data/Festivals.json"
+   	 },
+
+
+
+  /* 11. Rosalie Animations*/
+{
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "stardewaly.rosalie_Rosalie_sleeping": "39/39/39",
+                "stardewaly.rosalie_Rosalie_crying": "24/24/25/25",
+                "stardewaly.rosalie_Rosalie_singing": "22/23/18/19/20/21/22/23",
+                "stardewaly.roslaie_Rosalie_standup": "34/34/35/34/34/35"
+            }
+        },
+/*12. Quests*/
+            {
+      "LogName": "Rosalie Quests",
+      "Action": "Include",
+      "FromFile": "assets/data/Quests.json"
+    },
+
+/*12. CONVERSATION TOPICS AND OTHER NPC DIALOGUE*/
+    {
+      "LogName": "Conversation Topics and Other NPC!",
+      "Action": "Include",
+      "FromFile": "assets/data/Villagers/TownConversationTopics.json"
+    },
+
+
+//*******GUS LINE CHANGES******//
+  {
+      "LogName": "Gus Uncle New Dialogue",
+      "Action": "Include",
+      "FromFile": "assets/data/Villagers/GusNewDialogue.json"
+    },
+
+
+
+//*******HARVEY LINE CHANGES******//
+   {
+      "LogName": "Harvey Rosalie New Dialogue",
+      "Action": "Include",
+      "FromFile": "assets/data/Villagers/HarveyNewDialogue.json"
+    },
+
+
+//*******SHANE LINE CHANGES******//
+   
+
+    {
+      "LogName": "Shane Rosalie New Dialogue",
+      "Action": "Include",
+      "FromFile": "assets/data/Villagers/ShaneNewDialogue.json"
+    },
+
+    //ITEMS
+
+        {
+      "LogName": "Rosalie Exclusive Items",
+      "Action": "Include",
+      "FromFile": "assets/data/items.json"
+    },
+
+        {
+        "Action":"Load",
+        "Target":"Characters/RosaliesRibbon_SmallActor",
+        "FromFile":"assets/images/Jas_RosaliesRibbon/RosaliesRibbon_SmallActor.png"
+    },
+
+
+
+
+/*JAS PORTRAIT AND SPRITE CHANGE AFTER ROSALIE'S RIBBON EVENT*/
+
+//DOES NOT WORK FOR "WHEN" SITUATION
+
+/*
+    {
+
+      "LogName": "Jas - Portraits",
+    "Action": "Load",
+    "Target": "Portraits/Jas",
+    "FromFile": "assets/images/Jas_RosaliesRibbon/Jas_RosaliesRibbon.png",
+      "When": {
+        "HasSeenEvent": "{{ModId}}_RosaliesRibbonEvent"
+      }
+    
+    },
+
+    {
+	"LogName": "Jas - Sprites",
+	"Action": "Load",
+	"Target": "Characters/Jas",
+  "FromFile":"assets/images/Jas_RosaliesRibbon/Jas_RosaliesRibbonS.png",
+    },
+
+    {
+	"Action": "EditData",
+	"Target": "Data/Characters",
+	"TargetField": ["Jas", "Appearance"],
+	"Entries":
+	{
+		"{{ModID}}_Jas_RosaliesRibbon":
+		{
+			"Id": "{{ModId}}_Jas_RosaliesRibbon",
+			"Portrait": "Portraits/Jas_RosaliesRibbon",
+			"Sprite": "Characters/Jas_RosaliesRibbon",
+			"Indoors": true,
+			"Outdoors": true,
+			"IsIslandAttire": false,
+			"Condition": "HAS_SEEN_EVENT Current {{ModId}}_RosaliesRibbonEvent",
+			"Precedence": 0,
+			"Weight": 1
+		}
+	}
+}
+
+
+*/
+/*
+
+{
+		"LogName": "Jas - Portraits - Load",
+		"Action": "Load",
+    "Target": "Mods/[CP] Custom NPC - Rosalie/Jas_RosaliesRibbon",
+		"FromFile": "assets/images/Jas_RosaliesRibbon/Jas_PortraitwithRosaliesRibbon.png"
+	},
+{
+		"LogName": "Jas - Sprites - Load",
+		"Action": "Load",
+        "Target": "Mods/[CP] Custom NPC - Rosalie/Jas_RosaliesRibbon",
+		"FromFile": "assets/images/Jas_RosaliesRibbon/Jas_SpriteswithRosaliesRibbon.png"
+	},
+
+
+    {
+    "LogName": "Jas - Portraits",
+    "Action": "EditImage",
+    "Target": "Portraits/Jas",
+"Entries": {
+		"Portrait": "Mods/[CP] Custom NPC - Rosalie/Jas_RosaliesRibbon"
+		},
+      "When": {
+        "HasSeenEvent": "{{ModId}}_RosaliesRibbonEvent"
+      }
+    
+    },
+
+    {
+	"LogName": "Jas - Sprites",
+	"Action": "EditImage",
+	"Target": "Characters/Jas",
+    "Entries":{
+      "Sprites": "Mods/[CP] Custom NPC - Rosalie/Jas_RosaliesRibbon"
+    },
+
+  "When": {
+    "HasSeenEvent": "{{ModId}}_RosaliesRibbonEvent"
+}
+}*/
+
+    
+
+    
+]
+}

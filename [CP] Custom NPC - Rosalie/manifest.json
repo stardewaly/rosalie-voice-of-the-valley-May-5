@@ -1,0 +1,43 @@
+{
+  "Name": "Rosalie - Custom NPC",
+  "Author": "stardewaly",
+  "Version": "1.0.0",
+  "Description": "Adds custom NPC, Rosalie, who has a dynamic disability",
+  "UniqueID": "stardewaly.rosalie",
+  "UpdateKeys": ["41795"],
+"ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+},
+
+  "Dependencies": [
+    {
+      "UniqueID": "datamancer.CustomFixedDialogue",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Spiderbuttons.BETAS",
+      "IsRequired": true
+    },
+
+    {"UniqueID": "Spiderbuttons.CustomScheduleKeys",
+      "IsRequired": true
+  },
+{
+  "UniqueID": "misscoriel.eventrepeater", //TEMPORARY
+    "IsRequired": true
+
+},
+
+  {
+      "UniqueID": "stardewaly.ActuallySadShane",
+      "IsRequired": false
+    }
+
+
+
+  ]
+}

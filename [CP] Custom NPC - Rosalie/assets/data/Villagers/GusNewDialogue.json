@@ -1,0 +1,54 @@
+{
+    "Changes": [
+    {
+      "LogName": "Gus Uncle New Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Gus",
+      "Entries": {
+      
+
+      
+        //Conversation Topics
+
+
+            "{{ModId}}_RosalieRamp":"{{i18n:GusRosalieRamp}}",
+
+            "{{ModId}}_NPCRosalieArrivalCT": "{{i18n:GusRosalieArrivalCT{{Random: 1, 2, 3}} }}",
+
+
+
+
+            				   
+            //Scheduled Flare Up Days
+            "{{ModId}}_FlareUpCT": "{{i18n:Gus.Flareup_1}}",
+            
+            
+            //Rosalie's Event CTs
+            "{{ModId}}_NPCRosalieWalkCT": "{{i18n:GusOnRosalieWalkCT}}",    
+
+        "{{ModId}}_RoalieGeorgeWCCT": "{{i18n:Gus.RosalieGeorgeWCCT{{Random: 1, 2}} }}",
+
+            "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Gus.RosaliesFlareUpEventCT{{Random: 1, 2}} }}",
+
+
+
+
+
+//Shane x Rosalie Route CTs//
+
+"{{ModId}}_RosaliesRibbonCT":"{{i18n:Gus.RosaliesRibbonCT}}",
+"{{ModId}}_RosalieSneezeEventCT": "{{i18n:Gus.RosalieSneezeEventCT}}", 
+"{{ModId}}_RosalieDreamsAndDisastersCT": "{{i18n:Gus.RosalieDreamsAndDisastersCT}}",
+"{{ModId}}_ShaneSleepOverCT": "{{i18n:Gus.ShaneSleepOverCT{{Random: 1, 2 }} }}", 
+"{{ModId}}_RosalieSecondFirstKissCT": "{{i18n:Gus.SecondFirstKissCT{{Random: 1, 2, 3 }} }}"
+
+
+
+
+
+      }
+    }
+
+]
+
+}

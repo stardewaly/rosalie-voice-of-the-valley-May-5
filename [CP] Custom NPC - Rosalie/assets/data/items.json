@@ -1,0 +1,32 @@
+{
+    "Changes": [
+        
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_RosaliesRibbon": {
+                    "Name": "{{ModId}}_RosaliesRibbon", // best practice to match the ID, since it's sometimes used as an alternate ID (e.g. in Data/CraftingRecipes)
+                    "Displayname": "Rosalie's Ribbon",
+                    "Description": "Rosalie's signature white polkadotted red ribbon!",
+                    "Type": "Quest",
+                    "Category": -100,
+                    "Price": 1996,
+
+                    "Texture": "Mods/{{ModId}}/Objects",
+                    "SpriteIndex": 0,
+
+                    "ExcludeFromRandomSale": true                } 
+            }
+        },
+
+
+
+        // add item
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Objects",
+            "FromFile": "assets/items/RosaliesRibbon.png" // assets/Crops.png, assets/Objects.png
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "Changes": [
+
+{
+
+    "LogName": "Shane's Rosalie Dialogue",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Shane",
+    "Entries": {
+
+
+        /*
+Rosalie Arrived In Town
+*/
+
+//Conversation Topics//
+
+"stardewaly.rosalie_RosalieRamp": "{{i18n:ShaneRosalieRamp}}",
+"stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:ShaneRosalieArrivalCT{{Random: 1, 2, 3}} }}",
+
+"{{ModId}}_RoalieGeorgeWCCT": "{{i18n:Shane.RosalieGeorgeWCCT}}", //($query is used in i18n json for if player has seen his 6 heart event)
+
+ "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Shane.RosaliesFlareUpEventCT}}",
+
+        //SHANE X ROSALIE ROUTE CTS///
+"{{ModId}}_ShaneRosalieTherapyCT ": "{{i18n:Shane.TherapyCT{{Random: 1, 2}} }}",
+"{{ModId}}_RosalieSneezeEventCT": "{{i18n:Shane.RosalieSneezeEventCT{{Random: 1, 2 }} }}",
+"{{ModId}}_RosaliesRibbonCT": "{{i18n:Shane.RosaliesRibbonCT}}",
+"{{ModId}}_RosaliesRibbonCT2": "{{i18n:Shane.RosaliesRibbonCT2}}", //not sure if this will play the next day, hoping it will so we don't have to randomize it.
+"{{ModId}}_RosalieShanesLowDayCT":"{{i18n:Shane.RosalieShanesLowDayCT{{Random: 1, 2 }} }}",
+"{{ModId}}_RosalieDreamsAndDisastersCT":"{{i18n:Shane.RosalieDreamsAndDisastersCT{{Random: 1, 2}} }}",
+"{{ModId}}_ShaneSleepoverCT": "{{i18n:Shane.ShaneSleepoverCT{{Random: 1, 2, 3}} }}",
+"{{ModId}}_SandCastlesWithJasCT": "{{i18n:Shane.SandCastlesWithJasCT{{Random: 1, 2, 3, 4}} }}",
+"{{ModId}}_RosalieKitchenLoveCT": "{{i18n:Shane.RosalieKitchenLoveCT{{Random: 1, 2 }} }}",
+"{{ModId}}_RosaliesxShaneSecondFirstKissCT":"{{i18n:Shane.RosaliexShaneSecondFirstKissCT}}",
+
+//Location based (this is a vanilla token do not change it unless you're changing locations)
+"Saloon_7_18": "{{i18n:ShanexRosalieBFF.Saloon{{Random: 1, 2, 3, 4 }} }}",
+
+//Player is married to SHANE (NOT IMPLEMENTED YET)
+"ShaneRosalieRampEventMarried": "{{i18n:ShaneRosalieRampEventMarried}}",
+
+"ShaneRosalieArrivalCTMarried": "{{i18n:ShaneRosalieArrivalCTMarried}}",
+"ShaneRosalieArrivalCTMarried2": "{{i18n:ShaneRosalieArrivalCTMarried2}}",
+"ShaneRosalieArrivalCTMarried3": "{{i18n:ShaneRosalieArrivalCTMarried3}}",
+
+
+
+
+
+
+}
+}
+
+    ]
+}

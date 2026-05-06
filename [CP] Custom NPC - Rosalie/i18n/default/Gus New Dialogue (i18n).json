@@ -1,0 +1,46 @@
+{
+    //GUS NEW DIALOGUE//
+
+    "Rosalie.Topic1": "Rosie has always been a bit shy, but a very bubbly girl when you got to know her. #$b# She's gotten a lot quieter and sociable in the last few years... #$b# I'm worried about her...$2",
+    "Rosalie.Topic2": "Rosie always had a soft spot for the quiet ones. But I hate for her to see her childhood friend drink so much every night.$2 #$e# I'm not sure if she remembers him though.$2",
+    "Rosalie.Topic3": "It was actually my sister in law, Rosie's mom, who called me to take her in. #$b# I'm happy to look after my niece, and I'm glad Harvey's taken a liking to her, but I hate seeing her like this.",
+
+    "GusRosalieRamp": "I think Rosie is going to be surprised to see the ramp! #$b# I think it'll nice to have it as a little homecoming gift!$1",
+    "GusRosalieArrivalCT1": "Rosie seems to be doing well, the locals seem to like her! #$b# I'm just worried she's hurting more than she's letting on...$2",
+    "GusRosalieArrivalCT2": "Rosie is keeping busy, which is great! #$b# But I worry she's doing too much and she'll get hurt...$2",
+    "GusRosalieArrivalCT3": "Rosie seems to like Emily, but she doesn't seem to want to hang out with her outside of work.$2 #$b# Her family keep telling me to encourage her to leave the house, #$b# But I don't want to push her...$2",
+
+
+    //FlareUp Schedule CT (NOT THE EVENT ONE)
+    "Gus.Flareup_1": "I always feel so bad when Rosie gets these flare ups...$s #$b# But she seems to still keep a good attitude.$1",
+
+    //EVENT RELATED DIALOGUE//
+
+    "GusOnRosalieWalkCT": "I thought Rosie said she and Emily were going to go to the spa the other day, but I guess she cancelled.$2 #$e# I'm glad Emily is so understanding of her condition though. Maybe next week she'll feel well enough to go.",
+
+    "Gus.RosalieGeorgeWCCT1": "Rosie's been quiet today...$2 #$b#I know I didn't have to tell George, #$b# but there was no other way Hewould have understood.$2",
+    "Gus.RosalieGeorgeWCCT2": "I'm sure Rosie has thought about moving out... #$b# But she doesn't have anywhere else to go...$2",
+
+
+    //Flare Up Event CT//
+
+    "Gus.RosaliesFlareUpEventCT": "I'm sorry for being so secretive until now about Rosalie's situation, @.$2 #$b# I'm trying to be respectful of her privacy. But you've been such a good friend to her, I thought you should know.",
+    "Gus.RosaliesFlareUpEventCT2": "Rosie is lucky to have a friend like you who cares about her. I'm glad she's making friends. #$e# I know she says she didn't want to get attached and grow roots here in Pelican Town, #$b# But she feels safe with you, and that's all that matters to me.",
+
+
+    //Shane x Rosalie Route CTs//
+
+    "Gus.RosaliesRibbonCT": "I saw Shane's little girl got a ribbon similar to Rosie's! #$b# She seems to be making an impact after all!$h",
+
+    "Gus.RosalieSneezeEventCT": "Rosie came home a bit later than usual last night. #$b# I was a bit worried, but she said she had a flare up and went to bed.$2 #$b# But this morning Marnie called to make sure she was okay, and that Shane walked her home. #$b# I don't know why Rosie would hide that from me...$2 #$e# I didn't even know she and Shane were talking again... I don't know to tell her parents or not...$2",
+
+    "Gus.RosalieDreamsAndDisastersCT": "I'll be honest... I'm not entirely comfortable about people talking about Shane and Rosie like a couple.$2 #$e# It doesn't matter if I approve. But if they say they're friends, they're friends.$3 ",
+
+    "Gus.ShaneSleepOverCT1": "I know Shane spent the night. I put the covers on them. #$b# It's not a big deal. They used to pass out all the time as kids after spending the day together, it was honestly sweet.$1",
+    "Gus.ShaneSleepOverCT2": "I'm glad that Shane found something to focus on when he needed it most. Really, they both do. #$e# I didn't even realize Rosie was struggling, and I've known her her whole life... He's always been good at that though.$2",
+
+    "Gus.SecondFirstKissCT": "Rosalie doesn't seem like herself today...$2 #$b# I didn't know how to feel about her and Shane being friends again, but I'd never seen them so happy.$2 #$b# I hope whatever disagreement happened between them that they can move past it. I'd hate to see them lose each other again...$2"
+
+
+
+}

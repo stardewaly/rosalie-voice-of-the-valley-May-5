@@ -1,0 +1,16 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            
+            "Entries": {
+                "Jas.RosaliesRibbon.Quest": "ItemDelivery/{{i18n:Jas.RosaliesRibbon.title}}/{{i18n:Jas.RosaliesRibbon.info}}/{{i18n:Jas.RosaliesRibbon.hint}}/Jas {{ModId}}_RosaliesRibbon 1/-1/1996/-1/false/{{i18n:Jas.RosaliesRibbon.reaction}}/",
+
+                "RosalieMushroom.Quest": "ItemDelivery/{{i18n:RosaliesMushroomQuest.title}}/{{i18n:RosaliesMushroomQuest.info}}/{{i18n:RosaliesMushroomQuest.hint}}/{{ModId}}_Rosalie 422 1/-1/1013/-1/false/{{i18n:RosaliesMushroomQuest.reaction}}/"
+
+            }
+
+        }
+    ]
+}

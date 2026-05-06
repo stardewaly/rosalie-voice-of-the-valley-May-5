@@ -1,0 +1,89 @@
+{
+  "Changes": [
+    {
+      "LogName": "Rosalie Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/stardewaly.rosalie_Rosalie",
+      "Entries": {
+
+           "spring": "1100 Saloon 18 11 2 stardewaly.rosalie_Rosalie_singing/1200 Town 18 59 1/1600 Town 50 69 2/1800 Saloon 10 18 2/2300 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",		
+         
+       
+         "spring_Mon": "800 BusStop 18 11 2/1200 Saloon 7 4 0/1600 Saloon 9 18 2/1800 Saloon 33 18 0/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
+         
+         "spring_Tue": "800 Hospital 5 4 1/1000 Town 9 60 2/1200 Saloon 35 7 3/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",		
+        "spring_Thu": "800 Hospital 5 4 1/1000 Town 9 60 2/1200 Saloon 35 7 3/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
+
+         
+         "summer": "{{Random: spring, stardewaly.rosalie_flareup}}",
+         "summer_Mon": "800 BusStop 18 11 2/1200 Saloon 7 4 0/1600 Saloon 9 18 2/1800 Saloon 33 18 0/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
+         "summer_Tue": "830 Hospital 5 4 1/1000 Town 9 60 2/1200 Saloon 35 7 3/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",				
+        
+        
+        
+        "fall": "{{Random: spring, stardewaly.rosalie_flareup}}",
+         "fall_Mon": "800 BusStop 18 11 2/1200 Saloon 7 4 0/1600 Saloon 9 18 2/1800 Saloon 33 18 0/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
+         "fall_Tue": "830 Hospital 5 4 1/1000 Town 9 60 2/1200 Saloon 35 7 3/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",				
+
+
+        "winter":"{{Random: spring, stardewaly.rosalie_flareup}}",
+         "winter_Mon": "800 BusStop 18 11 2/1200 Saloon 7 4 0/1600 Saloon 9 18 2/1800 Saloon 33 18 0/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
+         "winter_Tue": "830 Hospital 5 4 1/1000 Town 9 60 2/1200 Saloon 35 7 3/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",				
+        "winter_Thu": "830 Hospital 5 4 1/1000 Town 9 60 2/1200 Saloon 35 7 3/2100 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
+
+
+        "rain": "1000 Saloon 7 4 0/1200 Forest 47 11 2/1600 Beach 54 25 2 stardewaly.rosalie_Rosalie_singing/2000 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping"				
+                
+        
+
+        //Tokens//
+       
+        
+      }
+      },
+
+      {
+         "Action": "EditData",
+         "Target": "Spiderbuttons.CustomScheduleKeys/ScheduleKeys",
+         "Entries": {
+            "Rosalie Flare Up Schedule Key": {
+               "Id": "Rosalie Flareup Schedule Key",
+               "ScheduleKey": "stardewaly.rosalie_flareup",
+               "Priority": "Early",
+               "Condition": "PLAYER_HAS_MAIL Current stardewaly.rosalie_RosalieFlareUpFlag Received"
+            },
+
+            "Rosalie x Shane BFF Schedule Key": {
+               "Id": "Rosalie x Shane BFF Schedule Key",
+               "ScheduleKey": "stardewaly.rosalie_RosaliexShane.RosalieBFF",
+               "Priority": "Early",
+               "Condition": "PLAYER_HAS_SEEN_EVENT stardewaly.rosalie_RosaliesSneezeEvent"
+            }
+         }
+      },
+
+      
+      {
+         "Action": "EditData",
+         "Target": "Characters/schedules/stardewaly.rosalie_Rosalie",
+         "Entries": {
+            "stardewaly.rosalie_flareup": "1200 Saloon 5 4 2/1300 Saloon 7 4 0/1800 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
+            "{{ModId}}_RosaliexShane.RosalieBFF": "615 AnimalShop 25 15 0/1100 AnimalShop 25 5 1/1450 Forest 93 23 1/1800 Saloon 7 18 3/2300 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
+         "{{ModId}}_RosaliexShane.RosalieJas": "1100 Saloon 18 11 2 stardewaly.rosalie_Rosalie_singing/1200 Town 18 59 1/1600 Town 16 91 0/1750 AnimalShop 3 6 3/1800 Saloon 7 18 3/2300 Saloon 5 4 1 stardewaly.rosalie_Rosalie_sleeping",
+
+            "Sun": "{{ModId}}_RosaliexShane.RosalieBFF"
+
+
+         
+         
+         }
+      }
+   ]
+    }
+
+
+
+//Time MapName Xcoord Ycoord Facing Animation StringDialogue//
+
+
+//Facing Animation: 0 = Up, 1 = Right, 2 = Down, 3 = Left//

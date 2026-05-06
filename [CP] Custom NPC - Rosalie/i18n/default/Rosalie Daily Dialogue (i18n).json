@@ -1,0 +1,400 @@
+
+{
+    //********ROSALIE DAILY DIALOGUE*************//
+
+
+
+    "Introduction": "Hey, have we met? #$b# Sorry, I don't really know everyone...$1 #$b# I'm Rosalie, Gus' niece! I used to live here as a kid and...$1 #$b# ...$2 #$b# Well, enough about me! I'll let you go back to your work!",
+           
+      "Rosalie.Daily_1": "Can't wait to watch another rerun of the Mortimer Rat Show!$1",
+      "Rosalie.Daily_2": "$query !DAY_OF_WEEK Monday#I feel like a cat poster saying they hate Mondays...$3|I feel like a cat poster saying they hate Mondays...$3 #$b# Wait, what do you mean it's not Monday?!$6",
+      "Rosalie.Daily_3": "I feel like I was supposed to do something important today...$2 #$b# I feel so dumb... $1",
+      "Rosalie.Daily_4": "I feel like I should be in bed by now... #$b# Then I'll be up all night again!$1",
+      "Rosalie.Daily_5": "Don't tell Uncle Gus, but my siblings always said I made the best pancakes...$1 #$e# The secret is to cook it in lots of butter... #$e# and chocolate chips, of course!$1 #$e# How much chocolate chips? You measure with your heart, duh!$1",
+      "Rosalie.Daily_6": "%Rosalie is humming a catchy theme song from an old sitcom",
+      "Rosalie.Daily_7": "%Rosalie seems to be very focused on something right now... It's probably best not to disturb her.",
+      "Rosalie.Daily_8": "%Rosalie is staring off into space... Again...",
+      "Rosalie.Daily_9": "I wonder what Uncle Gus is cooking up in the kitchen...$0 #$b# I hope it's something good!$1",
+      "Rosalie.Daily_10": "Did I forget to take my meds today?...$2 #$b# Ugh, I hate when that happens...$2",
+      "Rosalie.Daily_11": "It's days like this I miss the old War Plane Museum...$2 #$b# I wish I had someone to go with...",
+      "Rosalie.Daily_12": "I wonder how my sister is doing...$2 #$e# I worry about her sometimes...$2",
+      "Rosalie.Daily_13": "%Rosalie appears to be not herself... perhaps it's best to leave her alone",
+      "Rosalie.Daily_14": "Can't you see I'm busy?!$5 #$e# I'm sorry, @... I was just... focused on something and... never mind... I'm sorry...$2#$e# %Rosalie is too embarassed to look at you.",
+      "Rosalie.Daily_15": "%Rosalie sneezed and now appears to be cradling her left arm. #$e# ...$2",
+      "Rosalie.Daily_16": "mmm grilled sans cheese for dinner...$1",
+      "Rosalie.Daily_17": "%Rosalie nods to let you know she hears you, but cannot speak back.",
+
+        "Rosalie.Heart2.1": "Is it sad that the person I'm closest to in town is Dr Harvey because I see him the most when I leave the house?$2 #$e# I mean, I don't know if I consider him a friend but he's... my doctor.",
+        "Rosalie.Heart2.2": "Uncle Gus has always made the best food! I feel so lucky that he's as good an Uncle as his cooking!$1",
+        "Rosalie.Heart2.3": "Hope things are going well for you, @! #$e# Me? Well, it is what it is, you know?$1",
+        "Rosalie.Heart2.4": "Sorry if I may seem a bit distant... I'm... not doing well...$2",
+    
+        "Rosalie.Heart4.1": "I try to drop off coffee for Dr Harvey in the mornings. #$e# It may be the only routine I've kept up with since my diagnosis...es...$2",
+        "Rosalie.Heart4.2": "I know that I've been here for a while, but I still don't have it in me to unpack...$2 #$b# I guess a part of me still thinks I'll be leaving soon...$2",
+        "Rosalie.Heart4.3": "I'm sorry if I was a bit... cold when we first met...$2 #$b# I've... made it a habit to assume the worse when people want to get to know me...$3 #$e# I still have a hard time remembering 'nice' is different than 'good'.",
+        "Rosalie.Heart4.4": "I'm having a surprisinly good day!$1 #$b# Last night, on TV they played a documentary about-$1 #$b# ...$2 #$b# ... never mind. I'll leave you alone forever now...$2",
+        "Rosalie.Heart4.5": "Uncle Gus forgot I don't like cheese and put it in my lasagna...$3 #$b# This isn't even a new thing!$3 #$b# I know he's trying his best to feed me and he's housing me and I'm grateful... but it's like... one thing.$2 #$e# Okay, there are others, but cheese is the big one!$5",
+        "Rosalie.Heart4.6": "My mom always taught me to see the best in people. #$b# Unfortunately, I have to be cautious of those I let close to me.#$e#Is that why I'm usually so quiet? Trauma works in many ways.$1",
+
+        "Rosalie.Heart6.1": "You know, I never knew Uncle Gus never tried longganisa before. #$b# I know Pierre's and Joja would never sell it here,$2 #$b# but my mom sent me some in the mail, and he loved it!$1 #$e# Maybe he was just glad I was doing the cooking for once, but it's a win in my book!$1 #$e# No, I didn't mean 'lasagna'.$1",
+        "Rosalie.Heart6.2": "I watched a video clip last night about how they used to make cartoons back in the 1920s, #$b# Honestly, I have no idea how they had the patience for that, but it's worth it!$1",
+        "Rosalie.Heart6.3": "You know, in therapy today, they talked about how boundaries actually start with you. #$b# Like, how can you expect others to follow through and respect them when you don't follow through on what happens when they're broken yourself? #$e# I'm not insinuating anything! I enjoy your company, promise!$1",
+        "Rosalie.Heart6.4": "Do you think... Harvey would dance with me instead of Maru if I asked at the flower dance next year?$4 #$b# True, I have to actually make it there to dance...$1 #$e# ... And learn to dance, shut up!$1",
+        "Rosalie.Heart6.5": "What exactly is the hype with Joja Cola anyway?$3 #$b# I don't mean to rag on someone's tastes, I know I'm weird too, just... #$b# ...it hurts my tongue...$2",
+        "Rosalie.Heart6.6": "%Rosalie is quielty singing an old showtune to herself",
+        "Rosalie.Heart6.7": "I used to think that having Harvey be my closest friend in town was a bad thing. #$b# But now, I'm proud to call him one of my best friends. #$e# He actually gets my old references, it's nice...",
+
+        "Rosalie.Heart8.1": "I feel like I can be myself around you, @... #$b# Thank you... for being my friend.$1",
+        "Rosalie.Heart8.2": "I just wanted to say... Thank you for being there for me.$1 #$b# It means a lot more than you know.$3",
+        "Rosalie.Heart8.3": "You know, I used to have my classmates tell me not to hum in class...$2 #$b# But you... don't seem to mind...",
+        "Rosalie.Heart8.4": "I feel so bad for taking over my Uncle Gus' dining room...$2 #$e# I mean, I didn't plan on staying so long but... #$b# Pelican Town... is my home now.$4",
+
+
+    //NULL4NOW - ROSALIE IS DATING PLAYER// 
+    // ************NOTE: ROSALIE CANNOT DATE THE PLAYER RIGHT NOW AS OF JAN 30***************//
+        "Rosalie.Heart10.1": "You know, my ex husband used to get annoyed with hearing about my hyperfixations for days on end...$2 #$b#But... You never have...$0 #$b#You have no idea what that means to me, @...$4",
+        "Rosalie.Heart10.2": "I'm not trying to give any hints or ideas...$1 #$b# But I'm a... realistic romantic.$9",
+        "Rosalie.Heart10.3": "I hope sometime soon, I'll be able to give Uncle Gus his dining room back!$1",
+        "Rosalie.Heart10.4": "I thought I'd given up on 'Happily Ever After' until you...$4",
+
+
+
+        //SPECIAL DATES//
+        "spring_1": "I don't believe in the whole 'New Year New Me', #$b#Yet every year, I fool myself into thinking it's true!$1",
+        "summer_1": "I'm not looking forward to the heat...$3",
+        "fall_1": "%Rosalie is basking in the wonderful Fall weather",
+        "winter_1": "Well, goodbye pumpkins... hello random pains...$2",
+
+         //Day of Gus' Birthday//
+             "summer_8": "%Rosalie is practicing singing 'For He's A Jolly Good Fellow'. It sounds beautiful.",
+
+
+        //Day of Harvey's Birthday//
+        //*NOTE: THIS DIALOGUE IS SUBJECT TO CHANGE ON RELATIONSHIP
+        "winter_14": "I made Harvey's coffee extra special today, and gave him some tea with malunggay. I thought he'd appreciate the extra health benefits. #$e# What for? I'm not telling.$9",
+             
+      
+                  //Day of Shane's Birthday//
+                  //*NOTE: THIS DIALOGUE IS SUBJECT TO CHANGE ON RELATIONSHIP
+                  "spring_20": "You know, my ex's birthday is close to mine, too. #$b# He didn't want to share a party, which is fine!$1#$b#But then he wouldn't plan anything for himself, then complain that no one was celebrating him...$3 #$e# Sorry, @! I didn't mean to rant!$2",
+
+      
+        //Day Before Egg Festival//
+        "spring_12": "I don't really care for eggs, but I can't say no to chocolate!$1",
+       //Day Before Flower Dance//
+        "spring_23": "I wonder if someone will ask me to dance tomorrow!$7 #$b# Sorry, I'm such a romantic, and this basically feels like prom haha...$1",
+       //Day Before Luau//
+        "summer_10": "I'm... skipping tomorrow's Luau...$2 #$b# Nothing personal, I just don't trust the whole town to make something delicious to 'everyone'...$3",
+       //Day Before Moonlight Jellies// 
+        "summer_27": "I know it's not a date night thing, but I really think the 'Moonlit Jellies' would be a great event for a date!$4",
+       //Day Before Fall Fair//
+        "fall_15": "%Rosalie is humming a sad 10 minute song to herself.",
+
+      //Day of Fall 13//
+      "fall_13": "Sorry, @... Today's gonna be hard for me...$11 #$e#%Maybe Rosalie should be left alone...",
+
+      //Day Before Halloween I mean Spirits Eve//
+        "fall_26": "I don't know why no one here dresses up except Sam. #$b# Do people think that it's still just for kids?$7",
+       //Day Before Ice Fishing Festival//
+        "winter_7": "I had a nightmare once that I fell through the ice... You're braver than me, @.$2",
+       //Day Before Feast of the Winter Star//
+        "winter_24": "The Feast of the Winter Star is the only time I try to put energy into baking every year! #$e# I used to do it all the time, people used to say I should open a bakery... #$b# until... you know...$2",
+
+
+
+//In Game Events 
+
+        "Rosalie.cc_Bus": "I thought I'd be excited that the bus is running again, and I'm glad Pam has her job back.$2#$b#But the city has kind of lost its... appeal to me...$2#$e#Don't you hate when someone comes into your life, and ruins something you used to enjoy.$3",
+        "Rosalie.cc_Greenhouse": "I heard you got a greenhouse! That must make things so handy for you! #$e#I didn't mean for that to sound sarcastic!$8",
+        "Rosalie.cc_Minecart": "Is it pessemestic of me to say that the new minecart makes no difference to me?$2 #$b# Like, I can't even go even if I wanted to...$3",
+        "Rosalie.cc_Complete": "I told my brother about how Pierre punched Morris, #$b# Mind if I put you on the phone to back my story?$1",
+        "Rosalie.movieTheater": "I know streaming services are a thing, but I still love going to the movies!",
+        "Rosalie.willyCrabs": "les poisson, les poisson...$7",
+        "Rosalie.pamHouseUpgrade": "It's such a wonderful thing you did for Pam and Penny! #$b# I guess dreams really do come true for some.",
+        "Rosalie.pamHouseUpgradeAnonymous": "It's really nice that someone in the community cares enough about Pam and Penny to gift them something so big! #$e# Meanwhile me and Shane are still renting from our relatives...$1",
+        "Rosalie.MovieInvite_Invited": "An activity that doesn't involve me standing around for hours? Sign me up! I'll meet you there!$1",
+        "Rosalie.DumpsterDiveComment": "...$3#$b#... not my circus, not my monkeys...$3",
+        "Rosalie.SpouseStardrop": "I know that this isn't enough for everything you've done for me, but I hope this will be okay for now.$4",
+        "Rosalie.GreenRain": "It's hua hua hua season!!!$1",
+        "Rosalie.GreenRain_2": "This kind of weather makes me want to watch a 2010 vampire film...#$b# I should be working on my fanfic on that...$2",
+        "Rosalie.GreenRainFinished": "I know people hate the rain, but I personally miss it every time it stops...$6",
+
+        //NOT IMPLEMENTED YET NOT SURE HOW TO GET THIS DIALOGUE IN//
+        "Rosalie.DesertFestival": "I've never been so far away from the ocean since leaving home...#$e#I wonder if things are still the same...$2#$b# Pardon my dramatics!$1",
+        
+
+
+
+    //ITEMS//
+
+     "stardrop_tea": "*sigh* Reminds me of my carefree childhood...$1",
+
+     "RosalieLoves": "You know, I worked at a chocolate and ice cream shop for eight years,#$b#But I still love it!$1",
+     "RosalieLikes": " *Sigh* Reminds me of home...$1",
+     "RosalieDislike": "Just so you know for next time...$2 #$b#I'm... allergic to this...$3",
+     "RosalieNeutral": "Cool, thanks!",
+     "RosalieHate": "Wow... #$b# Um...$2 #$b# I know they say it's the thought that counts...$2 #$b# Don't think of me next time you gift this to someone...$3",
+
+
+         //Relationship Responses//
+    "divorced": "Oh... Okay...$2",
+        "secondchance_Girls": "I feel so stupid for believing you...$5 #$b# In second chances...$5",
+        "dumped_Girls": "Oh... I see... Okay... *sniff*$2",
+        "breakUp": "Oh... I see... Okay... #$b# I hope you find someone who can make you happier than I could... #$e# You're not waiting for me to chase after you, are you?$5 #$e# You do know that everytime you're talking to me, the less I know what I saw in you. #$e# Oh my Yoba! Go away!#5 #$e# I wasted thirteen years of my life with someone this clingy, #$b# Thanks for doing me a favour before that then, @.",
+
+      
+
+    //RAIN DIALOGUE//
+"Rosalie.Rain1": "Weather like this always makes me want to watch a movie about vampires and werewolves...#$e# Don't you dare judge me!$5",
+"Rosalie.Rain2": "It's hoa hoa hoa season!$1",
+"Rosalie.Rain3": "%Rosalie is sighing blissfully to herself.",
+"Rosalie.Rain4": "%Rosalie is humming a rain song from an old video game.",
+"Rosalie.Rain5": "%Rosalie is singing to herself",
+"Rosalie.Rain6": "I know the sun gives life, but so does the rain...$1",
+
+
+ //RESORT///
+        "Resort_Entering": "I don't like sand...$3",
+        "Resort_Leaving": "Okay, when can I come back next...",
+        "Resort_Shore": "%Rosalie is busy doing nothing.",
+        "Resort_Chair": "I used to live near the ocean, you know? #$b# Like, after my family moved due to the war, I mean.",
+        "Resort_Bar": "I usually don't drink, but I'm on vacation!$1",
+        "Resort": "*sigh* I need to remember to take a break like this more often...$2 #$e# I often forget how much I miss the ocean...",
+
+
+
+ //FESTIVAL RESPONSES//
+
+ //Egg Festival//
+
+ "RosalieEggFestival": "I once got to play the lead rooster in my school play about the Egg Festival! #$b#Oh, were all the boys pissed!$1",
+
+        //Flower Dance//
+        "RosalieFlowerDance": "I wonder if he'd dance with me if I asked...$2 #$b# Better not risk it!$1",
+        "Rosalie.FlowerDance_Accept_Spouse": "How can I say no to you when you're risking your life for a dance?$1",
+        "Rosalie.FlowerDance_Accept": "Really? You want to dance with me?$4 #$b# Well, if you're okay dancing with someone with two left feet!$1",
+        "Rosalie.FlowerDance_Decline": "I'm flattered, but... I can't... maybe next time...$2",
+
+
+        //Luau//
+        "RosalieLuau": "Note To Self: Duloxetine and the sun do not mix.$3 | I know I said that I was gonna skip on the Luau,#$b# But Uncle Gus Gus bribed me with my favoutire safe foods. #$b# Uncle of The Year Award, am I right?!$1",
+
+        //Moonlight Jellies//
+
+        "RosalieJellies": "*sigh* This would be the perfect spot for a date...$4",
+
+        //Stardew Valley Fair//
+
+        "RosalieFallFair": "Words cannot describe how much I love the fall... #$e#You know, I was married in the fall...$2 #$b#But I'd do it again.$9",
+
+        //Spirit's Eve//
+
+        "RosalieSpiritsEve": "I've been to many a Spirit's Eve party, #$b# But these put my greatest nightmares to shame!$6 #$b# How fun!$1#$e# %Rosalie may be secretly terrified",
+    
+  //Festival of Ice//
+  "RosalieIce": "Hot cocoa would be nice right about now...$7 #$b# Or someone to cuddle with...$4.",
+
+  //Winter Star//
+  "RosalieWinterStar": "I'm lucky that I have my Uncle Gus Gus to spend the holiday with,#$b# If no one's asked you yet, you're welcome to sit with me!$1|In my mom's culture, we leave the decorations up until the Winter Star disappeared in the story. #$b# That means we'd sometimes keep them up until my birthday!$1",
+
+
+//PLAYER MARRIED TO NPCs//
+
+"PlayerJustMarriedToShane": "I'm seriously so happy for you and Shane!#$b# I think our childhood selves would have kicked me if I missed his wedding!$1",
+"PlayerJustMarriedToHarvey": "Hey... If you want... I can give you the recipe for the baklava Harvey likes so much.#$b#It'll be our secret! Consider it a wedding present.$1",
+//NOTE: I WANT TO ADD QUERYS TO THESE, BUT WHEN READY, PUT THIS IN THE REGULAR DIALOGUE JSON AND PUT UNDER NPCName_AfterWedding (e.g. Shane_AfterWedding)
+
+
+     //*****NOT Vanilla Tokens******//
+
+
+
+
+     /*CONVERSATION TOPICS- EVENT RELATED*/
+
+
+//Great Expectations of a Tragic Beauty Event//
+
+
+//George WC Event//
+"Rosalie.RosalieGeorgeWCCT1": "I won't lie, @...$2 #$b#Some... dark thoughts have been swirling in my head lately...$2 #$b#This will be quite the story for group therapy...$1 #$b#...$11 #$e#%Rosalie is worried about trauma dumping you.",
+"Rosalie.RosalieGeorgeWCCT2": "I'm a little mad at Uncle Gus for telling you and anyone in earshot my diagnosis, but I understand why he did it.$2 #$e# I know privacy is a luxury in Pelican Town.$2",
+"Rosalie.RosalieGeorgeWCCT3": "Harvey checked in on me after everything that happened. #$b# He's really a sweet guy. #$b# Thanks for checking on me, too, @. It means more than you know...$1",
+
+
+//Rosalies Flare Up Event // (NOT SCEDULED ONE)
+"Rosalie.RosaliesFlareUpEventCT": "Now I guess everyone's going to think something's wrong with me because I'm getting a divorce...$3 #$b# Well, at least it's out. No more questioning what happened to my husband...$3",
+
+
+//RADIO EVENT
+"RosalieOnRosalieRadioEvent": "Sorry for putting you on the spot for the radio, @. But you did really well!$1 #$e# We had record numbers for listeners tuning in and I like to think it's partly because of you! #$e# I'm not being modest, seriously! I don't think that highly of myself to pull those kind of numbers!$1 #$b# Maybe I'll have you on the radio again sometime.",
+
+
+
+
+
+
+
+
+
+
+
+
+
+//ROSALIE FLARE UPS//
+    "Rosalie.Flareup_1": "Oh, don't mind me! I'm just having a bad day! $1",
+    "Rosalie.Flareup_2": "I'm okay, really!$1 #$b#%Rosalie has a distant look on her face.",
+    "Rosalie.Flareup_3": "I'll be alright, I have my cartoons!$1",
+    "Rosalie.Flareup_4": "This just happens sometimes... I'm... still getting used to it...$2",
+    "Rosalie.Flareup_5": "Did we have plans today? I'm sorry...$6 #$e# I'm in a lot of pain today...$2",
+    "Rosalie.Flareup_6": "*sigh* When will this get easier...?$2",
+    "Rosalie.Flareup_7": "%Rosalie looks to be on the verge of tears",
+    "Rosalie.Flareup_8": "Don't worry, I told Harvey and Uncle Gus. I guess my meds haven't kicked in yet.$2",
+    "Rosalie.Flareup_9": "It's amazing how much being in pain every day can affect your tolerance every day.$3",
+
+
+
+
+
+
+
+
+
+
+
+
+//ROSALIE X SHANE//
+
+//Polite Greeting// *NOT SURE GOING TO USE IN EARLY*
+"RosalieInPassingShane": "Hi.",
+"ShaneInPassingRosalie": "Hey.",
+
+       //****ROSALIE ON SHANE*****//
+
+      "SaloonShaneLowHearts": "You know, that guy there drinking alone in the corner?$0 #$b# I swear, he looks like someone I met during my summers as a kid here. #$e# But even if it was him, I doubt he remembers me...$2",
+
+
+
+      //ROSALIE at SALOON WITH SHANE//
+    "RosaliexShaneBFF.Saloon1": "Hey, @! Join us for a spell! Farm Boy and I were just talking about wrong he is about white chocolate!$1",
+    "RosaliexShaneBFF.Salooon2": "I hope you're being kind to yourself, Farm Boy...$2 #$e# You as well, @.",
+    "RosaliexShaneBFF.Saloon3": "%Rosalie is listening to Shane talk about his chickens again.",
+    "RosaliexShaneBFF.Saloon4": "Farm Boy, stop making me laugh! My cheeks hurt!$1",
+
+
+
+      
+           //***AFTER 6 HEART EVENT*****//
+
+      "RosalieOnShane6Heart": "I wish I had known that Shane was struggling... I would have tried talking to him sooner...$2 #$b# But I'm glad you were there. Thank you, @.",
+
+
+
+      //****BUS EVENT*****//
+
+      "Rosalie.RosalieShaneTherapyCT": "So, Shane is in my therapy group. #$b# We didn't talk or anything, but it's... interesting...$2 #$e# I'm glad he's getting help, same as me, though for different reasons.",
+
+
+      //RIBBON EVENT CT//
+      "Rosalie.RosaliesRibbonCT": "I have a bone to pick with you, @.$3 #$b# You never told me Jas was Shane's niece!$3 #$b# It's fine, Shane and I have been kind of having a bit of a stand off since I moved to town... and we both started therapy.#$b# But, we chatted a bit more than hellos and it was pleasent!$1 #$e# Maybe now we can work on being friends as adults.",
+      "Rosalie.RosaliesRibbonCT2": "I think Jas is pulling off my ribbon better than I ever could!$1 #$b# She's also been a bit off a chatterbox since we have something in common, thanks to you!$1",
+
+
+    //Sneeze Event CT
+      "Rosalie.RosalieSneezeEventCT": "Sorry about the dramatics yesterday... I'm doing a bit better now.$2 #$b# Shane walked me home and we ended up talking for over an hour even after we arrived at the saloon. #$b# I think we're on the way to being friends again.",
+
+
+  //Shane's Low Day CT//
+
+  "Rosalie.ShanesLowDayCT1": "I hope I didn't offend you in saying Shane is my best friend. We probably wouldn't have started talking again if it wasn't for you.",
+  "Rosalie.ShanesLowDayCT2": "I have a bit of experience managing a crisis growing up... My siblings had it rough high school.$2 #$e# Not that I didn't. I just... hid it better.$2",
+
+  //DREAMS AND DISASTERS CT//
+
+"Rosalie.RosalieDreamsAndDisastersCT1": "It may seem like a small thing, or even just a courtesy, #$b# But honestly, Shane asking how I feel on a scale from 1-20 means a lot more to me than you know.",
+"Rosalie.RosalieDreamsAndDisastersCT2": "I didn't expect Shane and I to get so close...#$b# I think... I really like him.$4 #$e# But no sense in developing a crush! Right?!$1 #$e# Besides, it would never work out, right?$1 #$e# And he could NEVER see me like that! Right?!$1 #$e# And I'm getting a divorce so clearly I'm broken, RIGHT?!$1 #$e# You're... not gonna tell Shane, right, @?$2 #$e# %Rosalie looks troubled.",
+
+
+//SLEEP OVER EVENT CT//
+
+"Rosalie.ShaneSleepoverCT": "You know, @, I don't think Shane realizes how much he means to me...$2 #$b# Having a friend stay with you through your hardest moments, and just... look out for you.$2 #$b# I know he doesn't think it's much, but it's honestly everything to me...$6 #$b# I really love do him… #$b#... $8 #$b# AS A FRIEND! I MEANT AS A FRIEND! I AM NOT THINKING OF DATING ANYONE, NEVER MIND SHANE!$1 #$e# NOT THAT I WOULDN'T DATE SHANE!$8 #$b# I JUST LOVE HIM, PLATONICALLY!$1 #$b# HE TOLD YOU WHAT?!$8 #$b# WE ONLY SLEPT *NEXT TO* EACH OTHER! THAT'S NOT THE SAME THING AS SLEEPING TOGETHER!$5.#$e#",
+
+
+
+//Sand Castles With Jas CT//
+"Rosalie.SandCastlesWithJasCT": "I hope Jas doesn't like me just cause she thinks I'm a mermaid.$1 #$e# It's cute, but one day she'll grow out of it. #$e# I know Shane probably thinks it's better she knows the truth about the world, but you're only a carefree child once. #$b# The imagination is really a powerful thing. It's helped me a lot as a kid.$2",
+"Rosalie.SandCastlesWithJasCT2": "I think it's better to keep Jas guessing than lie about if I'm a mermaid. #$e# Am I a mermaid? That would be silly, wouldn't it?$9",
+"Rosalie.SandCastlesWithJasCT3": "In all seriousness, I swore to myself I'd never get into another serious relationship. #$b# I think if Shane was interested in dating, he'd want someone who has less baggage. Especially with Jas in the picture.$2 #$b# I like my indepenence too much to be with anyone so seriously again. #$e# If the right person came along, I'd probably change my mind. #$b# Shane... I don't know... I don't want to ruin our friendship.$2 #$e#",
+
+
+//KITCHEN LOVE CT//
+
+"Rosalie.RosalieKitchenLoveCT1": "%Rosalie is deep in thought #$e# Hm? Oh... sorry, did you say something, @?$1 #$b# Sorry, I'm just... distracted...$2",
+"Rosalie.RosalieKitchenLoveCT2": "I am in so much trouble...$6 #$e# I don't know how to tell him that I don't... I mean I can't...$6 #$b# Sorry, @, I need to figure this out myself... I should see if my sister is free to talk...$2",
+"Rosalie.RosalieKitchenLoveCT3": "Do you ever feel like you rely on another person too much?$2 #$b# I've had a lot of friends leave me over the years...$2 #$b# People change. Opinions change... Right and wrong changes... #$b# I even had to break off lifelong friendships during my divorce.#$b# Nothing lasts forever... Why open up if they're going to leave?$2 #$b# Why make connections? Why fall in love?$11 #$b# Sorry, I'm being over dramatic again!$10 #$e# I'm okay, really! I just need to get back on stage sometime and use this!$12",
+
+
+    //Second First Kiss CT
+      "Rosalie.RosaliexShaneSecondFirstKissCT": "Hey, @... Sorry, I'm not in the mood to talk right now...$11 #$b# I'll... talk to you later. Sorry...$2.#$e# No, I don't want to see Shane right now... I just... need some time to process things...$11",
+
+
+
+
+
+
+      //Rosalie DATING Shane//
+      "RosalieOnDating_Shane1": "When I moved and I found out Shane lives here, I thought I'd be lucky if we got along as friends. #$b# And now, we're dating!$1",
+      "RosalieOnDating_Shane2": "Shane makes me feel... safe. #$b#Like I can be myself around him.$4",
+      "RosalieOnDating_Shane3": "You know, I never wanted kids, but Jas is making me reconsider.$1#$e# Nah!$1 #$b# But I reserve the right to change my mind!$0",
+      "RosalieOnDating_Shane4": "I seriously cannot believe Shane actually likes me.$4",
+      "RosalieOnDating_Shane5": "I know I look and act young, but believe it or not, I'm older than Shane... by one whole day.$1 #$b#And I never let him forget it.$9",
+
+
+//Rosalie X Harvey//
+
+      //HARVEY APPT VISIT TEXT OVER HEAD//
+
+     //****Before Rosalie's 6 Heart Event***//
+      "RosalieToHarvey_EarlyAppointmentGreeting": "Eeeyeh, what's up, doc?",
+
+  //****After Rosalie's 6 Heart Event***//
+      "RosalieToHarvey_AppointmentGreeting": "Hey, Dr H!",
+
+
+//***AFTER HER 6 HEART EVENT****//
+  "RosalieCrushingOn_Harvey": "You know, it's weird. I always thought Harvey was the most handsome man I'd ever seen, #$b# But I never thought he'd... care about me...#$b#As a patient and friend! That's all!$6",
+
+
+
+      /*
+    
+      ***TEXT STUFF***
+      Text with A break - #$b#
+      Text with total break - #$e#
+      Text Box - %
+
+      ***PORTRAITS***
+      Neutral $0
+      Happy - $1
+      Sad - $2
+      Are you kidding me? - $3
+      Blush - $4
+      Angry - $5
+      Anxious/Worry - $6
+    
+    Look to Right - $7
+      Surprise - $8
+    Mischivous - $9
+    
+    Surprise w/ Blush - $10
+    Anxious/Worry w/ crying - $11
+    Happy Crying - $12
+
+
+
+      */
+
+    
+
+}
+

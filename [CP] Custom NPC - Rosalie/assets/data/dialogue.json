@@ -1,0 +1,238 @@
+{
+  "Changes": [
+    {
+      "LogName": "Every Day Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/stardewaly.rosalie_Rosalie",
+      "Entries": {
+
+
+        //TEST
+
+"RosaliesRibbonForJas": "{{i18n:RosaliesRibbonForJas}}",
+      
+        "Introduction": "{{i18n:Introduction}}",
+
+
+        "Mon": "{{i18n: Rosalie.Daily_{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 }} }}",
+        "Tue": "{{i18n: Rosalie.Daily_{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 }} }}",
+        "Wed": "{{i18n: Rosalie.Daily_{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 }} }}",
+        "Thu": "{{i18n: Rosalie.Daily_{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 }} }}",
+        "Fri": "{{i18n: Rosalie.Daily_{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 }} }}",
+        "Sat": "{{i18n: Rosalie.Daily_{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 }} }}",
+        "Sun": "{{i18n: Rosalie.Daily_{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 }} }}",
+
+        "Mon2": "{{i18n: Rosalie.Heart2.{{Random: 1, 2, 3, 4}} }}",
+        "Tue2": "{{i18n: Rosalie.Heart2.{{Random: 1, 2, 3, 4}} }}",
+        "Wed2": "{{i18n: Rosalie.Heart2.{{Random: 1, 2, 3, 4}} }}",
+        "Thu2": "{{i18n: Rosalie.Heart2.{{Random: 1, 2, 3, 4}} }}",
+        "Fri2": "{{i18n: Rosalie.Heart2.{{Random: 1, 2, 3, 4}} }}",
+        "Sat2": "{{i18n: Rosalie.Heart2.{{Random: 1, 2, 3, 4}} }}",
+        "Sun2": "{{i18n: Rosalie.Heart2.{{Random: 1, 2, 3, 4}} }}",
+
+        "Mon4": "{{i18n: Rosalie.Heart4.{{Random: 1, 2, 3, 4, 5, 6}} }}",
+        "Tue4": "{{i18n: Rosalie.Heart4.{{Random: 1, 2, 3, 4, 5, 6}} }}",
+        "Wed4": "{{i18n: Rosalie.Heart4.{{Random: 1, 2, 3, 4, 5, 6}} }}",
+        "Thu4": "{{i18n: Rosalie.Heart4.{{Random: 1, 2, 3, 4, 5, 6}} }}",
+        "Fri4": "{{i18n: Rosalie.Heart4.{{Random: 1, 2, 3, 4, 5, 6}} }}",
+        "Sat4": "{{i18n: Rosalie.Heart4.{{Random: 1, 2, 3, 4, 5, 6}} }}",
+        "Sun4": "{{i18n: Rosalie.Heart4.{{Random: 1, 2, 3, 4, 5, 6}} }}",
+
+        "Mon6": "{{i18n: Rosalie.Heart6.{{Random: 1, 2, 3, 4, 5, 6, 7}} }}",
+        "Tue6": "{{i18n: Rosalie.Heart6.{{Random: 1, 2, 3, 4, 5, 6, 7}} }}",
+        "Wed6": "{{i18n: Rosalie.Heart6.{{Random: 1, 2, 3, 4, 5, 6, 7}} }}",
+        "Thu6": "{{i18n: Rosalie.Heart6.{{Random: 1, 2, 3, 4, 5, 6, 7}} }}",
+        "Fri6": "{{i18n: Rosalie.Heart6.{{Random: 1, 2, 3, 4, 5, 6, 7}} }}",
+        "Sat6": "{{i18n: Rosalie.Heart6.{{Random: 1, 2, 3, 4, 5, 6, 7}} }}",
+        "Sun6": "{{i18n: Rosalie.Heart6.{{Random: 1, 2, 3, 4, 5, 6, 7}} }}",
+
+        "Mon8": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",
+        "Tue8": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",
+        "Wed8": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",
+        "Thu8": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",
+        "Fri8": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",
+        "Sat8": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",
+        "Sun8": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",
+
+    //NULL4NOW - ROSALIE IS DATING PLAYER// 
+    // ************NOTE: ROSALIE CANNOT DATE THE PLAYER RIGHT NOW AS OF JAN 30***************//
+
+        "Mon10": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",
+        "Tue10": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",
+        "Wed10": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",
+        "Thu10": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",
+        "Fri10": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",
+        "Sat10": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",
+        "Sun10": "{{i18n: Rosalie.Heart8.{{Random: 1, 2, 3, 4}} }}",
+
+
+      //SPECIAL DATES//
+  "spring_1": "{{i18n:spring_1}}",
+      "summer_1": "{{i18n:summer_1}}",
+        "fall_1": "{{i18n:fall_1}}",
+            "winter_1": "{{i18n:winter_1}}",
+
+      
+          //Day of Gus' Birthday//
+            "summer_8": "{{i18n:summer_8}}",
+ 
+            //Day of Harvey's Birthday//*I'D LIKE TO ADD RELATIONSHIP VERSIONS TOO
+            "winter_14": "{{i18n:winter_14}}",
+
+           //Day of Shane's Birthday// *I'D LIKE TO ADD RELATIONSHIP VERSIONS TOO
+            "spring_20": "{{i18n:spring_20}}",
+
+            //Day of Fall 13//
+
+            "fall_13": "{{i18n:fall_13}}",
+
+            
+
+        
+
+
+        //Day Before Egg Festival//
+  "spring_12": "{{i18n:spring_12}}",
+        //Day Before Flower Dance//
+  "spring_23": "{{i18n:spring_23}}",
+         //Day Before Luau//
+     "summer_10": "{{i18n:summer_10}}",
+             //Day Before Moonlight Jellies// 
+     "summer_27": "{{i18n:summer_27}}",
+            //Day Before Fall Fair//
+        "fall_15": "{{i18n:fall_15}}",
+              //Day Before Halloween I mean Spirit Day I think it's called?//
+       "fall_26": "{{i18n:fall_26}}",
+              //Day Before Ice Fishing Festival//
+          "winter_7": "{{i18n:winter_7}}",
+                 //Day Before Feast of the Winter Star//
+          "winter_24": "{{i18n:winter_24}}",
+
+
+ //ITEMS//
+
+  "stardrop_tea": "{{i18n:stardrop_tea}}",
+
+
+
+
+
+        //Relationship Responses//
+        "divorced": "{{i18n:divorced}}",
+        "secondchance_Girls": "{{i18n:secondchance_Girls}}",
+        "dumped_Girls": "{{i18n:dumped_Girls}}",
+        "breakUp": "{{i18n:breakUp}}",
+
+
+        //WEATHER//
+
+        "rain": "{{i18n: Rosalie.Rain.{{Random: 1, 2, 3, 4, 5, 6}} }}",
+
+
+
+        //Rosalie's reaction to Shane's 6 Heart Event (Cliffs)
+          "eventSeen_3910975": "{{i18n:RosalieOnShane6Heart}}",
+
+         //RESORT//
+      "Resort_Entering": "{{i18n:Resort_Entering}}",
+      "Resort_Leaving": "{{i18n:Resort_Leaving}}",
+      "Resort_Shore": "{{i18n:Resort_Shore}}",
+      "Resort_Chair": "{{i18n:Resort_Chair}}",
+      "Resort_Bar": "{{i18n:Resort_Bar}}",
+      "Resort": "{{i18n:Resort}}",
+
+
+
+         //FESTIVAL RESPONSES//
+
+        //Flower Dance//
+
+
+       "cc_Bus": "{{i18n:Rosalie.cc_Bus}}",
+"cc_Greenhouse": "{{i18n:Rosalie.cc_Greenhouse}}",
+"cc_Minecart": "{{i18n:Rosalie.cc_Minecart}}",
+"cc_Complete": "{{i18n:Rosalie.cc_Complete}}",
+"movieTheater": "{{i18n:Rosalie.movieTheater}}",
+"willyCrabs": "{{i18n:Rosalie.willyCrabs}}",
+"pamHouseUpgrade": "{{i18n:Rosalie.pamHouseUpgrade}}",
+"pamHouseUpgradeAnonymous": "{{i18n:Rosalie.pamHouseUpgradeAnonymous}}",
+"MovieInvite_Invited": "{{i18n:Rosalie.MovieInvite_Invited}}",
+"DumpsterDiveComment": "{{i18n:Rosalie.DumpsterDiveComment}}",
+"SpouseStardrop": "{{i18n:Rosalie.SpouseStardrop}}",
+"FlowerDance_Accept_Spouse": "{{i18n:Rosalie.FlowerDance_Accept_Spouse}}",
+"FlowerDance_Accept": "{{i18n:Rosalie.FlowerDance_Accept}}",
+"FlowerDance_Decline": "{{i18n:Rosalie.FlowerDance_Decline}}", 
+"GreenRain": "{{i18n:Rosalie.GreenRain}}",
+"GreenRain_2": "{{i18n:Rosalie.GreenRain_2}}",
+"GreenRainFinished": "{{i18n:Rosalie.GreenRainFinished}}",
+
+
+
+
+"Saloon_7_18": "{{i18n:RosaliexShaneBFF.Saloon{{Random: 1, 2, 3, 4 }} }}",
+
+
+
+
+        //*****NOT Vanilla Tokens******//
+
+
+        //ROSALIE FLARE UPS//
+
+        "stardewaly.rosalie_FlareupCT": "{{i18n:Rosalie.Flareup_{{Random: 1, 2, 3, 4, 5, 6, 7, 8, 9}} }}",
+
+
+        //EVENT RELATED CTS
+
+                "{{ModId}}_RoalieGeorgeWCCT": "{{i18n:Rosalie.RosalieGeorgeWCCT}}", //($query is used in i18n json for if player has seen his 6 heart event)
+
+                "{{ModId}}}_NPCOnRosalieRadioEvent": "{{i18n:RosalieOnRosalieRadioEvent}}",
+
+
+                //Rosalie x Shane Route CTs//
+                "{{ModId}}_ShaneRosalieTherapyCT":"{{i18n:Rosalie.RosalieShaneTherapyCT}}",
+                "{{ModId}}_RosaliesRibbonCT": "{{i18n:Rosalie.RosaliesRibbonCT}}",
+                "{{ModId}}_RosalieSneezeEventCT": "{{i18n:Rosalie.RosalieSneezeEventCT}}", //not sure if this will play the next day, hoping it will so we don't have to randomize it.
+                "{{ModId}}_RosalieShanesLowDayCT":"{{i18n:Rosalie.RosalieShanesLowDayCT{{Random: 1, 2 }} }}",
+                "{{ModId}}_RosalieDreamsAndDisastersCT":"{{i18n:Rosalie.RosalieDreamsAndDisastersCT{{Random: 1, 2}} }}",
+                "{{ModId}}_ShaneSleepoverCT": "{{i18n:Rosalie.ShaneSleepoverCT}}",
+                "{{ModId}}_SandCastlesWithJasCT": "{{i18n:Rosalie.SandCastlesWithJasCT{{Random: 1, 2, 3}} }}",
+                "{{ModId}}_RosalieKitchenLoveCT": "{{i18n:Rosalie.RosalieKitchenLoveCT{{Random: 1, 2, 3 }} }}",
+                "{{ModId}}_RosaliesxShaneSecondFirstKissCT":"{{i18n:Rosalie.RosaliexShaneSecondFirstKissCT}}",
+
+
+
+//Rosalie X Harvey//
+
+      //HARVEY APPT VISIT TEXT OVER HEAD//
+      "Hospital_Entry": "{{i18n:RosalieToHarvey_EarlyAppointmentGreeting}}",
+
+  
+  //****Before Rosalie's 6 Heart Event***//
+
+  
+// WE'RE GONNA TEXT THE TEXT ABOVE HEAD FIRST FEB 3//
+      /*"RosalieToHarvey_EarlyAppointmentGreeting": "{{i18n:RosalieToHarvey_EarlyAppointmentGreeting}}",*/
+      
+ //****After Rosalie's 6 Heart Event***//
+      "RosalieToHarvey_AppointmentGreeting": "{{i18n:RosalieToHarvey_AppointmentGreeting}}",
+
+
+
+//***AFTER HER 6 HEART EVENT DIALOGUE****//
+  "RosalieCrushingOn_Harvey": "{{i18n:RosalieCrushingOn_Harvey}}",
+
+
+
+        //SPECIAL Tokens//
+        "SaloonShaneLowHearts": "{{i18n:SaloonShaneLowHearts}}"
+
+        
+        
+        
+
+      }
+    }
+  ]
+}
+

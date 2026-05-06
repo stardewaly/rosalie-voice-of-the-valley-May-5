@@ -1,0 +1,423 @@
+{
+    "stardewaly.rosalie_testbackstory.0": "Shane's parents couldn't afford to put Shane in gridball camp for the summers like his classmates, so they'd send him here while they worked.$2 #$b# Rosalie's family lived nearby, and her mother was often working late hours at the clinic.$2 #$b# Her brother and sister had friends to play with when their mom worked, but Rosalie would come here alone to look at the animals.$1 #$b# I know they seem drastically different from each other, especially now, but Rosa and Shane became fast friends. #$b# Every summer that Shane visited from then on, they spent nearly every day together. #$b# Until, about the time Shane and Rosa were about 10 years old...$2",
+"stardewaly.rosalie_testbackstory.1": "No offence to you hens but...$9 #$b# What am I supposed to do here without Rosa around in the summers?$9",
+"stardewaly.rosalie_testbackstory.2": "I thought you left...$2",
+"stardewaly.rosalie_testbackstory.3": "No... I'm supposed to be packing...$2 #$b# Do... do you hate me, Farm Boy...?$2 #$b# For leaving, Stardew Valley...?$6",
+"stardewaly.rosalie_testbackstory.4": "Hey, come on... #$b# No, I don't hate you, Rosa...$s #$b# I'm just... scared...#$b# But, you're coming back, after the war is over, right?$h",
+"stardewaly.rosalie_testbackstory.5": "Of course!$2 #$b# I'm gonna be the first to see you play on the Tunnelers! I promise!",
+"stardewaly.rosalie_testbackstory.6": "Just... Don't forget me... okay, Farm Boy?$2",
+
+
+//PRE-ARRIVAL SCENE//
+
+"rosalie.prearrival.1": "Hey, @! #$b# Sorry, we'll be open shortly, Robin's just finishing up!$h",
+"rosalie.prearrival.2": "I'm just installing something for our new resident.",
+"rosalie.prearrival.3": "No, no, this is for all of us! #$b# At some point or another, we'll be as old as George and need a ramp for everything!$1",
+"rosalie.prearrival.4": "I guess that's true. We probably should have installed this ages ago.$1 #$b# If it weren't for a certain mayor being a stickler about permits.$3",
+"rosalie.prearrival.5": "I guess that's a small benefit to her situation... #$b# If you can call it that...$s",
+"rosalie.prearrival.6": "I'm glad that Rosie is going to be accommodated! #$b# For real this time...$3",
+"rosalie.prearrival.7": "My niece, Rosalie, is coming to stay with me!$1 #$b# See, @, #$b# Rosie's... sick.$2 #$b# She has a condition, and sometimes walking can be difficult...$2 #$b# She would have been here years ago if it weren't for that-$3",
+"rosalie.prearrival.8": "Well, that doesn't matter. #$b# The point is, she's finally going to stay here in Pelican Town.$h #$b# We're turning the dining room into a bedroom for Rosie. #$b# And this ramp here is when she's in her wheelchair.",
+"rosalie.prearrival.9": "I used to babysit Rosalie and her siblings when her mom was working late at the hospital. #$b# She was a bit shy, barely said a word to me for a year when we met.$2 #$b# Turns out the kid had a killer voice, who knew?$1",
+"rosalie.prearrival.10": "She hasn't been back in the valley in about twenty years. #$b# She lived a bit too far to visit.$2 #$b# But she's lived in Zuzu City as an actress for a few years now. #$b# I'd been trying to get her to visit but that-$3",
+"rosalie.prearrival.11": "Well, anyway, she'll be here tomorrow. Coming home.",
+"rosalie.prearrival.12": "Rosalie's had a rough couple of years...$s #$b# But, despite the circumstances, I'm glad she's back in the valley.$h #$b# I just hope she'll be happy here.$s",
+
+
+//Early Heart Event 0 - ROSALIE - Great Expectations of a Tragic Beauty//
+"RosalieTragicBeauty.0": "Oh... Hey. @, right?",
+"RosalieTragicBeauty.1": "The saloon was a bit overstimulating tonight, and my mom has been bugging me to go outside.$2 #$b# SO, this is me doing that...$1",
+"RosalieTragicBeauty.2": "Feel free to sit! I could use the company, I don't mind.",
+"RosalieTragicBeauty.3": "Hey, you're new, right?$7#$b# I mean, I know technically I am too, but I also lived here as a kid so, it's kinda... #$b#...$2 #$b# Weird. I don't know...$2",
+"RosalieTragicBeauty.4": "It's nice being back! #$b# My family moved due to the war, like, 20 years ago, and...$1 #$b#...$2 #$b# Well, I missed it...",
+"RosalieTragicBeauty.5": "Can you tell me something, @?$2 #$b# Maybe it's just me, but...$1#$b# When you moved here, was everyone just... staring at you?$2 #$b# I expected that when I decided to move back. That everyone would look at me and be... #$b# ... disappointed...$3",
+"RosalieTragicBeauty.6": "Ever since I was a kid, everyone in town said that I'd be something some day...$2 #$b# Anything but... this...$2 #$b# I know my Uncle and Robin meant well with the ramp, and it's really sweet,$2 #$b# but now that people know I'm just... a nobody...$2 #$b# With the ramp... They probably expected I'd be some tragic beauty like in the movies.$6 #$b# But I'm not... and now they probably assume I'm lazy...$3",
+"RosalieTragicBeauty.7": "Well, hopefully I won't be using my Uncle's space for longer than necessary. #$b# I hate that I've inconvenienced everyone enough...$1",
+"RosalieTragicBeauty.8": "Oh, I'm fine! #$b# I know not everyone can achieve their Hollywood dreams and life happens!$1 #$b# I didn't mean to sound ungrateful or more egotistical, I'm sorry...$2",
+"RosalieTragicBeauty.9": "So... how long have you lived here? Did you always want to be a farmer like your grandpa?",
+
+
+//1 HEART EVENT - ROSALIE - Early Dr Appt w/ Harvey //
+
+"RosalieHarveyApt1": "I'm just one of the many who this happened to.$2 #$b# I don't blame the nurse. I don't blame anyone.$2 #$b# Just my bad luck.$1",
+"RosalieHarveyApt2": "I'm so sorry that happened, Rosalie.$2 #$b# The human body is still quite the mystery. #$b# Science is gettting better every day, so who knows.#$b# Maybe one day, we'll have a more definitive answer.$1",
+"RosalieHarveyApt3": "Yeah. But it's fine!$1",
+"RosalieHarveyApt4": "Well, we don't have to keep talking about it if you don't want to.",
+"RosalieHarveyApt5": "It is nice that Uncle Gus already gave you the run down. #$b# No need for a PowerPoint presentation or a video essay.$1",
+"RosalieHarveyApt6": "It is certainly convenient. #$b# But I think it's best if I get it from you. #$b# How is your mental health?",
+"RosalieHarveyApt7": "It's been better... But also worse.$2 #$b# Everything is still fresh...$2 #$b# A lot... happened in the last two years before I left...$6",
+"RosalieHarveyApt8": "And your support system? #$b# Friends? Family, outside Gus?",
+"RosalieHarveyApt9": "My sister helped me with the move, emotionally... #$b# She keeps saying I should feel relieved...$2 #$b# But... I don't.$3",
+"RosalieHarveyApt10": "Well, Rosalie, now that you're here, I'm here to support you every step of the way.",
+"RosalieHarveyApt11": "In regards to that... Are you worried?$s",
+"RosalieHarveyApt12": "No. I don't think so.$2",
+"RosalieHarveyApt13": "Good, that's good...",
+"RosalieHarveyApt14": "But...?$2",
+"RosalieHarveyApt15": "Well, Rosalie, I'm concerned about your mental health.$s",
+"RosalieHarveyApt16": "Yeah... I know.$3 #$b# I'm fine, really. It's for the best it happened.",
+"RosalieHarveyApt17": "Well, I have a great colleague who runs a therapy group every Monday morning-",
+"RosalieHarveyApt18": "I'm already signed up.",
+"RosalieHarveyApt19": "Oh? Well, that's good!$h #$b# Now, I know you lived here before. #$b# So, you must know it can be... tricky living in a small town.$s #$b# But I promise you, everything you and I discuss is confidential unless-$h",
+"RosalieHarveyApt20": "Unless I am a harm to myself, others, or a child is involved. Got it.$3",
+"RosalieHarveyApt21": "Sorry, doc...$2",
+"RosalieHarveyApt22": "It's alright, Rosalie. #$b# I know this has been a very difficult time for you...$s #$b# But I am impressed with how diligent you are with your health. #$b# The perks of having your mom as a nurse, huh?$h",
+"RosalieHarveyApt23": "What gave it away?$1",
+"RosalieHarveyApt24": "Thank you for not making a big deal about it. #$b# Most people would consider finishing each other's sentences to be-",
+"RosalieHarveyApt25": "Romantic?$l",
+"RosalieHarveyApt26": "I was gonna say 'annoying', but sure!$1", 
+"RosalieHarveyApt27": "I mean um-$8 #$b# I-I'm so sorry!$8 #$b# That was... inappropriate...$s",
+"RosalieHarveyApt28": "Well, then *ahem*... #$b# As I was saying, just know that you can come to me about anything, alright?",
+"RosalieHarveyApt29": "Copy that. Anything to get me back to normal.$1",
+"RosalieHarveyApt30": "Yes, well... #$b# With your condition and the stress from the move, especially in your situation... #$b# Flare ups are bound to happen.$s #$b# Your version of normal that you used to know is...$s #$b# ...$s #$b# Well, I shouldn't have to tell you.$s",
+"RosalieHarveyApt31": "*sigh* Yeah... I know...$2",
+"RosalieHarveyApt32": "Are you in pain right now, Rosalie?",
+"RosalieHarveyApt33": "On a scale from 1-20, I'm an 8. Pretty normal for me. #$b# Though I wish I was a ten.$9",
+"RosalieHarveyApt34": "A ten?#$b# Why would you-?$s",
+"RosalieHarveyApt35": "You know like-$1 #$b# ...$2 #$b# Never mind...$3 #$b# Are we done for today?",
+"RosalieHarveyApt36": "I believe so... #$b# I'll see you in a couple days, Rosalie.$h",
+"RosalieHarveyApt37": "Out of curiosity... How do you like your coffee?$7",
+
+
+//2 HEART EVENT - ROSALIE AND EMILY WALK//
+"RosalieEmilyWalk1": "Emily... $3 #$b#....are we... almost... there?$3",
+"RosalieEmilyWalk2": "Rosalie, you're in luck! #$b# Once we go up this hill, we just got another half hour walk ahead of us!$h",
+"RosalieEmilyWalk3": "A half hour?!$8",
+"RosalieEmilyWalk4": "Emily, I...$2 #$b# I don't think I can...$2",
+"RosalieEmilyWalk5": "Of course you can! #$b# I know you haven't been feeling well lately, #$b# But once we get you to the spa, I promise, you'll perk right up!!$h",
+"RosalieEmilyWalk6": "But then we have the walk back to town...$2 #$b# and my arm hurts so much, I can't think straight...$2 #$b# I just.. I don't know...$2",
+"RosalieEmilyWalk7": "Do you want to rest again?$s",
+"RosalieEmilyWalk8": "Yeah... I'm sorry...$2",
+"RosalieEmilyWalk9": "Don't be, it's okay...$1",
+"RosalieEmilyWalk10": "How long do you think you'll be?$3",
+"RosalieEmilyWalk11": "*sigh* I don't know...$2 #$b# You go on ahead, Emily...",
+"RosalieEmilyWalk12": "Are you sure? I don't mind waiting.$2",
+"RosalieEmilyWalk13": "Yeah, it's fine!$1 #$b# You deserve to get some relaxation in before work. #$b# I should probably save my energy, anyway.$1",
+"RosalieEmilyWalk14": "I don't like leaving you behind...$2 #$b#...$2#$b#I'll go,$3 #$b#But we're gonna try again next week, okay?",
+"RosalieEmilyWalk15": "Oh, hi @!$1 #$b# Am I in the way? I can move if you need!$2",
+"RosalieEmilyWalk16": "Yeah, I'm just... #$b# ...resting...$2",
+"RosalieEmilyWalk17": "I thought I could do it...$2 #$b# I used to be able to run up and down these hills as a kid...$2 #$b# Five years ago, I was able to dance on stage, #$b# Even in heels with some practice!$1 #$b# But now, #$b# ...$11 #$b# Now, I can't walk past Pierre's without being in pain or getting exhausted...$6",
+"RosalieEmilyWalkQuestion": "How do you respond to Rosalie?",
+"RosalieEmilyWalkAnswer1": "You should try going on a diet! Lose all that fat!",
+"RosalieEmilyWalkAnswer2": "Have tried doing yoga or other excersizes?",
+"RosalieEmilyWalkAnswer3": "I'm sorry... That sucks..",
+"RosalieEmilyWalkResponse1": "HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA$1 #$b# Oh, @! You're such a comedian!$3#$b# You think I haven't tried that?!$5 #$b# Sorry, that was... mean...of me...$2#$b# You're... fine...$3",
+"RosalieEmilyWalkResponse2": "I do like yoga. #$b# But I can't do it all the time...$2 #$b# Plus a lot of poses aren't made with...$2 #$b# My body shape in mind...$2",
+"RosalieEmilyWalkResponse3": "Yeah... it does...$2",
+"RosalieEmilyWalk18": "It's hard enough having extra weight to carry.$2#$b# My medication makes it harder to lose it...$2 #$b# I was much to look at before I gained all this weight...$2 #$b# But now, I just... I feel like...$11",
+"RosalieEmilyWalk19": "Oh my, Yoba!$8 #$b# I'm so sorry, I didn't mean to make this all about me me me!$1 #$b# How are things on %farm?",
+
+
+//3 HEART EVENT - GEORGE AND THE WHEELCHAIR//
+
+"RosalieGeorgeWC1": "I heard you were in a wheelchair.#$b#Your Uncle even installed this ramp for you.",
+"RosalieGeorgeWC2": "Grandpa, don't do this...$s",
+"RosalieGeorgeWC3": "Now, Miss Rosalie, would you mind telling me why this is the first time I'm seeing you in a wheelchair? #$b# And why you were walking around just fine since you arrived?",
+"RosalieGeorgeWC4": "Well, I-$2",
+"RosalieGeorgeWC5": "Are you too lazy to walk? #$b#To climb the stairs into the saloon?#$b#You were always the lazy one of your siblings!#$b#While your poor mother was working at the hospital,#$b# You were always too busy chasing boys!",
+"RosalieGeorgeWC6": "I was twelve when I left the Valley, I-$3",
+"RosalieGeorgeWC7": "No, no! I remember!#$b# You were always hanging around that boy!",
+"RosalieGeorgeWC8": "Grandpa, stop...$s",
+"RosalieGeorgeWC9": "Putting sticks in the wheels of my chair, and-",
+"RosalieGeorgeWC10": "My sister did that!$5 #$b# I never would have put sticks in your chair!$5",
+"RosalieGeorgeWC11": "Aha! So you admit it!$h #$b# It was YOU who was the lazy one!#$b# So lazy that you refuse to walk when the day suits you!#$b#You can go up and down stairs, so do it!#$b#Don't go making everyone cater to you because you're lazy!#$b# The ramp is for people like me!#$b#Not for fat, lazy slobs like you!",
+"RosalieGeorgeWC12": "...*sniff*$11",
+"RosalieGeorgeWC13": "What? I just said what we were all thinking!",
+"RosalieGeorgeWC14": "George, you owe Rosalie an apology.$5",
+"RosalieGeorgeWC15": "I wont! #$b#She shouldn't be in a wheelchair! She's too young!",
+"RosalieGeorgeWC16": "You're right, she shouldn't be.$5 #$b#But she is.$5",
+"RosalieGeorgeWC17": "Grandpa, weren't you in your fourties when you had your accident?$s",
+"RosalieGeorgeWC18": "That's different!#$b# She can walk! I can't!",
+"RosalieGeorgeWC19": "Ah! @, you're smart and sensible.$h",
+"RosalieGeorgeWCQuestion": "You agree with me, right?",
+"RosalieGeorgeWCAnswer1": "Harvey's right. It has nothing to do with age.",
+"RosalieGeorgeWCResponse1": "Of course it does!#$b#I'm sure she can snap back from whatever she has!",
+"RosalieGeorgeWCAnswer2": "Not all disabilites are visible.",
+"RosalieGeorgeWCResponse2": "But she's *not* disabled. #$b# At least, not disabled enought to need a wheelchair!",
+"RosalieGeorgeWCAnswer3": "Rosalie shouldn't use a wheelchair if she doesn't need it.",
+"RosalieGeorgeWCResponse3": "Clearly, she does, @.$5",
+"RosalieGeorgeWC20": "What's going on out here?$3",
+"RosalieGeorgeWC21": "Gus, I heard your niece was an actress, #$b#But pretending to be disabled? #$b#You should be ashamed of her!",
+"RosalieGeorgeWC22": "She *is* disabled, George.$3 #$b#Have you ever heard of a 'dynamic disability'?$3",
+"RosalieGeorgeWC23": "A what?",
+"RosalieGeorgeWC24": "A dynamic disability.$3#$b# The severity of the disability changes every day.$2#$b#One day, she's fine. The next, like today, she can't walk.",
+"RosalieGeorgeWC25": "I... I didn't know that...$s",
+"RosalieGeorgeWC26": "She shouldn't have to tell you.$3",
+"RosalieGeorgeWC27": "Do you remember the vaccine? The one everyone had to get five years ago?$2",
+"RosalieGeorgeWC28": "Of course! I was one of the first to get it!$h",
+"RosalieGeorgeWC29": "Rosalie was too. She was on the front lines.$3 #$b# Now, she's in pain every day. For the rest of her life.$2",
+"RosalieGeorgeWC30": "I didn't know.$s",
+"RosalieGeorgeWC31": "Well, now you do.$3",
+"RosalieGeorgeWC32": "The ramp is for all of us. At any time.$2",
+"RosalieGeorgeWC33": "Let's go home, Grandpa...",
+
+//4 Heart Event - Radio Opportunity//
+
+"RosalieLewisRadio.0": "Sorry it's not much. #$b#But I'm sure that with it, you'll be able to help out Gus with the rent or something.",
+"RosalieLewisRadio.1": "I would have taken a sea cucumber sandwich and a few crumpled ones!$1 #$b# This is perfect! Thank you, Mayor Lewis!",
+"RosalieLewisRadio.2": "Well, your voice was always something beautiful. #$b#So sharing it with the people in Stardew Valley, #$b#I told The Governor all about you being 'The Voice of The Valley'!$h #$b# So don't make me look bad!$a",
+"RosalieLewisRadio.3": "...$3",
+"RosalieLewisRadio.4": "@! Welcome to my studio!$1",
+"RosalieLewisRadio.5": "Well, it's still the old saloon dining room... turned into a bedroom...$3",
+"RosalieLewisRadio.6": "I know it doesn't seem like much,#$b# But really, you don't need all the fancy stuff to get started in recording for a radio station!$1",
+"RosalieLewisRadio.7": "Well, the saloon isn't busy during the day anyway, #$b#I'll be back here recording then and helping Uncle Gus at night!",
+"RosalieLewisRadio.8": "Rosie, don't you think that... You should slow down?$2 #$b#I know your flareups come at random, but sometimes, it's stress related,$2 #$b# or physical...$2",
+"RosalieLewisRadio.9": "Oh, I'm sure it's fine!$h #$b# You don't need much movement when you're working at a computer, right? #$b# Besides, the walking around the saloon at night should help with exersise to help with... other things.",
+"RosalieLewisRadio.10": "What is that supposed to mean?$3",
+"RosalieLewisRadio.11": "Mayor Lewis, you mentioned you had some paperwork for me to sign?$3 #$b#The pens are in the saloon, if you'd follow me?$1",
+"RosalieLewisRadio.12": "Certainly.$1",
+"RosalieLewisRadio.13": "@, I'm worried about Rosie.$2",
+"RosalieLewisRadio.Q": "I'm not sure what to do...",
+"RosalieLewisRadio.A1": "Why? This is a great opportunity!",
+"RosalieLewisRadio.A2": "I'm sure she'll be fine.",
+"RosalieLewisRadio.14": "But I know Rosie, she's going to run herself to the ground.$2 #$b# She hyperfixates on things, and then runs in head first, and her body ends up paying the price for it later...$2",
+"RosalieLewisRadio.15": "I don't know... I run a saloon. I don't know about this kind of thing.$2",
+"RosalieLewisRadio.16": "Maybe you're right, @. #$b# Maybe she'll be alright.$h",
+
+
+//5 Heart Event
+"RosaliesStory.0": "Okay, beach... use your healing powers or whatever...",
+"RosaliesStory.1": "Oh, hey, @.#$b# Don't mind me, I'm just trying to get through some pain, same as always.$1",
+"RosaliesStory.2": "You know, this is the furthest I've gone out of the house other than the clinic.$7",
+"RosaliesStory.3": "It's funny, my mom was a nurse when I lived here, #$b# The building hasn't changed much either.",
+"RosaliesStory.4": "I mean, I didn't go to the clinic all the time!#$b# I used to visit a...normal amount...$1",
+"RosaliesStory.5": "You're probably wondering what happened to me...$2",
+"RosaliesStory.Q": "You want to know, what's wrong with me... right?",
+"RosaliesStory.A1": "Only if you're comfortable talking about it.",
+"RosaliesStory.R1": "Thanks, but I don't mind talking about it. #$b# We're friends, now! And I'm very impressed it took you this long to ask!$1",
+"RosaliesStory.A2": "I mean... yeah...",
+"RosaliesStory.R2": "Well, at least you're honest.$1",
+"RosaliesStory.6": "Five years ago, I was a different person. #$b# Strong. Strong willed.$9 #$b#I worked two jobs while going to theatre school full time, plus rehearsals, my hobbies, and cleaning the apartment... #$b#Then I... We all...$2",
+"RosaliesStory.7": "You know what it was like...$2 #$b#People were up in arms about it.$2 #$b#None of it backed by actual science.$3 #$b#But, my mom and my sister are nurses. We have to look out for each other. #$b# I don't regret keeping people safe and healthy.#$b#Everyone was doing it, and I hadn't heard of anything bad happening. #$b# And I had to in order to keep my job...$2 #$b#I wasn't saving anyone like my mom and sister were. I was just working a minimum wage job...$3 #$b#But I was on the front lines... #$b#The normal pains that everyone got from the shot... That were supposed to only last a day or two...$2 #$b# Never went away for me... and the pain spread.$2#$b# I could barely move my arms or legs at the time without being in constant pain...$2 #$b# I couldn't keep my jobs.$3 #$b# But with all the extra time I had, I couldn't do the things I loved either.$2 #$b#I couldn't draw. Play piano or guitar or dance... all my joys were just... taken from me...$6 #$b# I still can't play or do things I used to do without paying the price.$6 #$b# All I had left was my voice, but even then, people didn't understand...$2#$b# Thinking I was just... fat and lazy... And who wants to see that singing and dancing on stage?$6 #$b#When I first got sick, Uncle Gus told me to come back to Pelican Town, me and my partner... #$b#But he... didn't want to.$2 #$b# He just...$2#$b# didn't want to...$3 #$b# Five years later, and here I am. #$b# Back in Stardew Valley...#$b# I hoped that if I ever came back, I'd be famous or something, you know?$1 #$b# Growing up, people kept saying my voice was beautiful and I'd go places... but I didn't...$6 #$b#I'm sick, in pain, and... alone...$6",
+"RosaliesStory.8": "I'm sorry, I didn't mean to make you sad$8 #$b# And I don't mean for you to feel sorry for me either. #$b#I honestly like my independence, even though it's harder some days than it ever was. #$b#And now I'm back here in Pelican Town...$1#$b#I met you, and Harvey, and Emily, and—",
+"RosaliesStory.9": "Well... It's nice to see some new and old faces... #$b# Even though I usually prefer to just stay in my room. #$b# It's nice to be somewhere that isn't connected with my... ex. And I'm really excited about being the Voice of the Valley...$1 #$b# Honest, I just have some growing pains to deal with. #$b# Mine just happen to be a little more literal.$1",
+"RosaliesStory.10": "@, can you help me stand up?#$b# The water's been helping with the swelling but it's still painful to walk.$2",
+"RosaliesStory.11": "You help Rosalie stand and walk her back to the Saloon, and into her bed to recover from her flare up.",
+
+//6 Heart Event 
+"RosaliesFlareUp.0": "Hi, @!$1 #$b# Sorry, Rosie is not feeling well today.$2.",
+"RosaliesFlareUp.1": "Hi, Dr Harvey! You're a little early for happy hour.",
+"RosaliesFlareUp.2": "Actually, I'm here to see Rosalie.#$b# She's been so diligent with her health and her appointments, #$b# But, she missed her appointment this morning and didn't call to let me know. I got worried.$2",
+"RosaliesFlareUp.3": "I'm sorry, Harvey. I didn't realize she had an appointment today.",
+"RosaliesFlareUp.4": "Is Rosalie alright?$2",
+"RosaliesFlareUp.5": "She... got some news about her husband...$2 #$b# I was prepparing us lunch so I didn't hear the call.$2#$b# She said she was fine, but she was shaken up and just went to bed...$2",
+"RosaliesFlareUp.6": "Do you think I could go check on her?",
+"RosaliesFlareUp.7": "Robin is with her right now, I'll take you to her room.",
+"RosaliesFlareUp.Q1": "*sigh*",
+"RosaliesFlareUp.A1": "Wait, Rosalie's married?!",
+"RosaliesFlareUp.A2": "So... Rosalie's single?",
+"RosaliesFlareUp.A3": "Since when has Rosalie been married? You think you know a person!",
+"RosaliesFlareUp.R1": "Technically, yes. But Rosie separated from her husband before she moved back here.$2",
+"RosaliesFlareUp.R2": "Technically, yes. Rosalie's married, but they separated before she moved back to Pelican Town.$2",
+"RosaliesFlareUp.R3": "I'm sorry, I know you two have gotten close. I'm sure she didn't mean to keep it from you.$2#$b# You know Rosie has a hard time opening up about things that make her vulnerable.$2 #$b# Even to those closest to her.$2",
+"RosaliesFlareUp.8": "Rosie was always a sweet girl. #$b# She's imaginative. Talented. Shy, but kind and bubbly when you got to know her. #$b# We all knew she was going to be something someday.$1 #$b# When her fella came into the picture, she was the same but... different.$2 #$b# I don't know much about the guy. They were high school sweethearts. I only met him at the wedding.$2#$b# Like her, he also has a great voice. Very talented.$1 #$b# He absolutely adored her. You could see it every time they looked at each other$1. #$b# She loved him too… #$b# More than she should have.$2 #$b# Before she got sick, she was always working. Multiple jobs, school, rehearsal.... #$b# Cleaning up after him... finding him jobs...$3 #$b# When she became disabled, he didn't leave her.$2 #$b# But he didn't step up either.$3 #$b# I told Rosie they could live here in Pelican Town. I offered him a job and everything. #$b# But he refused.$3 #$b# He said he wanted to save on their rent in the city or something.$3 #$b# That boy always had an excuse for everything. And Rosie went along with it because she loved him.$2",
+"RosaliesFlareUp.9": "I won't forgive him for that.$3 #$b# My niece was in pain and he cared more about his own comfort than what she needed.#$b# Anyway, Rosie came to her senses and called me when she was ready.$2 #$b# She says she's done with him... But if she wants to take him back, he's welcome.",
+"RosaliesFlareUp.10": "How is she?$2",
+"RosaliesFlareUp.11": "She's in a lot of pain, emotionally and physically.#$b# I think more than she's letting on.",
+"RosaliesFlareUp.12": "She keeps saying she's fine, she's cracking jokes,$1 #$b# But, I know that look since she was a kid.$2 #$b# The nerve of that guy.$3",
+"RosaliesFlareUp.13": "She doesn't want to burden anyone... It breaks my heart that she thinks she is.$2",
+"RosaliesFlareUp.14": "$d HasSeenEvent stardewaly.rosalie_RosaliesRibbonEventPost#I still can't get a hold of Shane. Marnie knows to call when she sees him.$2 #$b# But I let Rosalie know you're here, she's asking for you,@.|I let Rosalie know you're here, she's asking for you, @.",
+"RosaliesFlareUp.Q2": "Would you mind seeing her? I think she'd open up more if you're there, too.$3",
+"RosaliesFlareUp.A4": "Of course, I'll go with you.",
+"RosaliesFlareUp.A5": "Tell her I'm busy.",
+"RosaliesFlareUp.R4": "Thank you, @.",
+"RosaliesFlareUp.R5": "Okay... #$b# I'll let her know you stopped by.",
+"RosaliesFlareUp.15": "Rose?",
+"RosaliesFlareUp.16": "Hi, @...$1 #$b# I'd give you a hug but... my arms are kind of... painful... $6",
+"RosaliesFlareUp.17": "ow...",
+"RosaliesFlareUp.18": "Did you have a chance to look at the list of words to describe it?",
+"RosaliesFlareUp.19": "Yeah, but... I don't know...$2",
+"RosaliesFlareUp.20": "On a scale from 1-20, how would you rate your pain right now?",
+"RosaliesFlareUp.21": "It's... a 14...$2",
+"RosaliesFlareUp.22": "Okay, so some improvement!#$b# That's good, the medication must be working!$1",
+"RosaliesFlareUp.Q3": "What is it?",
+"RosaliesFlareUp.A6": "Gus said your husband called.",
+"RosaliesFlareUp.R6": "Oh... He told you that...$3 #$b# Well, I guess he already told Robin everything, he may as well tell you too.$3",
+"RosaliesFlareUp.A7": "1-20? Why not do 1-10 for a pain scale?",
+"RosaliesFlareUp.R7": "People with chronic pain have a different pain tollerance than people without. #$b# A 10 for someone who doens't experience pain regularly is the worst, but for someone like Rosalie, a 10 can be a normal day.",
+"RosaliesFlareUp.A8": "Rosalie, are you okay?",
+"RosaliesFlareUp.R8": "Yeah, of course!$1 #$b# I just... #$b# ...$2 #$b# No, of course I'm not okay...$6",
+"RosaliesFlareUp.23": "I just... I feel so weak... lazy... #$b# I want to do so much, I *need* to do so much and help... #$b# But my body won't let me... My brain won't let me...$2 #$b# I'm always too tired... in too much pain...$2#$b# and today, hearing his voice again...$2 #$b# Hearing him sob, and beg, then get angry...$3 #$b#Like I didn't love him enough to endure his problems for so long.$6 #$b#Like I didn't suffer because of his decisions and still stood by him...$11 #$b# Like I was less of a wife and partner because I couldn't do it anymore.$11",
+"RosaliesFlareUp.24": "Rosalie, I'm so sorry...$2#$b#Do you feel unsafe?$2",
+"RosaliesFlareUp.25": "No, I'm... safe. He won't do anything...$2#$b#But aside from that, I hate this. I know I'm not supposed to complain, but how can I not?$11 #$b# What's the point of getting out of bed? Leaving my room?$11 #$b# What's the point of anything if I'm just going to continue feeling this way for the rest of my sad, pathetic life?$11",
+"RosaliesFlareUp.26": "Rose, you're the Voice of The Valley.#$b# And I mean that figuratively, and literally.$1#$b# You matter more than you think to so many people. And, you're not alone.$7#$b#I know it feels better to isolate yourself.$2#$b# And I know you've been through a lot. But, now, you're here. #$b# You're home now. You have Gus, and @, Emily, and Robin. #$b# The whole town is behind you.$1 #$b# I like to think we've gotten closer since we met. #$b# In fact, I consider you a friend.$1",
+"RosaliesFlareUp.Shane": "Shane and I haven't been friends in 20 years.$3 #$b# He has his own demons to deal with, he doesn't need me to add to them.$2",
+"RosaliesFlareUp.27": "Until I flake... or talk about something too much that you don't care about.$3",
+"RosaliesFlareUp.28": "Rose, I don't mind.$1 #$b# We talked for nearly an hour about the Prismatic Girls last week, didn't we?$1",
+"RosaliesFlareUp.29": "Yeah, I guess we did...$1",
+"RosaliesFlareUp.30": "You're a passionate person, Rosalie... #$b# It's endearing. I like that about you.$4 #$b# Don't feel like you have to hold back from being yourself around me.$4 #$b# I want to hear all about the things you're passionate about, and I'll try to understand them!$4",
+"RosaliesFlareUp.Q4": "I think I speak for both of us, right?",
+"RosaliesFlareUp.A9": "You should see Harvey's fancy old radio in his apartment!",
+"RosaliesFlareUp.R9.1": "You have a radio, Dr H?!$8",
+"RosaliesFlareUp.R9.2": "$d HasSeenEvent 571102#I um...$8 #$b# ...$2 #$b# Yeah, I like to listen for planes when it's raining...$1|I um...$8 #$b# ...$2 #$b# Yeah, I do.$1",
+"RosaliesFlareUp.R9.3": "Why didn't you tell me?$1 #$b# You know I love-- #$b# Oh, I'm sorry. You two probably have things to do.$1",
+"RosaliesFlareUp.A10": "Me too!",
+"RosaliesFlareUp.R10": "Thanks, @... and thanks, Harvey...$1",
+"RosaliesFlareUp.31": "Ah! There's Good Time Rosie!",
+"RosaliesFlareUp.32": "Uncle Gus Gus, really?$1 #$b# 'Good Time Rosie'?$9 #$b# My dad's having you call me that too?$1",
+"RosaliesFlareUp.33": "Are you hungry? I can bring your food inside so you can watch your cartoons.$1 #$b# Harvey, @, I think I owe you both a drink for making Rosie smile again.",
+"RosaliesFlareUp.34": "Thanks for stopping by you two. It means a lot to me.",
+"RosaliesFlareUp.35": "Actually, I don't have plans for dinner.#$b# I wouldn't want you to eat alone while Gus is running the saloon...$1",
+"RosaliesFlareUp.36": "Of course! I'll bring out another plate. #$b# @, you wouldn't happen to be able to help me out in the kitchen, would you?",
+"RosaliesFlareUp.37": "After dinner, do you want me to stay with you? Talk some more? #$b# Or, we could talk over my lunch break tomorrow when you're feeling better?$4",
+"RosaliesFlareUp.38": "Yeah, I'd like that...$4",
+
+"RosaliesFlareUp.Shane1": "Rosa!",
+"RosaliesFlareUp.Shane2": "Are you okay? I'm sorry I didn't get here sooner.$2#$b# I came as soon as I heard!$2",
+"RosaliesFlareUp.Shane3": "I'm not dying, Farm Boy.$1 #$b# Just... in a lot of pain, as always.$2",
+"RosaliesFlareUp.Shane4": "Anything I can do to help?#$b# I mean...$3#$b# I'll probably mess it up anyway...$2",
+"RosaliesFlareUp.Shane5": "Just... stay with me for a bit?$2 #$b# We can catch up... watch Junimo Tales like old times?$9",
+"RosaliesFlareUp.Shane6": "I don't know, it the reboot or the original?$6",
+"RosaliesFlareUp.Shane7": "The original, duh! The writing is better and it's more violent!$1 #$b# Besides, the reboot cut your first crush.$9",
+"RosaliesFlareUp.Shane8": "Not Miss Junimo Mulleb?!$10 #$b# I mean... who?$3 #$b# Buh, I can't believe you remember that. You're lucky you're sick, Rosa.$11",
+"RosaliesFlareUp.Shane9": "Hey, hey! Don't sass your elders!$1",
+"RosaliesFlareUp.Shane10": "Oh, you're still gonna play the 'older than you' card?$1#$b#I thought you would have matured in the last 20 years!$1",
+
+"RosaliesFlareUp.MessageHarvey": "Harvey tenderly takes Rosalie's hand. She looks at their joined hands in surprise.",
+
+//8.5 HEART EVENT - HARVEY X ROSALIE - when The questions begin and Emily knows// 
+"RosalieHarveyFamiliar.0": "Uncle Gus, why don't you let me and Emily close for the night. #$b# You head to bed.",
+"RosalieHarveyFamiliar.1": "Are you sure? You've been on your feet all day, I know that--$s",
+"RosalieHarveyFamiliar.2": "Uncle Gus Gus, I took my meds, I'm fine. #$b# Besides, I worked at that chocolate shop long enough to know how to close!$1",
+"RosalieHarveyFamiliar.3": "Well, alright...$h #$b# Thanks, Rosie... #$b# Just don't push yourself.$s #$b# Ask Emily if you need help.",
+"RosalieHarveyFamiliar.4": "Oh! @!$8 #$b# I'm sorry, we closed at midnight!",
+"RosalieHarveyFamiliar.5": "Thanks, I'm glad you thinks so.$1",
+"RosalieHarveyFamiliar.6": "Thank goodness, the door was unlocked. #$b# Gus, you didn't happen to come across--$h",
+"RosalieHarveyFamiliar.7": "Dr Harvey! Did you forget something?$1",
+"RosalieHarveyFamiliar.8": "Rosalie! Uh... What are you doing here?$8",
+"RosalieHarveyFamiliar.9": "I live here, remember?$1",
+"RosalieHarveyFamiliar.10": "No, that's not what I mean! I just meant--",
+"RosalieHarveyFamiliar.11": "Hi, Harvey!$h #$b# I noticed you left your scarf behind, I'll go grab it from the back.",
+"RosalieHarveyFamiliar.12": "I sent Gus to bed early.#$b# I just thought I'd close up for the night as a thank you to him.",
+"RosalieHarveyFamiliar.13": "That's very kind of you! #$b# But... Shouldn't you be resting? Our last appointment you said-$2",
+"RosalieHarveyFamiliar.14": "I know, and as I said, I'm fine.$3",
+"RosalieHarveyFamiliar.15": "Alright, you know your body best.$2 #$b# But if anything changes, let me know at our next appointment. #$b# I'll see you then.$h",
+"RosalieHarveyFamiliar.16": "Oh, and one more thing...$1",
+"RosalieHarveyFamiliar.17": "Yes, detective?$1",
+"RosalieHarveyFamiliar.18": "I thought you'd understand that reference!$1 #$b# Anyway... I've been... meaning to ask you... since you arrived to town...",
+"RosalieHarveyFamiliar.19": "Have we...$2#$b#...met before?",
+"RosalieHarveyFamiliar.20": "Not to my knowledge...$2 #$b# I think I'd remember that.$9",
+"RosalieHarveyFamiliar.21": "Here's your scarf! You have a good night, Harvey!",
+"RosalieHarveyFamiliar.23": "Hmm?$0",
+"RosalieHarveyFamiliar.24": "Yes! My scarf!$8",
+"RosalieHarveyFamiliar.25": "I'm sorry, I've taken enough of your time.$1. #$b# Emily, Rosalie, @, have a good night...",
+"RosalieHarveyFamiliar.26": "What was that about, Rosalie?$3",
+"RosalieHarveyFamiliar.27": "Nothing, we were just talking.$1 #$b# Anyway, I'll be back.#$b# @, you should also be heading home. Have a good night!$1",
+"RosalieHarveyFamiliar.28": "@...$3 #$b# I need you to tell me what Harvey and Rosalie talked about.$3",
+"RosalieHarveyFamiliar.29": "Oh my Yoba! I knew it!$6",
+"RosalieHarveyFamiliar.30": "I had a feeling when Rosalie came to town!$1 #$b# There's something... strange about her...$3 #$b# Everyone in town has been acting different since she arrived.$3 #$b# I need to talk to Sandy about this!$1",
+"RosalieHarveyFamiliar.31": "@...This is our secret.$3 #$b# Please, don't tell anyone.$3",
+
+
+//7H event i18n is in QUESTS (unsure if will be 7H)
+
+
+//8H Event
+
+//Invite is in "letters" i18n
+
+"RosaliesVoiceOfTheValley.0": "Hey! @! I'm so happy you made it!$1 #$b# I'm really nervous, a lot can happen when recording life. And everyone's... watching...$2",
+"RosaliesVoiceOfTheValley.Q": "*Rosalie looks a bit anxious*",
+"RosaliesVoiceOfTheValley.A1": "Aren't you an actor? You can't get stage fright!",
+"RosaliesVoiceOfTheValley.A2": "Don't worry, I'm sure you're gonna be great!",
+"RosaliesVoiceOfTheValley.A3": "Pretend they're in their underwear.",
+"RosaliesVoiceOfTheValley.R1": "I typically don't.$1 #$b# But I find it easier for strangers than in front of people I know.$2",
+"RosaliesVoiceOfTheValley.R2": "Thanks, @. I'm glad someone believes in me.",
+"RosaliesVoiceOfTheValley.R3": "Thanks but I'd rather not imagine Mayor Lewis in his underwear!$1 #$b# But... I haven't been this nervous since I was a kid...$2",
+"RosaliesVoiceOfTheValley.1": "Last time I hosted something live, it was a disaster...$2 #$b# Oh, Yoba! Why did I agree to do this?!$8",
+"RosaliesVoiceOfTheValley.2": "Rosa, you okay?",
+"RosaliesVoiceOfTheValley.3": "Of course, I'm fine! I got this in the bag!$1 #$b# Why?$2",
+"RosaliesVoiceOfTheValley.4": "You furrow your brows and bite your lip when you're nervous.$6",
+"RosaliesVoiceOfTheValley.5": "Seriously? I'm that obvious?!$8#$b# Urg...and here I was thinking I was thinking I'm a good actor.$3",
+"RosaliesVoiceOfTheValley.6": "Rosalie, we have two minutes!",
+"RosaliesVoiceOfTheValley.7": "@! Would you mind sitting with me while I'm on the air?$2#$b# I'll feel a bit better knowing you're there with me.",
+"RosaliesVoiceOfTheValley.8": "Just put on these headphones and you'll be able to hear what I do.",
+"RosaliesVoiceOfTheValley.9": "Okay everyone, quiet down! #$b# We're on air in 3... #$b# 2...",
+"RosaliesVoiceOfTheValley.10": "Hello Stardew Valley! This is *The Voice of the Valley*",
+"RosaliesVoiceOfTheValley.Q2": "You notice that Rosalie is shaking a bit after seeing everyone's reaction.",
+"RosaliesVoiceOfTheValley.A4": "Hold her hand and squeeze it.",
+"RosaliesVoiceOfTheValley.A5": "Give her a thumbs up.",
+"RosaliesVoiceOfTheValley.A6": "Shrug at her.",
+"RosaliesVoiceOfTheValley.R4": "Rosalie looks at you in surprise and squeezes your hand back.",
+"RosaliesVoiceOfTheValley.R5": "Rosalie smiles a little and turns back to the mic, a little more confident.",
+"RosaliesVoiceOfTheValley.R6": "I'm here, live at the amazing Stardrop Saloon in Pelican Town, #$b# Can we have everyone give a grand hello to those tuning in?$1",
+"RosaliesVoiceOfTheValley.Crowd": "Woo!",
+"RosaliesVoiceOfTheValley.Crowd2": "Yeah!",
+"RosaliesVoiceOfTheValley.Crowd3": "Hi Mom!",
+"RosaliesVoiceOfTheValley.Crowd4": "Alright, Rosa!",
+"RosaliesVoiceOfTheValley.11": "Now, I'd like to start our program by talking to one of our newest and most popular residents, #$b# and one of my best and dearest friends: @!$1",
+"RosaliesVoiceOfTheValley.12": "So, @, I heard your Grandfather gave you his farm when he passed. #$b# I don't think I ever met him, but I'm very sorry for your loss.$2",
+"RosaliesVoiceOfTheValley.InterviewQ1": "So, now that you've taken over his farm, what exactly do you do as a farmer?",
+"RosaliesVoiceOfTheValley.InterviewA1": "I slay monsters in the mines.",
+"RosaliesVoiceOfTheValley.InterviewA2": "I feed the community to try and beat out big corporations like Joja.",
+"RosaliesVoiceOfTheValley.InterviewA3": "I make and sell stuff for money.",
+"RosaliesVoiceOfTheValley.InterviewR1": "Wow, that's incredible! I could never do something like that! #$b# I guess that's why I'm on the radio, huh?$1 #$b# Now, next question...$1",
+"RosaliesVoiceOfTheValley.InterviewQ2": "What would you say is your favourite thing about living in the valley since moving here?",
+"RosaliesVoiceOfTheValley.InterviewA4": "The people I've met.",
+"RosaliesVoiceOfTheValley.InterviewA5": "Mayor Lewis and his lack of accessibility laws.",
+"RosaliesVoiceOfTheValley.InterviewA6": "Haley and her underwear drawer.",
+"RosaliesVoiceOfTheValley.InterviewR4": "You know, I have to agree.",
+"RosaliesVoiceOfTheValley.InterviewR5.1": "Mayor Lewis, do you have anything to say?$9",
+"RosaliesVoiceOfTheValley.InterviewR5.2": "No comment!",
+"RosaliesVoiceOfTheValley.InterviewR5.3": "We need people like @ to speak their mind about people like me.#$b#I am so lucky to be surrounded by friends and family here in Pelican Town who care enough about me to make sure I'm accommodated. #$b# And believe me...$2",
+"RosaliesVoiceOfTheValley.InterviewR6": "$d PLAYER_NPC_RELATIONSHIP Current Haley Married#So, *that's* the secret to making a marriage work?$8 #$b#No wonder I'm getting divorced!$1|Oh... Um...$8 #$b# Haley, um haha... I...think you need to invest in a lock for your bedroom!$1",
+"RosaliesVoiceOfTheValley13": "Now, folks, I'm gonna get real for a second... #$b#I used to live here in Stardew Valley as a kid. Right here in Pelican Town. #$b#I moved at 12 years old and left everyone and everything I knew behind... #$b#I was really sad to go... but my parents said I'd meet new people. Make new friends...$2 #$b#And they were right, but nothing ever felt quite like home until I moved back to this small provincial town.#$b# I was afraid that moving back would make me feel like I failed at everything I set out to do.$2 #$b# But it's thanks to people like @ that I don't feel like a stranger anymore.#$b# I feel like I'm finally... home. Where I belong. And I plan to stay as long as I can.",
+"RosaliesVoiceOfTheValley14": "Thanks to you, Rosalie finally feels at home. Her boxes are now finally unpacked."
+
+
+/*
+"Rosalie"
+"Gus"
+"Marnie"
+"Shane"
+"Robin"
+"Emily",
+"Sam",
+"Sebastian",
+"Harvey",
+"Elliott",
+"Jas",
+"Jodi",
+"Lewis",
+"Leah",
+"Demetrius",
+"Maru"*/
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Neutral $0
+Happy $1
+Sad $2
+-_- $3
+Blush $4
+Mad $5
+Sad2 $6
+Look Right $7
+Shock $8
+Mischivous $9
+Crying Blush Shock $10
+Crying Sad $11
+Crying Happy $12
+*/

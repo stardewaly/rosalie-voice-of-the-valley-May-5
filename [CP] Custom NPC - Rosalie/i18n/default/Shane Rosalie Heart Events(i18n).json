@@ -1,0 +1,211 @@
+{
+    //Therapy 1 - RosalieBus1Before6// (Shane's 6 heart is after Rosalie's arrival)
+//Silent. Rosalie is waiting for the bus. Shane comes in. They turnt o tlook at each other to talk but don't. The bus comes.
+
+"ShaneRosalieBusTherapy1Before6": "Buh...",
+
+//Therapy 2 Bus Event//
+"ShaneRosalieBusTherapy2.1": "Um...",
+"ShaneRosalieBusTherapy2.2": "Did you say something?",
+"ShaneRosalieBusTherapy2.3": "No... sorry...",
+
+//Therapy 3 Bus Event//
+"ShaneRosalieBusTherapy3.1": "Hey... Rosa?",
+"ShaneRosalieBusTherapy3.2": "Yes, Farm Boy?",
+
+//Therapy 1RA6 Event// (Rosalie After 6 heart event for Shane)
+//Shane is waiting for the bus for therapy. Rosalie walks in. Same tension as 1
+
+
+
+
+//THERAPY SWITCH EVENT
+
+"ShaneRosalieTherapySwitchEvent.1": "I'm sorry, Shane. This typically wouldn't be a problem, #$b# But my colleague did say that it was important for you to go so you aren't so isolated.",
+"ShaneRosalieTherapySwitchEvent.2": "Are there any others that I could join?$3",
+"ShaneRosalieTherapySwitchEvent.3": "Not this season, and not as frequent.$2 #$b# We could put possibly put you in AA instead, and it's in the same building.",
+    "ShaneRosalieTherapySwitchEvent.4": "Not on the same day, right?",
+    "ShaneRosalieTherapySwitchEvent.5": "Shane, is there... something wrong with the group therapy sessions?$2",
+        "ShaneRosalieTherapySwitchEvent.6": "No.",
+ "ShaneRosalieTherapySwitchEvent.7": "Are you sure? Because I heard-—$2",
+"ShaneRosalieTherapySwitchEvent.8": "You're gonna listen to rumours now?$5",
+       "ShaneRosalieTherapySwitchEvent.9": "Well, when it comes to the wellbeing of a child, I do have the right to break confidentiality.$5", 
+       "ShaneRosalieTherapySwitchEvent.10": "Someone had mentioned to me that Jas has been... acting strange.$2 #$b# She's quiet, well, quieter than usual. Wandering off on her own...$2 #$b# Is everything okay with you and your aunt at home?$2",
+       "ShaneRosalieTherapySwitchEvent.11": "Marnie and I... haven't been talking much...$2 #$b# We don't argue in front of Jas but, the kid is smart.$2",
+     "ShaneRosalieTherapySwitchEvent.12": "Children are perceptive to things like that.",
+       "ShaneRosalieTherapySwitchEvent.13": "Tell me about it. #$b# Unless I was playing gridball, all my parents did was argue.$3",
+       "ShaneRosalieTherapySwitchEvent.14": "I believe you and your aunt mentioned that before when I arrived...$2 #$b# But, you said that your aunt's farm was a safe place for you growing up. #$b# Is there any reason why you and your aunt aren't getting along?",
+       "ShaneRosalieTherapySwitchEvent.15": "Marnie keeps pushing me about talking to someone from my past.$2 #$b# But I can't...$2", 
+        "ShaneRosalieTherapySwitchEvent.16": "I see. Does this person have anything to do with your drinking?$2", 
+        "ShaneRosalieTherapySwitchEvent.17": "No, nothing like that.", 
+        "ShaneRosalieTherapySwitchEvent.18": "And... is this person in therapy with you?$2",
+        "ShaneRosalieTherapySwitchEvent.19": "Shane, therapy is meant to help you. #$b# If you don't talk in therapy, and someone there is causing you distress, then I can't in good conscience recommend you continue.$2 #$b# I don't mean to sound like a broken record echoing your aunt,$1 #$b# But, would it make you feel better to talk to them?",
+        "ShaneRosalieTherapySwitchEvent.20": "I don't know...$2 #$b# I guess I don't know what to even say to them. They've...changed. #$b# And... I don't want to add to their plate.$3", 
+        "ShaneRosalieTherapySwitchEvent.21": "You're both in therapy, change of some kind is the goal, isn't it? #$b# Group therapy is about taking things off your plate, and sharing it with everyone so it's easier to manage in smaller bites. #$b# That way, you're able to take more and it won't feel as heavy.$1",
+        "ShaneRosalieTherapySwitchEvent.22": "Did you miss lunch or something, doc?$3",
+        "ShaneRosalieTherapySwitchEvent.23": "Gus' niece, Rosalie, is dropping me off something this afternoon.$1 #$b# I guess I am a bit more famished than I thought!$1",
+        "ShaneRosalieTherapySwitchEvent.24": "Oh... that's nice...$11",
+        "ShaneRosalieTherapySwitchEvent.25": "How about this Shane, give it another week. #$b# Try and see if you and this person can work things out. #$b# If you still feel you need to change groups, I'll contact my colleague and see if we can figure something out.",
+        "ShaneRosalieTherapySwitchEvent.26": "No, don't worry about it...$3 #$b# I'll... Figure something out. Thanks, Doc.",
+        "ShaneRosalieTherapySwitchEvent.27": "Dr H! Your girlfriend's here for lunch!$1",
+        "ShaneRosalieTherapySwitchEvent.28": "Oh! What great timing!$4 #$b# WAIT! I DIDN'T--$8 #$b# Rosalie isn't-- We're not---!$8 #$b# Ahem...$2 #$b# Please tell her to come in, I'm just finishing up here with a patient.$5",
+
+ 
+
+       
+
+
+
+    //ROSALIE'S RIBBON EVENT(S)
+    "ShaneRosalieJasRibbonEvent.1": "Oh! Hi, @! This is an unexpected visit! Need anything for the farm?",
+    "ShaneRosalieJasRibbonEvent.2": "What?! She let me have it?! #$b# THANK YOU THANK YOU THANK YOU!!!$1",
+    "ShaneRosalieJasRibbonEvent.3": "Uncle Shane! Uncle Shane! Look at my new ribbon!$1",
+    "ShaneRosalieJasRibbonEvent.4": "Wow, Jas! That's real pretty!$1",
+    "ShaneRosalieJasRibbonEvent.5": "Uh huh!$1 #$b# Farmer @ told the pretty new girl that I liked her ribbon, and she gave it to me!$1",
+    "ShaneRosalieJasRibbonEvent.6": "...$10 #$b#...$3 #$b# What uh... what new girl?$3",
+    "ShaneRosalieJasRibbonEvent.7": "I think her name was...$3 #$b# ... Rose... Rosa...$3...!$1 #$b# Rosa! I'm sure of it!$4",
+    "ShaneRosalieJasRibbonEvent.8": "I see...$2",
+    "ShaneRosalieJasRibbonEvent.Q": "@, are you sure... she said Jas could keep it?",
+    "ShaneRosalieJasRibbonEvent.A1": "Are you calling me a liar?",
+    "ShaneRosalieJasRibbonEvent.A2": "Yes! Isn't that nice?",
+    "ShaneRosalieJasRibbonEvent.A3": "No, I stole it off of Rosalie's head and came straight here to frame Jas. Police are on their way.",
+    "ShaneRosalieJasRibbonEvent.A1R": "No, no... Just... checking...$3",
+    "ShaneRosalieJasRibbonEvent.A2R": "Yeah... Nice...$11",
+    "ShaneRosalieJasRibbonEvent.A3R": "That's not very funny, @.$3",
+    "ShaneRosalieJasRibbonEvent.9": "Uncle Shane, am I in trouble?$2",
+    "ShaneRosalieJasRibbonEvent.10": "No! No, of course not!$6 #$b# I'm glad you made a new friend today!$1",
+    "ShaneRosalieJasRibbonEvent.11": "I'm gonna wear it every day, just like Miss Rosa does!$1",
+    "ShaneRosalieJasRibbonEvent.12": "Shane, you should probably tell her thank you.$0",
+    "ShaneRosalieJasRibbonEvent.13Gender": "$query PLAYER_GENDER Current Female#Thank you.$3|Who?$3",
+    "ShaneRosalieJasRibbonEvent.14": "You know who I mean, Shane.$3",
+    "ShaneRosalieJasRibbonEvent.15": "Shane, we don't know how long Rosalie's going to be in town for...$2 #$b# You should talk to her.",
+    "ShaneRosalieJasRibbonEvent.16": "I have talked to her.$11 #$b# I... said 'hi' to her in therapy.$11",
+    "ShaneRosalieJasRibbonEvent.17": "Shane, is this because of what happened before she left?$2",
+    "ShaneRosalieJasRibbonEvent.18": "Of course not!$5 #$b# In fact, I forgot all about it until you mentioned it just now...$11",
+    "ShaneRosalieJasRibbonEvent.19": "Thanks for um... getting the gift for Jas, @.$3 #$b# I gotta go.",
+    "ShaneRosalieJasRibbonEvent.20": "*sigh* Well, if he's going to the saloon, maybe he'll talk to her now...$2",
+    "ShaneRosalieJasRibbonEvent.21": "I'm sorry, @. It's nothing personal, and you did nothing wrong!$1 #$b# Shane and Rosalie just have a... complicated history.$2 #$b# Anyway, thank you again! You made Jas' week!$1",
+ 
+    "ShaneRosalieJasRibbonEvent.2.0": "Rosa.",
+    "ShaneRosalieJasRibbonEvent.2.1": "Oh my Yoba!$8 #$b# Shane, don't sneak up on me like that! You know I'm jumpy!$1",
+    "ShaneRosalieJasRibbonEvent.2.2": "Sorry, Rosa...$2#$b# But, if you wanted to talk to me, you didn't have to use Jas or @ to do it.$5",
+    "ShaneRosalieJasRibbonEvent.2.3": "Okay, um... Nice to see you too in between group therapy and bus rides.$3",
+    "ShaneRosalieJasRibbonEvent.2.4": "That's it?$5#$b# Twenty years, you get Jas and @ involved, and that's all you have to say to me?$5",
+    "ShaneRosalieJasRibbonEvent.2.5": "What do you want me to say to you, Farm Boy?$3",
+    "ShaneRosalieJasRibbonEvent.2.6": "Buh... Forget it. Never mind.$3",
+    "ShaneRosalieJasRibbonEvent.2.7": "Wait, Shane, are you mad?!",
+    "ShaneRosalieJasRibbonEvent.2.8": "No.$11",
+    "ShaneRosalieJasRibbonEvent.2.9": "You so are! I can tell!$1 #$b# You still press your lips into a line when you're mad!$1",
+    "ShaneRosalieJasRibbonEvent.2.10":"Yeah, I guess I do...$6 #$b# I never noticed.$1",
+    "ShaneRosalieJasRibbonEvent.2.11": "Who's Jas?$2 #$b# Was she the little girl? #$b# @ came by and said she liked it and I thought she'd like to have it.$1",
+    "ShaneRosalieJasRibbonEvent.2.12": "I didn't mean to get her in trouble or start anything.$2 #$b# I didn't know she was your kid, honest.$2",
+    "ShaneRosalieJasRibbonEvent.2.13": "She's not my kid...$3 #$b# I mean, she is but...",
+    "ShaneRosalieJasRibbonEvent.2.14": "Aunt Marnie and I are her guardians. I'm her godfather. #$b# Her parents were friends of mine...$0",
+    "ShaneRosalieJasRibbonEvent.2.15": "I see... I'm sorry...$2",
+    "ShaneRosalieJasRibbonEvent.2.16": "I noticed Jas had been looking at my ribbon since I arrived. #$b# I thought maybe she was too shy to say anything and was more comfortable asking @ since you two are close. #$b# I didn't mean to offend you, honest.$2",
+    "ShaneRosalieJasRibbonEvent.2.17": "It's all good. Sorry for coming in hot like that.$1 #$b# You didn't offend me.$6 #$b# I just thought...$2",
+    "ShaneRosalieJasRibbonEvent.2.18": "Yeah?",
+    "ShaneRosalieJasRibbonEvent.2.19": "I just thought...$2 #$b#... I should thank you.$3 #$b# So um... Thank you, Rosa.$6",
+    "ShaneRosalieJasRibbonEvent.2.20": "You're welcome, Farm Boy.$1",
+
+
+//Rosalie Sneeze Event
+
+"ShaneRosalieSneezeEvent.1": "Hi, @! You're right on time. Dinner is just about ready.",
+"ShaneRosalieSneezeEvent.2": "Hey, @! #$b# I was just about to say things are weirdly quiet today...$1",
+"ShaneRosalieSneezeEvent.3": "Marnie, where's Jas? She should have been back from Vincent's by now.",
+"ShaneRosalieSneezeEvent.4": "Huh, I did tell her to be home by four...$2",
+"ShaneRosalieSneezeEvent.5": "There you are!$1 #$b# ...$10",
+"ShaneRosalieSneezeEvent.6": "Um... Hi, Rosa...$3",
+"ShaneRosalieSneezeEvent.7": "Hello, Farm Boy.",
+"ShaneRosalieSneezeEvent.Q1": "You look between Rosalie and Shane as they try not to look at each other.",
+"ShaneRosalieSneezeEvent.A1": "Ask who is 'Rosa' and 'Farm Boy'.",
+"ShaneRosalieSneezeEvent.A2": "Ask why Jas was late coming home.",
+"ShaneRosalieSneezeEvent.R1.1": "It's... a long story.$2",
+"ShaneRosalieSneezeEvent.R1.2": "Well, I can tell it! #$b# Shane and I were besties when we were kids.$1 #$b# The nick names are just a little inside joke we have. Well, and Marnie and now Jas call me 'Rosa', too.$1",
+"ShaneRosalieSneezeEvent.R1.3": "Can I have a cool nickname?$3",
+"ShaneRosalieSneezeEvent.R1.4": "You already have a nickname! Jas is short for Jasmine!",
+"ShaneRosalieSneezeEvent.R1.5": "But I want one like Rosa and Farm Boy!$2",
+"ShaneRosalieSneezeEvent.R1.6": "Let's just stick to calling me 'Uncle Shane'...$3",
+"ShaneRosalieSneezeEvent.R1.7": "How about...$9 #$b# Minnie!$1",
+"ShaneRosalieSneezeEvent.R1.8": "Why 'Minnie'?",
+"ShaneRosalieSneezeEvent.R1.9": "Her name is Jasmine. Jas-Min... Minnie. #$b# Plus with matching bows, it's like she's a little mini me!$1",
+"ShaneRosalieSneezeEvent.R1.10": "Hmm...$3 #$b# I like it!$1",
+"ShaneRosalieSneezeEvent.R2.1": "I'm sorry, Jas and I were talking and I offered to walk her home. #$b# Though I won't lie, I was curious how different the house looks now.$7",
+"ShaneRosalieSneezeEvent.R2.2": "Well, not much has changed. #$b# I waited for the day I'd see you back here at the ranch.$1 #$b# Now the only difference is the two of you have gotten older.$1",
+"ShaneRosalieSneezeEvent.R2.3": "Aunt Marnie, you're gonna make me cry!$1",
+"ShaneRosalieSneezeEvent.R2.4": "Don't cry, Miss Rosa! It's just a house!$1",
+"ShaneRosalieSneezeEvent.8": "Aunt Marnie, could Miss Rosa stay for dinner with us and @? #$b# Pretty please!$1",
+"ShaneRosalieSneezeEvent.9": "Of course! I'll set up another plate!$1",
+"ShaneRosalieSneezeEvent.10": "Oh, I don't want to impose.$2",
+"ShaneRosalieSneezeEvent.11": "No, no. Stay... We can catch up.$6 #$b# @ can tell you all about how they saved my life.$1",
+"ShaneRosalieSneezeEvent.12": "Yawn! I wanna hear about how you met the Queen of Sauce!$1",
+"ShaneRosalieSneezeEvent.13": "That does sound more interesting.$1 #$b# But before you start, do you still hate cheese on everything except pizza, Rosa?$6",
+"ShaneRosalieSneezeEvent.14": "Pretty much, but—$1",
+"ShaneRosalieSneezeEvent.15": "*AH-CHOO!*",
+"ShaneRosalieSneezeEvent.16": "Bless you.$1",
+"ShaneRosalieSneezeEvent.17": "Rosa, you okay?$2",
+"ShaneRosalieSneezeEvent.18": "Yeah... just...a flare up...$6",
+"ShaneRosalieSneezeEvent.19": "From a sneeze? Oh, Rosa, I didn't know your condition was that bad...$2",
+"ShaneRosalieSneezeEvent.20": "It can be... sometimes...$2 #$b# I'll be fine! The pain will go away... eventually... it just may take a few minutes...$1",
+"ShaneRosalieSneezeEvent.21": "Rosa!$10",
+"ShaneRosalieSneezeEvent.22": "Ow...$6 #$b# Sorry... that was embarrassing...$1 #$b#...$2",
+"ShaneRosalieSneezeEvent.23": "Are you okay, Miss Rosa?$2",
+"ShaneRosalieSneezeEvent.24": "$p {{i18n:ShaneRosalieSneezeEvent.A1}})#Of course, Minnie! I'm fi--$1|Of course, Jas! I'm fi--$1",
+"ShaneRosalieSneezeEvent.25": "Rosa. Don't say you're fine. You're not fine.$5",
+"ShaneRosalieSneezeEvent.Q2": "Rosalie looks like she's on the verge of tears. From embarassment, or pain, or both.",
+"ShaneRosalieSneezeEvent.A3": "Suggest Rosalie lays down.",
+"ShaneRosalieSneezeEvent.A4": "Urge Rosalie to go home.",
+"ShaneRosalieSneezeEvent.A5": "Ask Rosalie how the pain feels on a scale from 1-20.",
+"ShaneRosalieSneezeEvent.R3.1": "@ is right. You should lay down.$3",
+"ShaneRosalieSneezeEvent.R3.2": "You can lay down in Shane's room. I'll bring both of your dinners to you.",
+"ShaneRosalieSneezeEvent.R3.3": "What do you mean my room?",
+"ShaneRosalieSneezeEvent.R3.4": "Huh? What?",
+"ShaneRosalieSneezeEvent.R3.5": "It's more comfortable than the couch, and I'm not allowing our guest to be left alone while she's in pain.$3 #$b# Besides, this way, you two can still catch up.$1",
+"ShaneRosalieSneezeEvent.R3.6": "But I--$2",
+"ShaneRosalieSneezeEvent.R3.7": "No, Marnie's right... It's the same room as when we were kids...$2#$b# Do you need me to carry you or...?$3",
+"ShaneRosalieSneezeEvent.R3.8": "I'd like to see you try, but I can walk... I think...$1",
+"ShaneRosalieSneezeEvent.R3.9": "$p {{i18n:ShaneRosalieSneezeEvent.A1})#There we go...$1 #$b# Sorry about dinner Minnie. I may not be fine now,$3 #$b# But I will be, okay? I promise.$1|There we go...$1 #$b# Sorry about dinner Jas. I may not be fine now,$3 #$b# But I will be, okay? I promise.$1",
+"ShaneRosalieSneezeEvent.R3.10": "Okay. Get well soon, Miss Rosa!",
+"ShaneRosalieSneezeEvent.R4.1": "@ is right. You guys go ahead and eat dinner, I'll catch up.$3 #$b# I'm walking you home, Rosa.",
+"ShaneRosalieSneezeEvent.R4.2": "But I--$2",
+"ShaneRosalieSneezeEvent.R4.3": "Rosa, please... #$b# I'm not gonna risk my goddaughter's new friend collapsing again.$1",
+"ShaneRosalieSneezeEvent.R4.4": "I wanna come too!$2",
+"ShaneRosalieSneezeEvent.R4.5": "But then, who's gonna make sure that @ doesn't eat all the mash potatoes on me? Someone needs to keep watch!$1 #$b# Save me some, okay?$6",
+"ShaneRosalieSneezeEvent.R4.6": "Aw man, I'm missing out on Aunt Marnie's mash potatoes?! I've had dreams about those for twenty years!$8",
+"ShaneRosalieSneezeEvent.R4.7": "I'll bring some with me next time I'm in the saloon.$1",
+"ShaneRosalieSneezeEvent.R4.8": "And you gotta get better real soon so we can watch the next Mortimer Rat Show together!$4",
+"ShaneRosalieSneezeEvent.R4.9": "I wouldn't miss it for the world!",
+"ShaneRosalieSneezeEVent.R4.10": "Take your time. I got you.",
+"ShaneRosalieSneezeEvent.R5.1": "Um... an eleven...$2 #$b# No, maybe thirteen...$3",
+"ShaneRosalieSneezeEvent.R5.2": "Geez, Rosa, that doesn't sound good...$10",
+"ShaneRosalieSneezeEvent.R5.3": "1-20? Why not 1-10?$2",
+"ShaneRosalieSneezeEvent.R5.4": "Rosa's in pain all the time, so her pain tolerance is different than a regular person's. Her ten is different from ours.$3",
+"ShaneRosalieSneezeEvent.R5.5": "Farm Boy, how did you know that?$8",
+"ShaneRosalieSneezeEvent.R5.6": "You explained it in our first week of group therapy.$6 #$b# See? I pay attention sometimes.$1",
+"ShaneRosalieSneezeEvent.R5.7": "Colour me impressed haha--$7 #$b# ow...$6",
+"ShaneRosalieSneezeEvent.R5.8": "Oh dear...why don't you lay down in Shane's room for a little bit?$ #$b# It's right there, same as the summers he stayed here.",
+"ShaneRosalieSneezeEvent.R5.9": "Oh, I couldn't--$2",
+"ShaneRosalieSneezeEvent.R5.10": "Rosa, don't make me carry you.$11",
+"ShaneRosalieSneezeEvent.R5.11": "I'd like to see you try, but I can walk...",
+"ShaneRosalieSneezeEvent.R5.12": "$p {{i18n:ShaneRosalieSneezeEvent.A1})#There we go...$1 #$b# Sorry about dinner Minnie. I may not be fine now,$3 #$b# But I will be, okay? I promise.$1|There we go...$1 #$b# Sorry about dinner Jas. I may not be fine now,$3 #$b# But I will be, okay? I promise.$1",
+"ShaneRosalieSneezeEvent.R5.13": "Get well soon, Miss Rosa!",
+"ShaneRosalieSneezeEvent.26": "Oh dear... I hope the poor thing will be alright...$2",
+"ShaneRosalieSneezeEvent.27": "Well, no sense in us letting dinner go to waste. We should get eating before it gets cold.",
+"ShaneRosalieSneezeEvent.RosalieBed":"$p {{i18n:ShaneRosalieSneezeEvent.A4}}#Despite the earlier events, you, Jas, and Marnie ate a delicious dinner together. Rosalie wasn't well enough to get out of bed before you left, and Shane didn't join, but you could hear laughter from Shane's room. The kind of laughter you could only make with a close friend.",
+"ShaneRosalieSneezeEvent.28": "$p {{i18n:ShaneRosalieSneezeEvent.A4}}#Despite the earlier events, you, Jas, and Marnie ate a delicious dinner together. Shane came by shortly before you left, and let you know that Rosalie was recovering. His cheeks were pink from laughing with his old friend.|Despite the earlier events, you, Jas, and Marnie ate a delicious dinner together. Rosalie wasn't well enough to get out of bed before you left, and Shane didn't join, but you could hear laughter from Shane's room. The kind of laughter you could only make with a close friend.|Despite the earlier events, you, Jas, and Marnie ate a delicious dinner together. Shane came by shortly before you left, and let you know that Rosalie was recovering. His cheeks were pink from laughing with his old friend."
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+

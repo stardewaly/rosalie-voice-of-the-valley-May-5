@@ -1,0 +1,38 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Rosalie": {
+          "DisplayName": "Rosalie",
+          "Gender": "Female",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Shy",
+          "Optimism": "Neutral",
+          "BirthSeason": "spring",
+          "BirthDay": "19",
+          "HomeRegion": "Town",
+          "CanBeRomanced": false, //Until we can get the player stuff done, Flower Dance Does work when changed to true!//
+          "CanVisitIsland": false,
+          "SpouseAdopts": true,
+          "IntroductionsQuest": true,
+          "ItemDeliveryQuests": true,
+          "WinterStarParticipant": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Saloon",
+              "Tile": {
+                "X": 5,
+                "Y": 5
+              },
+              "Direction": "Right"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

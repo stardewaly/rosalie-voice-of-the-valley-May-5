@@ -1,0 +1,158 @@
+{
+
+   //ROSALIE ARRIVES//
+
+   //Rosalie announced, NOT married to player//
+
+   "HarveyRosalieRamp": "I'm so glad that Gus decided to put in a ramp for his niece! #$b# Though, it does make me anxious to think I'll need it one day...$2",
+
+   /*
+Rosalie Here, NOT married to Player*/
+"HarveyRosalieArrivalCT": "You can leave my lunch over there, Maru...$3 #$b#%You probably shouldn't bother Harvey again. #$e# Huh?! What?!$8 #$b# Oh, it's you, @! #$b# I'm sorry, I'm... very busy preparing things for my new patient...$s #$e#%Harvey seems to be focused on something.",
+
+/*Rosalie Here, MARRIED to PLAYER*/
+"RosalieArrivalCTMarried": "$query PLAYER_NPC_RELATIONSHIP current any married roommate#%Harvey seems to be so deep in thought, he doesn't notice you're there.",
+"RosalieArrivalCTMarried2": "$query PLAYER_NPC_RELATIONSHIP current any married roommate#Hi sweetheart, #$b# I'm sorry I've been spacing out a lot since the new patient came to town.$s #$b# I've just been bothered by something lately...$7 #$b# $y 'Is it about her case?_That's part of it, I won't lie! You know me so well!$h_What's wrong with her?_Your choice of phrasing leaves much to be desired,@.$5_Harvey, you can tell me anything!_I know, that's what I love about us.$4 #$b# But I can't tell you anything about her medical history._Anything I can help with?_No, but thank you my love.$1' #$b# I just feel like I've met Rosalie before, but I'm unsure where.$2",
+
+
+/*Rosalie Flare Up CT*/
+"stardewaly.rosalie_FlareUpCT": "{{i18n:Harvey.Flareup_{{ Random: 1, 2 }} }}",
+
+
+
+
+//Random ROsalie Dialogue
+   "HarveyOnRosalie1": "Rosalie has been making great progress lately. #$b# She's starting to open up more, which is wonderful to see.$h",
+          "HarveyOnRosalie2": "You know, sometimes all it takes is a friendly face to help someone feel comfortable. #$b# Thank you for being there for Rosalie.$2",
+          "HarveyOnRosalie3": "Have you met Gus' niece, Rosalie? #$b# Her aesthetic is... quite unique, huh?$h #$e#%Harvey adjusts his tie, his cheeks slightly flushed.",
+          "HarveyOnRosalie4": "It's important for Rosalie to have friends like you. #$b# Social connections are vital for mental health.$2",
+          "HarveyOnRosalie5": "I usually take the mornings after opening the clinic to organize my paperwork, #$b# But Rosalie is my one exception. #$e# It's nice having a friendly face to see first thing in the morning...",
+
+
+//2 Hearts//
+
+"HarveyOnRosalie2Hearts1": "It may be strange, or even unconventional, but I do worry for my patients. #$b# Someone Rosalie's age shouldn't be here as often as she is...$s",
+          "HarveyOnRosalie2Hearts2": "Rosalie has been dropping off coffee for me for some mornings. #$b# It's a small gesture, but it means a lot. And it means she can leave the house.$h",
+         
+
+//4 Hearts//
+
+          "HarveyOnRosalie4Hearts1": "You know, Rose was a bit shy to me at first, but I like to consider her to be a friend now.$h #$e#%Harvey smiles warmly.",
+             "HarveyOnRosalie4Hearts2": "I think Rosalie is starting to trust me more. #$b# Building that trust is crucial for her recovery.$h",
+          "HarveyOnRosalie4Hearts3": "Have you seen Rosalie around lately? #$b# She's been looking a bit brighter these days.$h",
+
+
+    //6 Hearts//
+          "HarveyOnRosalie6Hearts1": "Rose has been dropping off coffee for me a lot lately, even when she doesn't have appointments.$h #$e# Do... Do you think it means anything?$7",
+          "HarveyOnRosalie6Hearts2": "You know, I tried to encourage Rose to come to aerobics class with me... #$b# She... didn't seem too interested.$s",
+
+          //8 Hearts (player NOT dating Harvey, HARVEY CRUSH)//
+          "HarveyOnRosalie8Hearts1": "Rose seems to be doing much better lately. #$b# I think having friends like you has really helped her.$h",
+            "HarveyOnRosalie8Hearts2": "Rose has been flaring up less lately!$h #$b# It's not perminent, but I like to think positively.$h",
+            "HarveyOnRosalie8Hearts3": "You know... Rose has always reminded me of those vintage pin-up models next to the planes. #$b# There's something... timeless about her style.$h #$b#%Harvey sighs dreamily.",
+            "HarveyOnRosalie8Hearts4": "Rose invited me to go to the War Plane Museum with her sometime...#$b# Do you... Do you think... it's a date?$7",
+            "HarveyOnRosalie8Hearts5": "%Harvey doesn't notice you as he hums a 1940s ballad to himself.",
+
+
+
+
+
+
+//added//
+
+"winter_Sat": "I hope Rose is doing okay in this cold...$s",
+
+
+//CONVERSATION TOPICS//
+
+//ROSALIES EVENT CT//
+"Harvey.RosalieGeorgeWCCT": "$p RosalieGeorgeWC3#I didn't tell Rosalie what you said. But I hope Gus changed your mind.$a|I tried to call to see how Rosalie was doing after last night...$s #$b#She says she's fine, but I'm not sure I believe her...$s",
+"Harvey.RosaliesFlareUpCT": "I think that the fact that Rosalie is going through a divroce isn't a bad thing at all. #$b# It was very brave of her to leave a relationship that wasn't serving her. Especilaly a toxic one at that.$s #$e# His behaviour speaks more for him than it does for her. I'm glad she sought help in her family, and myself.$s #$e# Sometimes two people aren't meant to be together.$s #$b# Now that Rose and I have gotten close enough for her to open up, I'm amazed at how much patience and resilience she had because she loved him so much, and still manage to stay kind. #$e# I hope... I hope she finds someone who wouldn't take that for granted...$2 #$e# I wouldn't… $b",
+
+
+
+//ROSALIE x SHANE//
+
+
+//Rosalies Ribbon Event CT//
+          "Harvey.RosaliesRibbonCT1": "I never would have suspected Rose and Shane would become friends, #$b# But the two make an interesting pair!",
+          "Harvey.RosaliesRibbonCT2": "Rose and Shane seem to be really close. It's wonderful that they are able to find comfort in each other.",
+
+
+
+
+
+//DREAMS AND DISASTERS CT//
+"Harvey.DreamsAndDisastersCT1": "Rosalie hasn't been visiting me as often for my morning coffee...$2 #$b# I'll admit, I'm a little jealous of Shane's friendship with her.$2",
+
+
+
+
+
+
+
+//VANILLA DO NOT CHANGE!!!//
+
+"Harvey.Introduction": "It's a pleasure to meet you. I'm Harvey, the local doctor.#$e#I perform regular check-ups and medical procedures for all the residents of Pelican Town. It's rewarding work.#$e#I hope you'll find your own work equally rewarding, in time.$h",
+"Harvey.AcceptBirthdayGift_Positive": "Oh! Thank you very much! I didn't expect anyone to know it was my birthday today.$h",
+"Harvey.AcceptBirthdayGift_Negative": "Oh! It's a... well, it's something. I didn't expect anyone to know it was my birthday today.",
+"Harvey.AcceptGift(O)StardropTea": "You're giving me this? I'm honored. Thank you!",
+"Harvey.FlowerDance_Accept": "Oh! You... want to dance with me?$4#$b#...Yes. I'd love to!$h",
+"Harvey.GreenRain": "I brought some medical supplies, just in case. Be careful out there!",
+"Harvey.GreenRain_2": "The first time this happened, we were all worried that the rain might be dangerous.#$b#But what if it's actually healthy for the body? Who knows... The plants seem to respond well to it, at least.",
+"Harvey.AcceptGift(O)432": "It's for me? Thank you! This will be fantastic drizzled on some pasta.$h",
+"Harvey.AcceptGift(O)348": "For me? What a gift! This looks fantastic!$h#$b#You know, on a physiological level, I wouldn't advise the consumption of alcohol...#$b#But there's no denying the benefit of kicking back and enjoying a glass of fine Stardew Valley wine!$h",
+"Harvey.eventSeen_56_memory_fourweeks": "I've been working on an 'animal checklist' for a few years now. I want to observe every species living in the valley!",
+"Harvey.eventSeen_56_memory_twoweeks": "I tried making my own pickles one time...$s#$e#Um, let me put it this way... The frogs we dissected in high school smelled like roses in comparison...",
+"Harvey.eventSeen_56": "As a small town doctor, you can't help but form a personal connection with your patients. That can be both good and bad...",
+"Harvey.eventSeen_58_memory_oneweek": "Well now that you know my secret, I might as well give you an update... I was significantly less winded after aerobics class this week!",
+"Harvey.eventSeen_58_memory_twoweeks": "I got such a good workout during aerobics class, I think I can treat myself to some pasta primavera tonight...$h",
+"Harvey.eventSeen_58_memory_fourweeks": "I don't know why I was ashamed about being in dance aerobics class. My legs have become so strong, I should feel as bold as a lion!",
+"Harvey.eventSeen_571102_memory": "I've never told anyone about my airplane hobby before... I guess I just feel comfortable talking to you.",
+"Harvey.eventSeen_571102_memory_oneweek": "As a doctor, you can only do so much to help your patients...#$e#I've made the mistake of getting too emotionally involved in the past... I won't let that happen again...$s",
+"Harvey.dating_Harvey": "I've never felt like this before...$l",
+"Harvey.dating_Harvey_memory_oneday": "I've been thinking about you so much, I can hardly do my work.$l",
+"Harvey.dating_Maru_memory_oneday": "Maru's been unusually cheerful lately... I hear you may have something to do with that.",
+"Harvey.married_Maru": "Congratulations on your marriage, @. Maru's already informed me that she'll continue to work at the clinic, which is a relief!",
+"Harvey.married_Harvey": "This is the happiest moment of my life...$l",
+"Harvey.Resort_Entering": "Sunscreen? Check...#$b#Sun hat? Check...",
+"Harvey.Resort_Leaving": "If you get burnt, a little aloe vera cream might help soothe the skin.",
+"Harvey.Resort_Shore": "I combed the whole beach for glass. We wouldn't want anyone to get a cut on their foot!",
+"Harvey.Resort_Chair": "It's nice to have an opportunity to relax now and then.#$b#The trouble is actually letting go of your worries...$s",
+"Harvey.Resort_Bar": "It's important to stay hydrated in this heat. I'm going to ask Gus if he has any coconut water!$h",
+"Harvey.Resort": "I'll let you in on a little secret... I can only swim with floaties.$s",
+"Harvey.FlowerDance_Accept_Spouse": "I've been looking forward to it all afternoon! You look radiant in the fresh spring air, my love.$l",
+"Harvey.FlowerDance_Decline": "Oh! I'm sorry... I, er... have plans to ask someone else.$s",
+"Harvey.divorced": "I... I can't look at you. Please spare me any more pain.$s",
+"Harvey.breakUp": "...Y...You...?$s#$b#*gulp*... I... I think I'm going to be sick...$s",
+"Harvey.dumped_Guys": "I'm busy with my work. I can't speak to you.$s",
+"Harvey.secondChance_Guys": "I want you back in my life, @. I'm willing to forget what happened.$s",
+"Harvey.Mon": "We sell a few over-the-counter medicines at the clinic... feel free to stop by if you're feeling exhausted.#$b#I know that being a farmer is pretty tiring work... don't overdo it!",
+"Harvey.Mon2": "I feel responsible for the health of this whole community... it's kind of stressful.#$e#It's a pretty small community, and I'm fortunate to be able to build a good relationship with my patients.",
+"Harvey.Mon6": "I'd like to stay in Stardew Valley for a while. I'm finally starting to feel involved in the community.#$e#It feels good to know that you're useful.",
+"Harvey.Mon10": "Oh! Hi, @.$l#$e#Do you... have any medical questions?$l",
+"Harvey.Tue": "Feel free to stop by my office if you're ever feeling ill.#$e#You're young, though. You'll probably stay healthy without trying.$h",
+"Harvey.Tue8": "$query PLAYER_NPC_RELATIONSHIP current any married roommate#Don't overwork yourself, @. Doctor's orders!#$e#If our farmers get sick, where will we get our food? We need you!$h|Don't overwork yourself, @. Doctor's orders!#$e#Your health is important to me.$l",
+"Harvey.Wed4": "I'd like to get to know you better, @. Let's put aside our doctor-patient relationship.",
+"Harvey.Wed6": "It's nice to have a friend in town.$h",
+"Harvey.Wed8": "You have a really healthy glow. That's good.$h",
+"Harvey.Wed": "Remember to cover your mouth when you sneeze.#$e#Then make sure to wash your hands.",
+"Harvey.Thu8": "$query PLAYER_NPC_RELATIONSHIP current any married roommate#As a doctor, I'm well aware of the benefits of home-cooked food. But I'm so busy, I have a hard time bringing myself to cook.$s|It's a lot of work, being a doctor. I don't eat as well as I should.$s#$e#If I didn't live alone I think it would be easier.$l",
+"Harvey.Thu": "Nutrition is important, so make sure and eat well. Try to increase your vegetable intake!#$e#Home-cooked meals are best. Do you cook?",
+"Harvey.Fri": "It's a beautiful day, isn't it?#$e#I wish I had less work to do.$s",
+"Harvey.Fri4": "If you want to hang out in my apartment, that's okay with me. I live above the clinic.",
+"Harvey.Fri10": "Stop by my place if you ever need a confidential check-up.$l",
+"Harvey.Sat": "Can I do anything for you?#$e#Take care.",
+"Harvey.Sat4": "I came here because I liked the small-town atmosphere, and the potential for a holistic approach to patient care.#$e#I've grown to really love it.$h",
+"Harvey.Sat10": "*Sigh*... I'm starting to feel kind of old...#$e#The older you get the more memories you're burdened with. It can be overwhelming.$s#$e#I think I'll stay younger with you around.$l",
+"Harvey.Sun": "Hmm... I'm struggling to make ends meet. I don't have enough patients.#$e#I guess I should try to get patients from the neighboring towns...",
+"Harvey.Sun6": "Imagine having a patient's life completely in your hands, and failing to keep them alive... that's something that will haunt you forever.$s",
+"Harvey.summer_Mon": "It's okay to get a moderate amount of sunlight. Just don't get burnt.#$e#Okay. Take care! Stay healthy.",
+"Harvey.summer_Thu": "Exercise is important, but don't get too exhausted, or you might end up at my clinic!#$e#Make sure and listen to your body.",
+"Harvey.summer_Fri": "People don't get sick much during the summer. That's nice, but it also means less business for me.",
+"Harvey.fall_Fri": "Have you been going into the mines, @?#$e#It's a dangerous place. I recommend against it.",
+"Harvey.fall_Sat": "When you eat certain foods you'll perform better.#$e#Eating a 'Farmer's Lunch' will give you the nutrition you need to water and harvest crops better!",
+"Harvey.winter_Wed": "It's flu season, so you'd better be extra careful.#$e#Make sure to wash your hands often.",
+"Harvey.winter_Sun": "I hate to say this, but I do make a lot more money during flu season.#$e#I guess if people stopped getting sick, I'd be out of business.#$e#Don't get the wrong idea! I want people to be healthy... really!",
+
+}

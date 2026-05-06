@@ -1,0 +1,24 @@
+{
+
+"Jas.RosaliesRibbon.Letter":"Hi, @! ^ Miss Penny was teaching us how two rite a letter. I wanna write one to you! ^ Miss Penny said I can write about anything I wanna talk about. ^ I had eggs for brekfast. Uncle Shane and Marnie arnt talking much still... and there's a really pretty girl in town, and she has the most pretty ribbon I ever seen! ^ It's all red and white and I want one too! But I dont know where she got one, I don't wanna ask Uncle Shane and Aunt Marnie to ask her, and I'm not suppost to talk to strainjers. ^ Anyway, I gotta get ready for a tea party or Ill be late! Bye! ^ -Jas",    
+
+"Jas.RosaliesRibbon.title": "Rosalie's Ribbon For Jas",
+"Jas.RosaliesRibbon.info": "Jas thinks Rosalie has great taste in hair accessories. But she's afraid to ask Shane or Marnie to ask about it.",
+"Jas.RosaliesRibbon.hint": "Talk to Rosalie and see if she can tell you where she got it!",
+"Jas.RosaliesRibbon.reaction": "Wow! Really?! She let me keep it?!$3#$b# Thank you so much, @!!$1",
+
+"RosaliesRibbonForJas.RosalieDialogue": "Aww, the cute little girl with the green bow liked my ribbon?$1 #$b# Here, she can have it! #$b# Don't worry! I'm like a cartoon character, I got plenty at home!$9 #$action AddItem stardewaly.rosalie_RosaliesRibbon 1 #$e#",
+
+
+
+
+"RosaliesMushroomQuest.Letter": "Hey @, ^ I heard from Marnie that you go into the mines quite a bit and I have a bit of a favour to ask. If you're too busy I totally understand, but I told my siblings as a kid that I once saw a purple mushroom somewhere in the mines, and they didn't believe me. ^ If you happen across any purple mushrooms in your travels, can you please save one for me so I can rub it in their faces? ^ Not literally, but, you know... ^ Don't worry, I'm good for it! ^ Thank you. ^ Rosalie",
+
+"RosaliesMushroomQuest.title": "A Legendary Mushroom for Rosalie",
+"RosaliesMushroomQuest.info": "Rosalie once saw a purple mushroom near the mines as a kid, and she wants to prove her siblings wrong of their existance in the valley.",
+"RosaliesMushroomQuest.hint": "Find a purple mushroom in the caves and bring it to Rosalie",
+"RosaliesMushroomQuest.reaction": "Wow! I was right!$8 #$b# I can't wait to videochat my brother and sister and prove them wrong!#$b#Thank you for your help, @!$1 #$e# Since I either remember everything, or nothing, it can be hard when your siblings don't understand.$2 #$b# I doubt they even remember this conversation about the mushroom, to be honest, but the point is, I can prove them wrong.$9"
+
+
+
+}

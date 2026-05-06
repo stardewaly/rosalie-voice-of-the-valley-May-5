@@ -1,0 +1,65 @@
+{
+  "Changes": [
+
+    
+//SCHEDULE KEYS
+
+//SHANE IS IN THERAPY
+      {
+         "Action": "EditData",
+         "Target": "Spiderbuttons.CustomScheduleKeys/ScheduleKeys",
+         "Entries": {
+            "ExampleKey": {
+               "Id": "Shane In Therapy Key",
+               "ScheduleKey": "stardewaly.rosalie_ShaneTherapy",
+               "Priority": "Early",
+               "Condition": "PLAYER_HAS_SEEN_EVENT 2118991 Current"
+            }
+         }
+      },
+
+      //SHANE AND ROSALIE ARE BESTIES AGAIN
+            {
+         "Action": "EditData",
+         "Target": "Spiderbuttons.CustomScheduleKeys/ScheduleKeys",
+         "Entries": {
+            "ExampleKey": {
+               "Id": "Shane x Rosalie Schedule - Besties",
+               "ScheduleKey": "stardewaly.rosalie_RosaliexShane.ShaneBFF",
+               "Priority": "Early",
+               "Condition": "PLAYER_HAS_SEEN_EVENT stardewaly.rosalie_RosaliesSneezeEvent Current"
+            }
+         }
+      },
+
+
+      //Schedule Itself
+      
+      {
+         "Action": "EditData",
+         "Target": "Characters/schedules/Shane",
+         "Entries": {
+            "{{ModId}}_RosaliexShane.ShaneBFF": "700 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1450 Forest 94 23 3/1800 Saloon 9 18 1/2300 AnimalShop 27 4 1 shane_sleep",
+        
+            "{{ModId}}_ShaneTherapy": "800 BusStop 19 11 2/1200 JojaMart 21 16 2 shane_work/1430 JojaMart 25 12 2 shane_work/1530 JojaMart 17 12 2 shane_work/1630 JojaMart 7 25 1/1700 Saloon 21 17 2 shane_drink/2300 AnimalShop 27 4 1 shane_sleep",
+
+            "Mon": "{{ModId}}_ShaneTherapy",
+
+            "spring_Mon": "{{ModId}}_ShaneTherapy",
+            "summer_Mon": "{{ModId}}_ShaneTherapy",
+            "fall_Mon": "{{ModId}}_ShaneTherapy",
+            "winter_Mon": "{{ModId}}_ShaneTherapy",
+            
+            "Normal_Sun": "{{ModId}}_RosaliexShane.ShaneBFF"
+        
+        }
+      }
+   ]
+    }
+
+
+
+//Time MapName Xcoord Ycoord Facing Animation StringDialogue//
+
+
+//Facing Animation: 0 = Up, 1 = Right, 2 = Down, 3 = Left//

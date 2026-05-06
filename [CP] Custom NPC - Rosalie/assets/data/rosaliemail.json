@@ -1,0 +1,452 @@
+{
+
+    "Changes": [
+
+
+          //**Actual Mail**//
+
+    {
+      "LogName": "Rosalie Actual Mail",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "stardewaly.rosalie_SaloonRampMail": "{{i18n:SaloonRampMail}}-%item conversationTopic stardewaly.rosalie_RosalieRamp 1 %%[#]A Family Matter - Gus",
+        "stardewaly.rosalie_WelcomeRosalieMail": "{{i18n:WelcomeRosalieMail}}-%item conversationTopic stardewaly.rosalie_NPCRosalieArrivalCT 7 %%[#]A New Resident - Mayor Lewis",
+        "{{ModId}}_RosaliesQuestLetter":"{{i18n:RosaliesMushroomQuest.Letter}}-%item quest RosaliesMushroomQuest true %%[#]A Quest from Rosalie",
+        "stardewaly.rosalie_VOTVInvite": "{{i18n:VoiceOfTheValleyLive.Invite}}-%item conversationTopic {{ModId}}_VoiceOfTheValleyLive 4 %%[#]Voice Of The Valley Invite",
+        
+        //Shane x Rosalie Mail
+        "stardewaly.rosalie_Jas.RosaliesRibbon.Quest": "{{i18n:Jas.RosaliesRibbon.Letter}}-%item quest Jas.RosaliesRibbon.Quest true %%%action Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_Rosalie \"{{i18n:RosaliesRibbonForJas.RosalieDialogue}}\" true %%[#]A Quest from Jas"
+
+      }
+    },
+
+    /* NOTE:(Works with MailFlag put into Appearences in content.json, did not see if CTs worked as was not implemented yet in dialogue)*/
+    /* these should probably be performed some other way*/
+
+
+    {
+      "LogName": "Rosalie Mail Flags",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "stardewaly.rosalie_RosalieWCFlag": "%action Spiderbuttons.BETAS_UpdateAppearance {{ModId}}_Rosalie {{ModId}}_Rosalie_WC %%",
+        "stardewaly.rosalie_RosalieFlareUpFlag": "%action AddConversationTopic stardewaly.rosalie_FlareupCT 1 %%",
+        
+        //Shane x Rosalie Trigger
+        "stardewaly.rosalie_ShaneRosalieTherapy": "%action AddConversationTopic {{ModId}}_ShaneRosalieTherapyCT 5 %%"
+      }
+    },
+
+
+    //**Trigger Actions**//
+
+    {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+
+		"{{ModId}}_JasQuestforRosaliesRibbonDialogue": {
+			"Id": "Jas Quest Dialogue",
+			"Trigger": "Spiderbuttons.BETAS_MailReceived",
+			"Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Jas.RosaliesRibbon.Quest",
+			"Action": "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_Rosalie \"{{i18n:RosaliesRibbonForJas.RosalieDialogue}}\" true"
+		},
+    
+		"{{ModId}}_JasQuestforRosaliesRibbonDialogue_Safety": {
+			"Id": "Jas Quest Dialogue Safety Net",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Jas.RosaliesRibbon.Quest Received\"\\\"!PLAYER_HAS_ITEM Current {{ModId}}_RosaliesRibbon 1", //let's see if this works with three slashes?
+			"Action": "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_Rosalie \"{{i18n:RosaliesRibbonForJas.RosalieDialogue}}\" true"
+		},
+
+
+
+
+  
+
+        //MAIL TRIGGERS
+
+        "{{ModId}}_RosalieIsComing.SaloonDelayMail": {
+          "Id": "{{ModId}}_RosalieIsComing.SaloonDelayMail",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HEARTS Current Gus 1",
+          "Action": "AddMail Current stardewaly.rosalie_SaloonRampMail now"
+        },
+
+        "{{ModId}}_RosalieIsComing.RampEventCT": {
+          "Id": "RosalieIsComingCT",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HAS_MAIL Current stardewaly.rosalie_SaloonRampMail",
+          "Action": "AddConversationTopic stardewaly.rosalie_RosalieRamp 1"
+        },
+
+        "{{ModId}}_RosalieWelcomeMailArrival": {
+          "Id": "Welcome Rosalie Mail - She's Here!",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosalieRampEvent",
+          "Actions": [
+            "AddMail Current stardewaly.rosalie_WelcomeRosalieMail now",
+            "RemoveConversationTopic stardewaly.rosalie_RosalieRamp"
+          ]
+        },
+
+        "{{ModId}}_VoiceOfTheValleyInvite":
+        {
+          "Id": "Voice Of The Valley Invite",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HEARTS Current {{ModId}}_Rosalie 8",
+          "Actions": [
+            "AddMail Current {{ModId}}_VOTVInvite now"
+          ]
+          },
+
+          
+
+//NOT ACTUAL MAIL        
+        "{{ModId}}_NPCRosalieArrivalCT": {
+          "Id": "NPCs on Rosalie's Arrival Conversation Topic",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HAS_MAIL Current stardewaly.rosalie_WelcomeRosalieMail",
+          "Actions": [
+            "AddConversationTopic stardewaly.rosalie_NPCRosalieArrivalCT 7",
+            "RemoveConversationTopic stardewaly.rosalie_RosalieRamp"
+          ]
+        }      
+
+
+
+
+
+/*
+
+		//Wheelchair
+        "{{ModId}}_RosalieWheelchairFlagSent": {
+          "Id": "{{ModId}}_RosalieWheelchairFlagSent",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HEARTS Current stardewaly.rosalie_Rosalie 3",
+          "Action": "AddMail Current stardewaly.rosalie_RosalieWCFlag now"
+        },
+
+        "{{ModId}}_RosalieWCFirstTimeCT": {
+          "Id": "{{ModId}}_RosalieWCFirstTimeCT",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HAS_MAIL Current stardewaly.rosalie_RosalieWCFlag Received",
+          "Action": "AddConversationTopic stardewaly.rosalie_WCFirstTimeCT 4"
+        },
+
+        "{{ModId}}_RosalieFirstWCRemoved": {
+          "Id": "{{ModId}}_RosalieFirstWCRemoved",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_Rosalie3HeartEvent",
+          "Actions": [
+            "AddConversationTopic stardewaly.rosalie_RosalieGeorgeWCCT 4",
+            "RemoveConversationTopic stardewaly.rosalie_WCFirstTimeCT",
+            "RemoveMail Current {{ModId}}_RosalieWCFlag all"
+          ]
+        },
+
+        "{{ModId}}_RosalieWCUseRepeater": {
+          "Id": "{{ModId}}_RosalieWCUseRepeater",
+          "Trigger": "DayEnding",
+          "Conditions": "RANDOM 0.2\"\"PLAYER_HAS_SEEN_EVENT Current {{ModId}}_Rosalie3HeartEvent\"\"PLAYER_HEARTS {{ModId}}_Rosalie 6",
+          "Actions": [
+            "AddMail Current stardewaly.rosalie_RosalieWCFlag Received",
+            "MarkActionApplied Current stardewaly.rosalie_RosalieWCFlag true"
+          ]
+        },
+        "{{ModId}}_WCDoneTrigger": {
+          "Id": "{{ModId}}_WCDoneTrigger",
+          "Trigger": "DayEnding",
+          "Conditions": [
+            "Spiderbuttons.BETAS_MailRecieved {{ModId}}_RosalieWCFlag",
+            "RANDOM 0.9"
+          ],
+          "Actions": [
+            "AddMail Current stardewaly.rosalie_RosalieWCFlag Received",
+            "MarkActionApplied Current stardewaly.rosalie_RosalieWCFlag false"
+          ]
+        },
+        "{{ModId}}_FlareUpDayTrigger": {
+          "Id": "{{ModId}}_FlareUpDayTrigger",
+          "Trigger": "DayStarted",
+          "Condition": "RANDOM 0.5",
+          "Actions": [
+            "AddMail Current stardewaly.rosalie_RosalieFlareUpFlag Received",
+            "MarkActionApplied Current stardewaly.rosalie_RosalieFlareUpFlag false"
+          ]
+        }, 
+        "{{ModId}}_FlareUpDayDoneTrigger": {
+          "Id": "{{ModId}}_FlareUpDayDoneTrigger",
+          "Trigger": "DayEnding",
+          "Conditions": [
+            "Spiderbuttons.BETAS_MailRecieved {{ModId}}_RosalieFlareUpFlag",
+            "RANDOM 0.3"
+          ],
+          "Actions": [
+            "AddMail Current stardewaly.rosalie_RosalieFlareUpFlag Received",
+            "MarkActionApplied Current stardewaly.rosalie_RosalieFlareUpFlag false"
+          ]
+        }*/
+      }
+    }	
+    ]
+  }
+	
+	
+	
+	
+	
+	/*
+    [
+
+		//**Trigger Actions**/
+
+		/* NOTE: This is for Rosalie being invisible untilt he ramp event, only worke dfor one day, need to try something else N4N (Feb 28)
+
+		{
+			  "Action": "EditData",
+			  "Target": "Data/TriggerActions",
+			  "Entries": {
+				"Rosalie's Not Here Mrs Torrence": {
+				  "Id": "RosalieNotHereMrsTorrence",
+				  "Trigger": "DayStarted",
+				  "Condition": "!PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RampEvent",//after ramp event, not just when original letter is recieved
+				  "Action": "SetNPCInvisible stardewaly.rosalie_Rosalie 1"//Rosalie is invisible only for one day, needs somehting else
+				}
+			  }
+		
+		},*/ /*
+
+
+
+
+		        {
+	"Action": "EditData",
+	"Target": "Data/TriggerActions",
+	"Entries": {
+		"Rosalie's Coming - Saloon Delay Mail": {
+			"Id": "Rosalie Is Coming Mail Trigger - Saloon Delay",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HEARTS Current Gus 1",//change this after, this is so it triggers at the same time as the Ramp Event
+			"Action": "AddMail Current stardewaly.rosalie_SaloonRampMail"//Mail delivered at night
+                  
+        }
+    		}
+		},
+
+
+
+        {
+	"Action": "EditData",
+	"Target": "Data/TriggerActions",
+	"Entries": {
+		"Rosalie's Coming - Ramp Event CT": {
+			"Id": "RosalieIsComingCT",
+			"Trigger": "DayStarted",
+			"Condition": "PLAYER_HAS_MAIL Current stardewaly.rosalie_SaloonRampMail",//Triggers when mail is recieved
+			"Action": "AddConversationTopic stardewaly.rosalie_RosalieRamp 1"//CT about Rosalie coming to town
+                  
+        }
+    		}
+		},
+
+
+        {
+	"Action": "EditData",
+	"Target": "Data/TriggerActions",
+	"Entries": {
+		"Rosalie's Welcome Mail": {
+			"Id": "Rosalie's_Here_MailTrigger",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_RosalieRampEvent",//after ramp event, not just when original letter is recieved
+			"Actions": [
+				"AddMail Current stardewaly.rosalie_WelcomeRosalieMail now",
+				"SetNPCVisible stardewaly.rosalie_Rosalie"//ROSALIE BECOMING VISIBLE (NOT INVISIBLE YET AS COULDN'T GET IT TO WOKR FEB 28)
+			]
+                  
+        }
+    }
+},
+
+
+        {
+	"Action": "EditData",
+	"Target": "Data/TriggerActions",
+	"Entries": {
+		"Rosalie's Here CT": {
+			"Id": "RosalieArrivalCT",
+			"Trigger": "Spiderbuttons.BETAS_MailReceived",//this is for when mail is recieved, but may want to put for DayStarted instead
+			"Condition": "PLAYER_HAS_MAIL Current stardewaly.rosalie_WelcomeRosalieMail",
+			"Actions": [
+				"AddConversationTopic stardewaly.rosalie_NPCRosalieArrivalCT 7",
+				"RemoveConversationTopic stardewaly.rosalie_RosalieRamp"
+			]
+		}
+	}
+},
+
+//Rosalie's WC Event (3 Hearts) FLAGS 
+
+// NOTE:(Works with MailFlag put into Appearences in content.json, did not see if CTs worked as was not implemented yet in dialogue)
+
+        	{ 
+
+	        "LogName": "Rosalie WC First Time CT Flag",
+        "Action": "EditData",
+        "Target": "Data/mail",
+		"Entries": {
+             "stardewaly.rosalie_RosalieWCFlag": "%action Spiderbuttons.BETAS_UpdateAppearance {{ModId}}_Rosalie {{ModId}}_Rosalie_WC %%" 
+			 }
+			},
+
+		
+
+			        {
+	"Action": "EditData",
+	"Target": "Data/TriggerActions",
+	"Entries": {
+		"Rosalie's Wheelchair Flag Sent": {
+			"Id": "RosalieWCFlag Send - First One",
+			"Trigger": "DayEnding",//sends mail at end of day when reaches 3 hearts with Rosalie
+			"Condition": "PLAYER_HEARTS Current stardewaly.rosalie_Rosalie 3",
+			"Action": 
+				"AddMail Current stardewaly.rosalie_RosalieWCFlag now"
+				
+			
+		},
+			//When Flag is delievered, adding CT (MAY NOT BE NECESSARY IF FLAG WORKS FOR CT)
+
+		"Rosalie's First Wheelchair CT Trigger": {
+			"Id": "RosalieWCFirstTimeCT",
+			"Trigger": "DayStarted",
+			"Condition": "PLAYER_HAS_MAIL Current stardewaly.rosalie_RosalieWCFlag Received",
+			"Action": "AddConversationTopic stardewaly.rosalie_WCFirstTimeCT 4"
+		}
+	}
+},
+
+		//When WC Event is seen, adding After Event CT, Removing First Time, Removing Mail for First Time
+        {
+	"Action": "EditData",
+	"Target": "Data/TriggerActions",
+	"Entries": {
+		"Rosalie's Wheelchair - First Time - Event Seen": {
+			"Id": "RosalieFirstWCRemoved",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_Rosalie3HeartEvent",
+			"Actions": [
+				"AddConversationTopic stardewaly.rosalie_RosalieGeorgeWCCT 4",
+				"RemoveConversationTopic stardewaly.rosalie_WCFirstTimeCT",
+				"RemoveMail Current {{ModId}}_RosalieWCFlag all"
+				
+			]
+		}
+	}
+},
+
+//When WC Event is seen, randomizing flag for WC to be used (NOT the first time) **TESTED NOT WORKING, MAY TRY **
+
+
+			//Send Flag if seen event, Random 20%, and if Hearts are over 6
+        		        {
+	"Action": "EditData",
+	"Target": "Data/TriggerActions",
+	"Entries": {
+		"Rosalie's Using WC - Flag": {
+			"Id": "RosalieWCUseRepeater",
+			"Trigger": "DayEnding",
+			"Conditions": "RANDOM 0.2\"\"PLAYER_HAS_SEEN_EVENT Current {{ModId}}_Rosalie3HeartEvent\"\"PLAYER_HEARTS {{ModId}}_Rosalie 6",//20% chance to trigger each day, can change to be more or less likely
+			"Actions": ["AddMail Current stardewaly.rosalie_RosalieWCFlag Received",
+                  "MarkActionApplied Current stardewaly.rosalie_RosalieWCFlag false"
+    ]
+                  
+                  
+        },
+
+		//Repeater for WC Use 
+          "Rosalie's WC Done - Flag":{
+            "Id": "WCDoneTrigger",
+            "Trigger": "DayEnding",
+            "Conditions": ["Spiderbuttons.BETAS_MailRecieved {{ModId}}_RosalieWCFlag", "RANDOM 0.9"],
+            "Actions": [ 
+				"AddMail Current stardewaly.rosalie_RosalieWCFlag Received",
+            	"MarkActionApplied Current stardewaly.rosalie_RosalieWCFlag false"
+
+            ]
+
+        }
+
+        }
+		},
+
+
+
+
+
+
+ //FLARE UP FLAGS (changes her schedule, adds CT, NEED TO ADD SPRITE CHANGE IN APPEARANCE IN CONTENT ONCE THOSE ARE DONE)
+        	{
+
+	        "LogName": "Rosalie Flare Up Mail",
+        "Action": "EditData",
+        "Target": "Data/mail",
+		"Entries": {
+             "stardewaly.rosalie_RosalieFlareUpFlag": "%action AddConversationTopic stardewaly.rosalie_FlareupCT 1%% " 
+
+}
+},
+
+        		        {
+	"Action": "EditData",
+	"Target": "Data/TriggerActions",
+	"Entries": {
+		"Rosalie's In Pain - Flag": {
+			"Id": "FlareUpDayTrigger",
+			"Trigger": "DayStarted",
+			"Condition": "RANDOM 0.5",//50% chance to trigger each day, can change to be more or less likely
+			"Actions": ["AddMail Current stardewaly.rosalie_RosalieFlareUpFlag Received",
+                  "MarkActionApplied Current stardewaly.rosalie_RosalieFlareUpFlag false"
+    ]
+                  //Mail delivered at night
+
+                  
+                  
+        },
+
+          "Rosalie's Flare Up Done - Flag":{
+            "Id": "FlareUpDayDoneTrigger",
+            "Trigger": "DayEnding",
+            "Conditions": ["Spiderbuttons.BETAS_MailRecieved {{ModId}}_RosalieFlareUpFlag", "RANDOM 0.3"],
+            "Actions": [ "AddMail Current stardewaly.rosalie_RosalieFlareUpFlag Received",
+            "MarkActionApplied Current stardewaly.rosalie_RosalieFlareUpFlag false"
+
+            ]
+
+        }
+
+        }
+		},
+
+
+  /*Actual Mail*/
+/*
+	{
+
+	        "LogName": "Rosalie Saloon Delay Mail",
+        "Action": "EditData",
+        "Target": "Data/mail",
+		"Entries": {
+             "stardewaly.rosalie_SaloonRampMail": "Hello @, ^ I just wanted to let everyone know that the Stardrop Saloon will be delayed in opening today due to a family matter. ^  I would also like to let you know that the dining room, which was previously available to use for private events, will be unavailable until further notice.^ We should be open by about 1pm today. ^ Thank you for your understanding, ^ Gus [#]A Family Matter - Gus"
+
+}
+},
+
+
+        { 
+        "LogName": "Rosalie Mail Welcome",
+        "Action": "EditData",
+        "Target": "Data/mail",
+		"Entries": {
+             "stardewaly.rosalie_WelcomeRosalieMail": "Hello @, ^ I just wanted to let you know that a somewhat new resident has moved to Pelican Town! ^ Rosalie is Gus' niece. She used to live in Pelican Town but she and her family moved away from Stardew Valley when she was young. Maybe she met your grandfather? ^ Rosalie has now returned to town to live with her Uncle Gus at the Saloon. ^ If you see her, please give her a warm welcome to town!      ^ I mean it.    ^ Mayor Lewis [#]A New Resident - Mayor Lewis"
+}*/

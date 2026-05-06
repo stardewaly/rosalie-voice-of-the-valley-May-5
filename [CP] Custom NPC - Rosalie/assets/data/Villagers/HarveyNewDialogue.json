@@ -1,0 +1,110 @@
+{
+  "Changes": [
+    {
+      "LogName": "Harvey New Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Harvey",
+      "Entries": {
+
+        "stardewaly.rosalie_RosalieRamp": "{{i18n:HarveyRosalieRamp}}",
+        "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:HarveyRosalieArrivalCT}}",
+
+        /*Rosalie and George - Wheelchair Event - 4 Heart Event for Rosalie - CT*/
+        "{{ModId}}_RosalieGeorgeWCCT": "{{i18n:Harvey.RosalieGeorgeWCCT}}",
+
+        
+        //There are Marriage versions of dialogue here as well, but not triggered yet and unsure how to add it
+
+"HarveyOnRosalie1": "{{i18n:HarveyOnRosalie1}}",
+"HarveyOnRosalie2": "{{i18n:HarveyOnRosalie2}}",
+"HarveyOnRosalie3": "{{i18n:HarveyOnRosalie3}}",
+"HarveyOnRosalie4": "{{i18n:HarveyOnRosalie4}}",
+"HarveyOnRosalie5": "{{i18n:HarveyOnRosalie5}}",
+"HarveyOnRosalie2Hearts1": "{{i18n:HarveyOnRosalie2Hearts1}}",
+"HarveyOnRosalie2Hearts2": "{{i18n:HarveyOnRosalie2Hearts2}}",
+"HarveyOnRosalie4Hearts1": "{{i18n:HarveyOnRosalie4Hearts1}}",
+"HarveyOnRosalie4Hearts2": "{{i18n:HarveyOnRosalie4Hearts2}}",
+"HarveyOnRosalie4Hearts3": "{{i18n:HarveyOnRosalie4Hearts3}}",
+"HarveyOnRosalie6Hearts1": "{{i18n:HarveyOnRosalie6Hearts1}}",
+"HarveyOnRosalie6Hearts2": "{{i18n:HarveyOnRosalie6Hearts2}}",
+"HarveyOnRosalie8Hearts1": "{{i18n:HarveyOnRosalie8Hearts1}}",
+"HarveyOnRosalie8Hearts2": "{{i18n:HarveyOnRosalie8Hearts2}}",
+"HarveyOnRosalie8Hearts3": "{{i18n:HarveyOnRosalie8Hearts3}}",
+"HarveyOnRosalie8Hearts4": "{{i18n:HarveyOnRosalie8Hearts4}}",
+"HarveyOnRosalie8Hearts5": "{{i18n:HarveyOnRosalie8Hearts5}}",
+"HarveyOnRosalieShane1": "{{i18n:HarveyOnRosalieShane1}}",
+"HarveyonRosalieShane2": "{{i18n:HarveyonRosalieShane2}}",
+
+
+
+"Introduction": "{{i18n:Harvey.Introduction}}",
+"AcceptBirthdayGift_Positive": "{{i18n:Harvey.AcceptBirthdayGift_Positive}}", 
+"AcceptBirthdayGift_Negative": "{{i18n:Harvey.AcceptBirthdayGift_Negative}}",
+"AcceptGift_(O)StardropTea": "{{i18n:Harvey.AcceptGift(O)StardropTea}}",
+"FlowerDance_Accept": "{{i18n:Harvey.FlowerDance_Accept}}",
+"GreenRain": "{{i18n:Harvey.GreenRain}}",
+"GreenRain_2": "{{i18n:Harvey.GreenRain_2}}",
+"AcceptGift_(O)432": "{{i18n:Harvey.AcceptGift(O)432}}",
+"AcceptGift_(O)348": "{{i18n:Harvey.AcceptGift(O)348}}",
+"eventSeen_56_memory_fourweeks": "{{i18n:Harvey.eventSeen_56_memory_fourweeks}}",
+"eventSeen_56_memory_twoweeks": "{{i18n:Harvey.eventSeen_56_memory_twoweeks}}",
+"eventSeen_56": "{{i18n:Harvey.eventSeen_56}}",
+"eventSeen_58_memory_oneweek": "{{i18n:Harvey.eventSeen_58_memory_oneweek}}",
+"eventSeen_58_memory_twoweeks": "{{i18n:Harvey.eventSeen_58_memory_twoweeks}}",
+"eventSeen_58_memory_fourweeks": "{{i18n:Harvey.eventSeen_58_memory_fourweeks}}",
+"eventSeen_571102_memory": "{{i18n:Harvey.eventSeen_571102_memory}}",
+"eventSeen_571102_memory_oneweek": "{{i18n:Harvey.eventSeen_571102_memory_oneweek}}",
+"dating_Harvey": "{{i18n:Harvey.dating_Harvey}}",
+"dating_Harvey_memory_oneday": "{{i18n:Harvey.dating_Harvey_memory_oneday}}",
+"dating_Maru_memory_oneday": "{{i18n:Harvey.dating_Maru_memory_oneday}}",
+"married_Maru": "{{i18n:Harvey.married_Maru}}",
+"married_Harvey": "{{i18n:Harvey.married_Harvey}}",
+"Resort_Entering": "{{i18n:Harvey.Resort_Entering}}",
+"Resort_Leaving": "{{i18n:Harvey.Resort_Leaving}}",
+"Resort_Shore": "{{i18n:Harvey.Resort_Shore}}",
+"Resort_Chair": "{{i18n:Harvey.Resort_Chair}}",
+"Resort_Bar": "{{i18n:Harvey.Resort_Bar}}",
+"Resort": "{{i18n:Harvey.Resort}}",
+"FlowerDance_Accept_Spouse": "{{i18n:Harvey.FlowerDance_Accept_Spouse}}",
+"FlowerDance_Decline": "{{i18n:Harvey.FlowerDance_Decline}}",
+"divorced": "{{i18n:Harvey.divorced}}",
+"breakUp": "{{i18n:Harvey.breakUp}}",
+"dumped_Guys": "{{i18n:Harvey.dumped_Guys}}",
+"secondChance_Guys": "{{i18n:Harvey.secondChance_Guys}}",
+
+
+"Mon": "{{Random: {{i18n:Harvey.Mon}}, {{i18n:HarveyOnRosalie{{Random: 1, 2, 3, 4, 5}} }} }}",//WORKS! :D, change if she comes later
+"Mon2": "{{i18n:Harvey.Mon2}}",
+"Mon6": "{{i18n:Harvey.Mon6}}",
+"Mon10": "{{i18n:Harvey.Mon10}}",
+"Tue": "{{i18n:Harvey.Tue}}",
+"Tue8": "{{i18n:Harvey.Tue8}}",
+"Wed4": "{{i18n:Harvey.Wed4}}",
+"Wed6": "{{i18n:Harvey.Wed6}}",
+"Wed8": "{{i18n:Harvey.Wed8}}",
+"Wed": "{{i18n:Harvey.Wed}}",
+"Thu8": "{{i18n:Harvey.Thu8}}",
+"Thu": "{{i18n:Harvey.Thu}}",
+"Fri": "{{i18n:Harvey.Fri}}",
+"Fri4": "{{i18n:Harvey.Fri4}}",
+"Fri10": "{{i18n:Harvey.Fri10}}",
+"Sat": "{{i18n:Harvey.Sat}}",
+"Sat4": "{{i18n:Harvey.Sat4}}",
+"Sat10": "{{i18n:Harvey.Sat10}}",
+"Sun": "{{i18n:Harvey.Sun}}",
+"Sun6": "{{i18n:Harvey.Sun6}}",
+"summer_Mon": "{{i18n:Harvey.summer_Mon}}",
+"summer_Thu": "{{i18n:Harvey.summer_Thu}}",
+"summer_Fri": "{{i18n:Harvey.summer_Fri}}",
+"fall_Fri": "{{i18n:Harvey.fall_Fri}}",
+"fall_Sat": "{{i18n:Harvey.fall_Sat}}",
+"winter_Wed": "{{i18n:Harvey.winter_Wed}}",
+"winter_Sat": "{{i18n:Harvey.winter_Sat}}",//added this in (not vanilla)
+"winter_Sun": "{{i18n:Harvey.winter_Sun}}"
+
+
+
+      }
+    }
+      ]
+    }

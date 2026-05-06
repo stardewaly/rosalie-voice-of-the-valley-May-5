@@ -1,0 +1,408 @@
+
+ {
+	"Changes": [
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:AbigailRosalieArrivalCT}}",
+
+				"{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Abigail.RosaliesFlareUpEventCT}}"
+                
+			},
+		},
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries": {
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:AlexRosalieArrivalCT}}",
+				"{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Alex.RosaliesFlareUpEventCT}}"
+                
+            
+			}
+		},
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Caroline",
+			"Entries": {
+            "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:CarolineRosalieArrivalCT}}",
+			"{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Caroline.RosaliesFlareUpEventCT}}"
+			}
+		},
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Clint",
+			"Entries": {
+				"stardewaly.rosalie_RosalieRamp": "{{i18n:ClintOnRosalieRamp}}",
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:ClintRosalieArrivalCT}}",
+
+                //haven't added CTs yet, but in i18n for later//
+                "stardewaly.rosalie_NPCOnRosalie": "{{i18n:ClintOnRosalie}}",
+              "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Clint.RosaliesFlareUpEventCT}}"
+
+			},
+		},
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Demetrius",
+			"Entries": {
+	
+"stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:DemetriusRosalieArrivalCT}}",
+
+				"{{ModId}}_RosalieGeorgeWCCT": "{{i18n:Demetrius.RosalieGeorgeWCCT}}"
+
+
+			}
+		},
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Dwarf",
+			"Entries": {
+            "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:DwarfRosalieArrivalCT}}"
+			}
+		},
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": {
+		
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:ElliottRosalieArrivalCT}}",
+				"stardewaly.rosalie_RosalieWCAfter":"{{i18n:Elliott.RosalieGeorgeWCCT}}",
+           		 "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Elliott.RosaliesFlareUpEventCT}}",
+				
+                //haven't added CTs yet, but in i18n for later//
+
+                "stardewaly.rosalie_NPCOnRosalie": "{{i18n:ElliottOnRosalie}}",
+                "stardewaly.rosalie_NPCOnRosalieRadio": "{{i18n:ElliottOnRosalieRadio}}",
+                "stardewaly.rosalie_NPCOnMermaidEventCT": "{{i18n:ElliottOnMermaidEventCT}}"
+                
+			}
+		},
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries": {
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:EmilyRosalieArrivalCT {{Random: 1, 2}} }}",
+
+				"{{ModId}}_NPCRosalieWalkCT": "{{i18n:EmilyOnRosalieWalkCT}}",
+
+				"{{ModId}}_RosalieGeorgeWCCT": "{{i18n:Emily.RosalieGeorgeWCCT}}",
+
+				"{{ModId}}_VoiceOfTheValleyLive": "This is a place holder until I can figure out what the CT is horray!" //TEMPORARY
+
+            
+			}
+		},
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Evelyn",
+			"Entries": {
+				"stardewaly.rosalie_RosalieRamp": "{{i18n:EvelynRampEventCT}}",
+"stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:EvelynRosalieArrivalCT}}",
+           		 "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Evelyn.RosaliesFlareUpEventCT}}",
+			}
+		},
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/George",
+			"Entries": {
+				"stardewaly.rosalie_RosalieRamp": "{{i18n:GeorgeRosalieRamp}}",
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:GeorgeRosalieArrivalCT}}",
+				"{{ModId}}_RosalieGeorgeWCCT": "{{i18n:George.RosalieGeorgeWCCT}}",
+				"{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:George.RosaliesFlareUpEventCT}}",
+
+			}
+		},
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gil", 
+			"Entries": {
+				"stardewaly.rosalie_NPCOnRosalieRadio": "{{i18n:GilOnRosalieRosalieRadio}}"
+
+			},
+		},
+		
+
+        //HALEY - Due to her role, Maybe we will MOVE this dialogue to it's onw seperate JSON later, but for now it works here//
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": {
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:HaleyRosalieArrivalCT{{Random: 1, 2, 3, 4}} }}",
+
+				 "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Haley.RosaliesFlareUpEventCT}}",
+
+				 "{{ModId}}_RosalieDreamsAndDisastersCT": "{{i18n:Haley.RosalieDreamsAndDisastersCT}}",
+
+			}
+		},
+		
+//HARVEY - Due to his role, his dialogue is elsewhere//
+
+
+//JAS - Due to her role, Maybe we will MOVE this dialogue to it's onw seperate JSON later, but for now it works here, she has more in SHANE's file//
+        
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jas",
+			"Entries": {
+
+"stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:JasRosalieArrivalCT1}}",
+
+
+
+"{{ModId}}_RosaliesRibbonCT":"{{i18n:Jas.RosaliesRibbonCT}}",
+"{{ModId}}_RosalieSneezeEventCT": "{{i18n:Jas.RosalieSneezeEventCT}}", 
+"{{ModId}}_RosalieDreamsAndDisastersCT": "{{i18n:Jas.RosalieDreamsAndDisastersCT}}",
+"{{ModId}}_SandCastlesWithJasCT": "{{i18n:Jas.SandCastlesWithJasCT}}",
+"{{ModId}}_RosalieSecondFirstKissCT": "{{i18n:Jas.SecondFirstKissCT}}"
+
+
+			
+
+
+
+
+}
+		},	
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi",
+			"Entries": {
+"stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:JodiRosalieArrivalCT}}",
+           		 "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Jodi.RosaliesFlareUpEventCT}}",
+			}
+		},	
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Kent",
+			"Entries": {
+			
+"stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:KentRosalieArrivalCT}}",
+           		 "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Kent.RosaliesFlareUpEventCT}}",
+			}
+		},	
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Krobus",
+			"Entries": {
+	
+"stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:KrobusRosalieArrivalCT}}"
+			}
+		},	
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries": {
+
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:LeahRosalieArrivalCT}}",
+
+				"{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Leah.RosaliesFlareUpEventCT}}"
+			}
+		},	
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Lewis",
+			"Entries": {
+				"stardewaly.rosalie_RosalieRamp": "{{i18n:LewisRosalieRamp}}",
+				"stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:LewisRosalieArrivalCT{{Random: 1, 2}} }}",
+
+				"{{ModId}}_RosalieGeorgeWCCT": "{{i18n:Lewis.RosalieGeorgeWCCT}}",
+
+				"{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Lewis.RosaliesFlareUpEventCT}}"
+
+			}
+		},	
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Linus",
+			"Entries": {
+
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:LinusRosalieArrivalCT{{Random: 1, 2}} }}",
+				"{{ModId}}_RosalieGeorgeWCCT": "{{i18n:Linus.RosalieGeorgeWCCT}}"
+
+			},
+		},	
+		//MARNIE - Due to her role, Maybe we will MOVE this dialogue to it's onw seperate JSON later, but for now it works here, she has more in SHANE's i18n file//
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Marnie",
+			"Entries": {
+				"stardewaly.rosalie_RosalieRamp": "{{i18n:MarnieRosalieRamp}}",
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:MarnieRosalieArrivalCT{{Random: 1, 2, 3}} }}",
+				"{{ModId}}_RosalieGeorgeWCCT": "{{i18n:Marnie.RosalieGeorgeWCCT}}",
+				"{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Marnie.RosaliesFlareUpEventCT}}",
+
+
+				"{{ModId}}_RosaliesRibbonCT":"{{i18n:Marnie.RosaliesRibbonCT}}",
+				"{{ModId}}_RosalieSneezeEventCT": "{{i18n:Marnie.RosalieSneezeEventCT}}", 
+				"{{ModId}}_RosalieDreamsAndDisastersCT": "{{i18n:Marnie.RosalieDreamsAndDisastersCT}}",
+				"{{ModId}}_ShaneSleepOverCT": "{{i18n:Marnie.ShaneSleepOverCT{{Random: 1, 2 }} }}", 
+				"{{ModId}}_RosalieSecondFirstKissCT": "{{i18n:Marnie.SecondFirstKissCT}}"
+
+
+			}
+		},	
+		
+        
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:MaruRosalieArrivalCT{{Random: 1, 2}} }}",
+				 "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Maru.RosaliesFlareUpEventCT}}",
+
+				"{{ModId}}_RosalieDreamsAndDisastersCT":"{{i18n:Maru.RosalieDreamsAndDisastersCT{{Random: 1, 2, 3, 4}} }}"
+			}
+		},	
+		/* Mr Qi - I don't have anything for him but I'll leave this just in case!
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MrQi",
+			"Entries": {
+
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:AbigailRosalieArrivalCT}}"
+			},
+		},			
+		*/
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pam",
+			"Entries": {
+				"stardewaly.rosalie_RosalieRamp": "{{i18n:PamRosalieRamp}}",
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:PamRosalieArrivalCT}}",
+
+				"{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Pam.RosaliesFlareUpEventCT}}"
+			}
+		},	
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries": {
+				
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "$query PLAYER_HAS_SEEN_EVENT 3910975#{{i18n:PennyRosalieArrivalCTShaneSober}}|{{i18n:PennyRosalieArrivalCT}}"//Unsure if this will work but this is if the player has seen Shane's 6 heart event and is now sober or not
+			}
+		},	
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pierre",
+			"Entries": {
+                "stardewaly.rosalie_RosalieRamp": "{{i18n:PierreRosalieRamp}}",
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:PierreRosalieArrivalCT}}",
+
+				"{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Pierre.RosaliesFlareUpEventCT}}"
+			}
+		},	
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			"Entries": {
+				"stardewaly.rosalie_RosalieRamp": "{{i18n:RobinOnRosalieRamp}}",
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:RobinRosalieArrivalCT{{Random: 1, 2}} }}",
+			
+       		 "{{ModId}}_RoalieGeorgeWCCT": "{{i18n:Robin.RosalieGeorgeWCCT}}",
+			 "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Robin.RosaliesFlareUpEventCT}}",
+
+			}
+		},	
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": {
+				"stardewaly.rosalie_RosalieRamp": "{{i18n:SamRosalieRamp}}",
+"stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:SamRosalieArrivalCT}}"
+
+			}
+		},	
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sandy",
+			"Entries": {
+                
+    "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:SandyRosalieArrivalCT}}"
+			}
+		},	
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": {
+
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:SebastianRosalieArrivalCT}}",
+
+				"{{ModId}}_RosalieGeorgeWCCT": "{{i18n:Sebastian.RosalieGeorgeWCCT}}",
+
+			 "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Sebastian.RosaliesFlareUpEventCT}}",
+
+			}
+		},	
+		
+
+        //Shane is in a seperate JSON due to his role		
+
+
+
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Entries": {
+
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:VincentRosalieArrivalCT}}"
+			}
+		},
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Willy",
+			"Entries": {
+            
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:WillyRosalieArrivalCT}}"
+			
+            }
+		},
+		
+		{ 
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+
+                "stardewaly.rosalie_NPCRosalieArrivalCT": "{{i18n:WizardRosalieArrivalCT}}",
+
+                //Not added yet into Conversation Topic, but in i18n for later and for fun//
+                "stardewaly.rosalie_NPCOnWC": "{{i18n:WizardOnWC}}",
+                "stardewaly.rosalie_NPCOnRosalie": "{{i18n:WizardOnRosalie{{Random: 1, 2, 3, 4, 5}} }}",
+            	"{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Wizard.RosaliesFlareUpEventCT}}",
+                "stardewaly.rosalie_NPCOnRosalieRadio": "{{i18n:WizardOnRosalieRadio{{Random: 1, 2}} }}",
+                "stardewaly.rosalie_NPCOnMermaidEventCT": "{{i18n:WizardOnMermaidEventCT}}"
+			}
+		}
+		
+	]
+}
+
+        

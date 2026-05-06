@@ -1,0 +1,439 @@
+{
+    
+	"Changes": 
+    [
+		//Replace all instances of stardewaly.rosalie_Rosalie with your NPC's internal name
+		//The example positions given here are Jorts's, so please change them and don't step on the kitty.
+		//Check Custom NPC Tiles for positions: https://stardewmodding.wiki.gg/wiki/Custom_NPC_Tiles
+		{	
+			"LogName": "Egg Festival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"TextOperations":
+   			[
+   				//SetUp
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "stardewaly.rosalie_Rosalie 23 71 right",
+   				    "Delimiter": "/"
+				},
+				//Festival animation - if you want any of your NPC's animations during a festival, uncomment this code.
+				//{
+				//"Operation": "Append",
+				//"Target": ["Fields", "set-up", 5],
+				//"Value": "/animate stardewaly.rosalie_Rosalie false true 100 28 28 28 28 28 28 28 28 28 28 29 30 31 32 33 34",
+				//},
+				
+   				//MainEvent - during the actual hunt
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "MainEvent_additionalCharacters"],
+   				    "Value": "stardewaly.rosalie_Rosalie 39 70 down",
+   				    "Delimiter": "/"
+				},
+			],
+		},
+		{
+			"LogName": "Egg Festival - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": 
+			{ "stardewaly.rosalie_Rosalie": "{{i18n:RosalieEggFestival}}",
+			},
+			
+		},
+		{	
+			"LogName": "Flower Dance",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"TextOperations":
+   			[
+   				//SetUp
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "stardewaly.rosalie_Rosalie 10 20 down",
+   				    "Delimiter": "/"
+				},
+				//The actual dance - note this is pretty crowded, so you may want to just remove this, especially if they weren't near the dance to begin with/don't want to watch.
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "MainEvent_additionalCharacters"],
+   				    "Value": "stardewaly.rosalie_Rosalie 24 22 left",
+   				    "Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Flower Dance - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": 
+			{ "stardewaly.rosalie_Rosalie": "{{i18n:RosalieFlowerDance}}"
+			}
+		},
+		{	
+			"LogName": "Luau",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"TextOperations":
+   			[
+   				//SetUp
+				{
+   				    "Operation": "Append",
+   				    "Target": ["Entries", "Set-Up_additionalCharacters"],
+   				    "Value": "stardewaly.rosalie_Rosalie 25 43 up",
+   				    "Delimiter": "/"
+				},
+				//MainEvent - during the actual tasting. Again, it's pretty crowded, so you may want to delete this part.
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "stardewaly.rosalie_Rosalie 54 24 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Luau - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": 
+			{ "stardewaly.rosalie_Rosalie": "{{i18n:RosalieLuau}}",
+			},
+		},
+		// Pelican Town Potluck changes the Luau to a Potluck, so you may want a variant of dialogue.
+		//{	
+		
+		//"LogName": "Luau - dialogue - Potluck compat",
+		//"Action": "EditData",
+		//"Target": "Data/Festivals/summer11",
+		//"When": { "HasMod: |contains=LenneDalben.PelicanTownPotluck": true},
+		//"Entries": 
+		//{ "stardewaly.rosalie_Rosalie": "",
+		//},
+		//},
+		{	
+			"LogName": "Dance of the Moonlight Jellies",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"TextOperations":
+			[
+				//SetUp
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "stardewaly.rosalie_Rosalie 67 25 down",
+					"Delimiter": "/"
+				},
+				//MainEvent - during the boat launch. Most characters don't move, but not all of them will be visible.
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "stardewaly.rosalie_Rosalie 36 25 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Dance of the Moonlight Jellies - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": 
+			{ "stardewaly.rosalie_Rosalie": "{{i18n:RosalieJellies}}",
+			},
+		},
+		{	
+			"LogName": "Stardew Valley Fair",
+			"Action": "EditData",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+			"Target": "Data/Festivals/fall16",
+			"TextOperations":
+			[
+				//SetUp (non-SVE) - I don't believe there is a "main event" one for this"
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "stardewaly.rosalie_Rosalie 50 68 up",
+					"Delimiter": "/"
+				},
+			],
+		},
+		//SetUp (SVE) - SVE changes the fair a lot, so you may want different positions.
+		{	
+			"LogName": "Stardew Valley Fair - SVE compat",
+			"Action": "EditData",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"Target": "Data/Festivals/fall16",
+			"TextOperations":
+			[
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "stardewaly.rosalie_Rosalie 30 22 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+
+		{	
+			"LogName": "Stardew Valley Fair",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": 
+			{ "stardewaly.rosalie_Rosalie": "{{i18n:RosalieFallFair}}",
+			},
+		},
+		{	
+			"LogName": "Spirit's Eve",
+			"Action": "EditData",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+			"Target": "Data/Festivals/fall27",
+			"TextOperations":
+			[
+				//SetUp - again, no main
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "stardewaly.rosalie_Rosalie 28 59 right",
+					"Delimiter": "/"
+				},
+			],
+		},			
+		{	
+			"LogName": "Spirit's Eve - SVE compat",
+			"Action": "EditData",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"Target": "Data/Festivals/fall27",
+			"TextOperations":
+			[
+				//SetUp (SVE) - SVE changes the maps from year to year but I don't know the specifics, so you may need more than one set of positions for SVE compat.
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "stardewaly.rosalie_Rosalie 68 55 right",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Spirit's Eve - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": 
+			{ "stardewaly.rosalie_Rosalie": "{{i18n:RosalieSpiritsEve}}",
+			},
+		},
+		{	
+			"LogName": "Festival of Ice",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false},
+			"TextOperations":
+			[
+				//SetUp
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "stardewaly.rosalie_Rosalie 72 24 down",
+					"Delimiter": "/"
+				},
+				//MainEvent - during the actual contest
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "stardewaly.rosalie_Rosalie 72 24 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Festival of Ice - SVE compat",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true},
+			"TextOperations":
+			[
+				//SetUp - SVE completely redoes this map too, so depending on where you are you may need compat for this.
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "stardewaly.rosalie_Rosalie 31 74 down",
+					"Delimiter": "/"
+				},
+				//MainEvent - during the actual contest
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "stardewaly.rosalie_Rosalie 31 74 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Festival of Ice - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": 
+			{ "stardewaly.rosalie_Rosalie": "{{i18n:RosalieIce}}", },
+		},
+		{	
+			"LogName": "Feast of the Winter Star",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"TextOperations":
+			[
+				//SetUp - I think there is a MainEvent, but only during the actual gift-giving cutscene.
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "stardewaly.rosalie_Rosalie 25 68 right",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Feast of the Winter Star - Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": 
+			{ "stardewaly.rosalie_Rosalie": "{{i18n:RosalieWinterStar}}",
+			},
+		},
+		//Solstice Winter Star changes the Feast of the Winter Star to a less Christmas-y version with food instead of gifts, so you may want a dialogue variant.
+		//{	
+		//"LogName": "Feast of the Winter Star Solstice Compat",
+		//"Action": "EditData",
+		//"Target": "Data/Festivals/winter25",
+		//"When": { "HasMod: |contains=Airyn.CPSolsticeWinterStar": true},
+		//"Entries": 
+		//{ "stardewaly.rosalie_Rosalie": "", },
+		//},
+		//},
+		
+		{	
+			//Ridgeside has two exclusive festivals and plenty of room!
+			"LogName": "Ridgeside Gathering",
+			"Action": "EditData",
+			"When": { "HasMod":"Rafseazz.RSVCP" },
+			"Target": "Data/Festivals/Fall20",
+			"TextOperations":
+			[
+				//SetUp
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "stardewaly.rosalie_Rosalie 78 51 up",
+					"Delimiter": "/"
+				},
+				//MainEvent - a concert on stage. Pretty crowded, so you may want to remove this.
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "stardewaly.rosalie_Rosalie 79 51 up",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Ridgeside Gathering - Dialogue",
+			"Action": "EditData",
+			"When": { "HasMod":"Rafseazz.RSVCP" },
+			"Target": "Data/Festivals/fall20",
+			"Entries": 
+			{ "stardewaly.rosalie_Rosalie": "",
+			},
+		},
+		{	
+			"LogName": "Ember of Resolutions",
+			"Action": "EditData",
+			"When": { "HasMod":"Rafseazz.RSVCP" },
+			"Target": "Data/Festivals/winter28",
+			"TextOperations":
+			[
+				//SetUp
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "stardewaly.rosalie_Rosalie 38 34 down",
+					"Delimiter": "/"
+				},
+				//MainEvent - during the bonfire lighting. Characters do move around but it's not packed in.
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "MainEvent_additionalCharacters"],
+					"Value": "stardewaly.rosalie_Rosalie 39 34 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Ember of Resolutions - Dialogue",
+			"Action": "EditData",
+			"When": { "HasMod":"Rafseazz.RSVCP" },
+			"Target": "Data/Festivals/winter28",
+			"Entries": 
+			{ "stardewaly.rosalie_Rosalie": "",
+			},
+		},
+
+			//There are many other custom festivals you can add compat for: Surfing Festival, Ferngill Fashion Festival, Love Festival, Downtown Zuzu's Block Party, and more! Just swap in the day the festival occurs and the proper unique ID for the festival's mod. Or if you don't want to deal with additional festivals, just delete this section.	
+
+			//Fireworks Festival - Added by https://www.nexusmods.com/stardewvalley/mods/15261 	
+		{	
+			"LogName": "Fireworks Festival",
+			"Action": "EditData",
+			"When": { "HasMod":"violetlizabet.CP.FireworksFestival" },
+			"Target": "Data/Festivals/summer20",
+			"TextOperations":
+			[
+				//SetUp
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "stardewaly.rosalie_Rosalie 22 43 down",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Fireworks Festival - Dialogue",
+			"Action": "EditData",
+			"When": { "HasMod":"violetlizabet.CP.FireworksFestival" },
+			"Target": "Data/Festivals/summer20",
+			"Entries": 
+			{ "stardewaly.rosalie_Rosalie": "",
+			},
+		},
+
+			//Ferngill Fashion Festival - Added by https://www.nexusmods.com/stardewvalley/mods/17404 	
+		{	
+			"LogName": "Ferngill Fashion Festival",
+			"Action": "EditData",
+			"When": { "HasMod":"UNA.FF.CP" },
+			"Target": "Data/Festivals/spring19",
+			"TextOperations":
+			[
+				//SetUp
+				{
+					"Operation": "Append",
+					"Target": ["Entries", "Set-Up_additionalCharacters"],
+					"Value": "stardewaly.rosalie_Rosalie 35 31 up",
+					"Delimiter": "/"
+				},
+			],
+		},
+		{	
+			"LogName": "Ferngill Fashion Festival - Dialogue",
+			"Action": "EditData",
+			"When": { "HasMod":"UNA.FF.CP" },
+			"Target": "Data/Festivals/spring19",
+			"Entries": 
+			{ "stardewaly.rosalie_Rosalie": "",
+			},
+		},
+
+	]
+
+}

@@ -1,0 +1,25 @@
+{
+	"Changes": 
+    [
+		{
+            "LogName": "Rosalie Gift Taste Data",
+            "Action":"EditData",
+            "Target":"Data/NPCGiftTastes",
+            "Entries": {
+"{{ModId}}_Rosalie": "{{i18n:RosalieLoves}}/233 220/ {{i18n:RosalieLikes}}/270 205 267 701 635 724 719 248 608 717 797 560 829 834/ {{i18n:RosalieDislike}}/197 215 267 279 612 200 395 903 303 346/ {{i18n:RosalieNeutral}}/229 245 258 348/ {{i18n:RosalieHate}}/424 426/"
+						}
+
+
+		}
+		
+	]
+} 
+
+
+
+//love Ice Cream, Chocolate Cake
+//like Corn, Fried Mushroom, Flounder, Tilapia, Orange, Maple Syrup, Muscle, Garlic, Pumpkin Pie, Crab, Pearl, Ocean Stone, Ginger, Mango
+//dislike cheesy cauliflower, pepper poppers, Joja Cola, Magic Rock Candy, Cranberry Candy, Miner's Treat, Coffee, Ginger Ale, Pale Ale, Beer
+//neutral Tortilla, Sugar, Blue Berry, Wine
+//hated Cheese, Goat Cheese
+//gift taste order: love, like, dislike, hate, neutral
