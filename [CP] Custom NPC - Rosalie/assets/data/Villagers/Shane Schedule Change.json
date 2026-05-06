@@ -27,7 +27,7 @@
                "Id": "Shane x Rosalie Schedule - Besties",
                "ScheduleKey": "stardewaly.rosalie_RosaliexShane.ShaneBFF",
                "Priority": "Early",
-               "Condition": "PLAYER_HAS_SEEN_EVENT stardewaly.rosalie_RosaliesSneezeEvent Current"
+               "Condition": "PLAYER_HAS_SEEN_EVENT stardewaly.rosalie_ShaneRosalieSneezeEvent Current"
             }
          }
       },
