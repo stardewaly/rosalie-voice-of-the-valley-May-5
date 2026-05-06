@@ -10,10 +10,10 @@
          "Target": "Spiderbuttons.CustomScheduleKeys/ScheduleKeys",
          "Entries": {
             "ExampleKey": {
-               "Id": "Shane In Therapy Key",
+               "Id": "Shane In Therapy Schedule Key",
                "ScheduleKey": "stardewaly.rosalie_ShaneTherapy",
                "Priority": "Early",
-               "Condition": "PLAYER_HAS_SEEN_EVENT 2118991 Current"
+               "Condition": "PLAYER_HAS_SEEN_EVENT Current 2118991"
             }
          }
       },
@@ -24,10 +24,10 @@
          "Target": "Spiderbuttons.CustomScheduleKeys/ScheduleKeys",
          "Entries": {
             "ExampleKey": {
-               "Id": "Shane x Rosalie Schedule - Besties",
+               "Id": "Shane x Rosalie Schedule Key - Besties",
                "ScheduleKey": "stardewaly.rosalie_RosaliexShane.ShaneBFF",
                "Priority": "Early",
-               "Condition": "PLAYER_HAS_SEEN_EVENT stardewaly.rosalie_ShaneRosalieSneezeEvent Current"
+               "Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShaneRosalieSneezeEvent"
             }
          }
       },
