@@ -49,16 +49,16 @@
 		"{{ModId}}_JasQuestforRosaliesRibbonDialogue": {
 			"Id": "Jas Quest Dialogue",
 			"Trigger": "Spiderbuttons.BETAS_MailReceived",
-			"Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Jas.RosaliesRibbon.Quest",
+			"Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Jas.RosaliesRibbon.Quest Received, !PLAYER_HAS_ITEM Current {{ModId}}_RosaliesRibbon 1",
 			"Action": "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_Rosalie \"{{i18n:RosaliesRibbonForJas.RosalieDialogue}}\" true"
 		},
     
-		"{{ModId}}_JasQuestforRosaliesRibbonDialogue_Safety": {
-			"Id": "Jas Quest Dialogue Safety Net",
-			"Trigger": "DayEnding",
-			"Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Jas.RosaliesRibbon.Quest Received\"\\\"!PLAYER_HAS_ITEM Current {{ModId}}_RosaliesRibbon 1", //let's see if this works with three slashes?
-			"Action": "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_Rosalie \"{{i18n:RosaliesRibbonForJas.RosalieDialogue}}\" true"
-		},
+		//"{{ModId}}_JasQuestforRosaliesRibbonDialogue_Safety": {
+		//	"Id": "Jas Quest Dialogue Safety Net",
+		//	"Trigger": "DayEnding",
+		//	"Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Jas.RosaliesRibbon.Quest Received\"\\\"!PLAYER_HAS_ITEM Current {{ModId}}_RosaliesRibbon 1", //let's see if this works with three slashes?
+		//	"Action": "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_Rosalie \"{{i18n:RosaliesRibbonForJas.RosalieDialogue}}\" true"
+		//},
 
 
 
