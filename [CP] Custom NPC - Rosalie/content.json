@@ -101,17 +101,18 @@
 			"Condition": "TRUE",
 			"Precedence": 0, //Importance for same conditions like spring outfits and like Shane and Maru's outfits, lower means higher priority, negatives can be used
 			"Weight": 1 //Rarity, lower the more rare
-		}
+		},
 
-//PUTTING THIS ON HOLD UNTIL WE CAN FIGURE OUT HOW TO MAKE THIS WORK, CONDITIONS AREN'T LISTENED TO AS OF MARCH 17 AND BECOEMS DEFAULT 
-  /*  "{{ModId}}_Rosalie_WC": 
-{
-    "Id": "{{ModId}}_Rosalie_WC",
-    "Portrait": "Portraits/{{ModId}}_Rosalie",
-		"Sprite": "Characters/{{ModId}}_Rosalie_WC",
-		"Condition": "PLAYER_HAS_MAIL Current stardewaly.rosalie_RosalieWCFlag Received",
-}*/
-
+//PUTTING THIS ON HOLD UNTIL WE CAN FIGURE OUT HOW TO MAKE THIS WORK, CONDITIONS AREN'T LISTED TO AS OF MARCH 17 AND BECOMES DEFAULT //fixed now maybe?
+//CHANGED AS OF 5/6'th of April.
+  "{{ModId}}_Rosalie_WC": 
+    {
+      "Id": "{{ModId}}_Rosalie_WC",
+      "Portrait": "Portraits/{{ModId}}_Rosalie",
+      "Sprite": "Characters/{{ModId}}_Rosalie_WC",
+      "Condition": "PLAYER_HAS_MAIL Current stardewaly.rosalie_RosalieWCFlag",
+      "Precedence": -10
+    }
 
   }
 },
@@ -139,6 +140,7 @@
       "Action": "EditMap",
       "Target": "Maps/Saloon",
       "FromFile": "assets/Maps/Saloon with Rosalie Room-Radio.tmx",
+      "UpdateRate": "OnLocationChange",
             "When": {
               "HasSeenEvent": "{{ModId}}_Rosalie4HeartEvent"//Works, but for the next day
       }
@@ -161,6 +163,7 @@
       "Action": "EditMap",
       "Target": "Maps/Town",
       "FromFile": "assets/maps/Town with Ramp - Rosalie.tmx",
+      "UpdateRate": "OnLocationChange",
       "When": {
         "Hearts: Gus": "1" //TEMPORARY, SAME THING TO HAVE THE RAMP EVENT HAPPEN
       }
@@ -227,7 +230,7 @@
                 "stardewaly.rosalie_Rosalie_sleeping": "39/39/39",
                 "stardewaly.rosalie_Rosalie_crying": "24/24/25/25",
                 "stardewaly.rosalie_Rosalie_singing": "22/23/18/19/20/21/22/23",
-                "stardewaly.roslaie_Rosalie_standup": "34/34/35/34/34/35"
+                "stardewaly.rosalie_Rosalie_standup": "34/34/35/34/34/35"
             }
         },
 /*12. Quests*/
@@ -285,100 +288,40 @@
         "FromFile":"assets/images/Jas_RosaliesRibbon/RosaliesRibbon_SmallActor.png"
     },
 
+      //NEW CODE AS OF 5'th APRIL (6'th Here, anyway) for Jas ribbon sprites
 
-
-
-/*JAS PORTRAIT AND SPRITE CHANGE AFTER ROSALIE'S RIBBON EVENT*/
-
-//DOES NOT WORK FOR "WHEN" SITUATION
-
-/*
     {
-
-      "LogName": "Jas - Portraits",
-    "Action": "Load",
-    "Target": "Portraits/Jas",
-    "FromFile": "assets/images/Jas_RosaliesRibbon/Jas_RosaliesRibbon.png",
-      "When": {
-        "HasSeenEvent": "{{ModId}}_RosaliesRibbonEvent"
-      }
-    
+        "LogName": "Jas - Portraits - Load Custom",
+        "Action": "Load",
+        "Target": "Portraits/{{ModId}}_Jas_RosaliesRibbon",
+        "FromFile": "assets/images/Jas_RosaliesRibbon/Jas_RosaliesRibbon.png" 
+    },
+    {
+        "LogName": "Jas - Sprites - Load Custom",
+        "Action": "Load",
+        "Target": "Characters/{{ModId}}_Jas_RosaliesRibbon",
+        "FromFile": "assets/images/Jas_RosaliesRibbon/Jas_RosaliesRibbonS.png"
     },
 
     {
-	"LogName": "Jas - Sprites",
-	"Action": "Load",
-	"Target": "Characters/Jas",
-  "FromFile":"assets/images/Jas_RosaliesRibbon/Jas_RosaliesRibbonS.png",
-    },
+        "LogName": "Jas - Conditional Ribbon Appearance",
+        "Action": "EditData",
+        "Target": "Data/Characters",
+        "TargetField": ["Jas", "Appearance"],
+        "Entries": {
+            "{{ModId}}_Jas_RosaliesRibbon": {
+                "Id": "{{ModId}}_Jas_RosaliesRibbon",
+                "Portrait": "Portraits/{{ModId}}_Jas_RosaliesRibbon",
+                "Sprite": "Characters/{{ModId}}_Jas_RosaliesRibbon",
+                "Indoors": true,
+                "Outdoors": true,
+                "IsIslandAttire": false,
+                "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_RosaliesRibbonEvent",
+                "Precedence": -10, 
+                "Weight": 1
+            }
+        }
+    }
 
-    {
-	"Action": "EditData",
-	"Target": "Data/Characters",
-	"TargetField": ["Jas", "Appearance"],
-	"Entries":
-	{
-		"{{ModID}}_Jas_RosaliesRibbon":
-		{
-			"Id": "{{ModId}}_Jas_RosaliesRibbon",
-			"Portrait": "Portraits/Jas_RosaliesRibbon",
-			"Sprite": "Characters/Jas_RosaliesRibbon",
-			"Indoors": true,
-			"Outdoors": true,
-			"IsIslandAttire": false,
-			"Condition": "HAS_SEEN_EVENT Current {{ModId}}_RosaliesRibbonEvent",
-			"Precedence": 0,
-			"Weight": 1
-		}
-	}
-}
-
-
-*/
-/*
-
-{
-		"LogName": "Jas - Portraits - Load",
-		"Action": "Load",
-    "Target": "Mods/[CP] Custom NPC - Rosalie/Jas_RosaliesRibbon",
-		"FromFile": "assets/images/Jas_RosaliesRibbon/Jas_PortraitwithRosaliesRibbon.png"
-	},
-{
-		"LogName": "Jas - Sprites - Load",
-		"Action": "Load",
-        "Target": "Mods/[CP] Custom NPC - Rosalie/Jas_RosaliesRibbon",
-		"FromFile": "assets/images/Jas_RosaliesRibbon/Jas_SpriteswithRosaliesRibbon.png"
-	},
-
-
-    {
-    "LogName": "Jas - Portraits",
-    "Action": "EditImage",
-    "Target": "Portraits/Jas",
-"Entries": {
-		"Portrait": "Mods/[CP] Custom NPC - Rosalie/Jas_RosaliesRibbon"
-		},
-      "When": {
-        "HasSeenEvent": "{{ModId}}_RosaliesRibbonEvent"
-      }
-    
-    },
-
-    {
-	"LogName": "Jas - Sprites",
-	"Action": "EditImage",
-	"Target": "Characters/Jas",
-    "Entries":{
-      "Sprites": "Mods/[CP] Custom NPC - Rosalie/Jas_RosaliesRibbon"
-    },
-
-  "When": {
-    "HasSeenEvent": "{{ModId}}_RosaliesRibbonEvent"
-}
-}*/
-
-    
-
-    
 ]
 }
