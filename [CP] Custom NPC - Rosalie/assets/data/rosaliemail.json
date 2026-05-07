@@ -34,7 +34,8 @@
         "stardewaly.rosalie_RosalieFlareUpFlag": "%action AddConversationTopic stardewaly.rosalie_FlareupCT 1 %%",
         
         //Shane x Rosalie Trigger
-        "stardewaly.rosalie_ShaneRosalieTherapy": "%action AddConversationTopic {{ModId}}_ShaneRosalieTherapyCT 5 %%"
+        "stardewaly.rosalie_ShaneRosalieTherapy": "%action AddConversationTopic {{ModId}}_ShaneRosalieTherapyCT 5 %%",
+        "{{ModId}}_ShanexRosalieBFFFlag": "%action AddConversationTopic {{ModId}}_JasTeasingCT 28 %%"//Temporaty for now just to help differ the 6 heart event for Rosalie for the Harvey vs Shane version! DOn't have an actual CT in i don't think
       }
     },
 
@@ -49,16 +50,23 @@
 		"{{ModId}}_JasQuestforRosaliesRibbonDialogue": {
 			"Id": "Jas Quest Dialogue",
 			"Trigger": "Spiderbuttons.BETAS_MailReceived",
-			"Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Jas.RosaliesRibbon.Quest Received, !PLAYER_HAS_ITEM Current {{ModId}}_RosaliesRibbon 1",
+			"Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Jas.RosaliesRibbon.Quest",
 			"Action": "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_Rosalie \"{{i18n:RosaliesRibbonForJas.RosalieDialogue}}\" true"
 		},
     
-		//"{{ModId}}_JasQuestforRosaliesRibbonDialogue_Safety": {
-		//	"Id": "Jas Quest Dialogue Safety Net",
-		//	"Trigger": "DayEnding",
-		//	"Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Jas.RosaliesRibbon.Quest Received\"\\\"!PLAYER_HAS_ITEM Current {{ModId}}_RosaliesRibbon 1", //let's see if this works with three slashes?
-		//	"Action": "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_Rosalie \"{{i18n:RosaliesRibbonForJas.RosalieDialogue}}\" true"
-		//},
+		"{{ModId}}_JasQuestforRosaliesRibbonDialogue_Safety": {
+			"Id": "Jas Quest Dialogue Safety Net",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION {{ModId}}_JasQuestforRosaliesRibbonDialogue false", //let's see if this works
+			"Action": "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_Rosalie \"{{i18n:RosaliesRibbonForJas.RosalieDialogue}}\" true"
+		},
+
+		"{{ModId}}_ShanexRosalieBFFFlagTrigger": {
+			"Id": "Jas Quest Dialogue Safety Net",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ShaneRosalieSneezeEvent", 
+			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieBFFFlag"
+		},
 
 
 

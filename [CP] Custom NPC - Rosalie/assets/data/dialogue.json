@@ -9,7 +9,7 @@
 
         //TEST
 
-        "RosaliesRibbonForJas": "{{i18n:RosaliesRibbonForJas}}",
+"RosaliesRibbonForJas": "{{i18n:RosaliesRibbonForJas}}",
       
         "Introduction": "{{i18n:Introduction}}",
 

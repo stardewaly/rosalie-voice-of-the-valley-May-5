@@ -157,14 +157,15 @@
       "FromFile": "assets/maps/Town with Ramp - Rosalie.tmx"
 
     },*/
-    {
+
+            {
       "LogName": "Rosalie's Ramp",
       "Action": "EditMap",
       "Target": "Maps/Town",
       "FromFile": "assets/maps/Town with Ramp - Rosalie.tmx",
       "UpdateRate": "OnLocationChange",
       "When": {
-        "HasSeenEvent": "{{ModId}}_RosalieRampEvent" // Updated to match the actual event ID?? I think so.
+        "Hearts: Gus": "1" //TEMPORARY, SAME THING TO HAVE THE RAMP EVENT HAPPEN
       }
     },
 
@@ -288,18 +289,17 @@
     },
 
       //NEW CODE AS OF 5'th APRIL (6'th Here, anyway) for Jas ribbon sprites
-      //new update _2
 
     {
         "LogName": "Jas - Portraits - Load Custom",
         "Action": "Load",
-        "Target": "Portraits/Jas_RosaliesRibbon",
+        "Target": "Portraits/{{ModId}}_Jas_RosaliesRibbon",
         "FromFile": "assets/images/Jas_RosaliesRibbon/Jas_RosaliesRibbon.png" 
     },
     {
         "LogName": "Jas - Sprites - Load Custom",
         "Action": "Load",
-        "Target": "Characters/Jas_RosaliesRibbon",
+        "Target": "Characters/{{ModId}}_Jas_RosaliesRibbon",
         "FromFile": "assets/images/Jas_RosaliesRibbon/Jas_RosaliesRibbonS.png"
     },
 
@@ -311,8 +311,8 @@
         "Entries": {
             "{{ModId}}_Jas_RosaliesRibbon": {
                 "Id": "{{ModId}}_Jas_RosaliesRibbon",
-                "Portrait": "Portraits/Jas_RosaliesRibbon",
-                "Sprite": "Characters/Jas_RosaliesRibbon",
+                "Portrait": "Portraits/{{ModId}}_Jas_RosaliesRibbon",
+                "Sprite": "Characters/{{ModId}}_Jas_RosaliesRibbonS",
                 "Indoors": true,
                 "Outdoors": true,
                 "IsIslandAttire": false,
