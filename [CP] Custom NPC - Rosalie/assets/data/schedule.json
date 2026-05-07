@@ -57,7 +57,7 @@
                "Id": "Rosalie x Shane BFF Schedule Key",
                "ScheduleKey": "stardewaly.rosalie_RosaliexShane.RosalieBFF",
                "Priority": "Early",
-               "Condition": "PLAYER_HAS_SEEN_EVENT stardewaly.rosalie_ShaneRosalieSneezeEvent"
+               "Condition": "PLAYER_HAS_SEEN_EVENT Current stardewaly.rosalie_ShaneRosalieSneezeEvent"
             }
          }
       },
