@@ -272,44 +272,7 @@
 "RosaliesFlareUp.Shane9": "Hey, hey! Don't sass your elders!$1",
 "RosaliesFlareUp.Shane10": "Oh, you're still gonna play the 'older than you' card?$1#$b#I thought you would have matured in the last 20 years!$1",
 
-"RosaliesFlareUp.MessageHarvey": "Harvey tenderly takes Rosalie's hand. She looks at their joined hands in surprise.",
-
-//8.5 HEART EVENT - HARVEY X ROSALIE - when The questions begin and Emily knows// 
-"RosalieHarveyFamiliar.0": "Uncle Gus, why don't you let me and Emily close for the night. #$b# You head to bed.",
-"RosalieHarveyFamiliar.1": "Are you sure? You've been on your feet all day, I know that--$s",
-"RosalieHarveyFamiliar.2": "Uncle Gus Gus, I took my meds, I'm fine. #$b# Besides, I worked at that chocolate shop long enough to know how to close!$1",
-"RosalieHarveyFamiliar.3": "Well, alright...$h #$b# Thanks, Rosie... #$b# Just don't push yourself.$s #$b# Ask Emily if you need help.",
-"RosalieHarveyFamiliar.4": "Oh! @!$8 #$b# I'm sorry, we closed at midnight!",
-"RosalieHarveyFamiliar.5": "Thanks, I'm glad you thinks so.$1",
-"RosalieHarveyFamiliar.6": "Thank goodness, the door was unlocked. #$b# Gus, you didn't happen to come across--$h",
-"RosalieHarveyFamiliar.7": "Dr Harvey! Did you forget something?$1",
-"RosalieHarveyFamiliar.8": "Rosalie! Uh... What are you doing here?$8",
-"RosalieHarveyFamiliar.9": "I live here, remember?$1",
-"RosalieHarveyFamiliar.10": "No, that's not what I mean! I just meant--",
-"RosalieHarveyFamiliar.11": "Hi, Harvey!$h #$b# I noticed you left your scarf behind, I'll go grab it from the back.",
-"RosalieHarveyFamiliar.12": "I sent Gus to bed early.#$b# I just thought I'd close up for the night as a thank you to him.",
-"RosalieHarveyFamiliar.13": "That's very kind of you! #$b# But... Shouldn't you be resting? Our last appointment you said-$2",
-"RosalieHarveyFamiliar.14": "I know, and as I said, I'm fine.$3",
-"RosalieHarveyFamiliar.15": "Alright, you know your body best.$2 #$b# But if anything changes, let me know at our next appointment. #$b# I'll see you then.$h",
-"RosalieHarveyFamiliar.16": "Oh, and one more thing...$1",
-"RosalieHarveyFamiliar.17": "Yes, detective?$1",
-"RosalieHarveyFamiliar.18": "I thought you'd understand that reference!$1 #$b# Anyway... I've been... meaning to ask you... since you arrived to town...",
-"RosalieHarveyFamiliar.19": "Have we...$2#$b#...met before?",
-"RosalieHarveyFamiliar.20": "Not to my knowledge...$2 #$b# I think I'd remember that.$9",
-"RosalieHarveyFamiliar.21": "Here's your scarf! You have a good night, Harvey!",
-"RosalieHarveyFamiliar.23": "Hmm?$0",
-"RosalieHarveyFamiliar.24": "Yes! My scarf!$8",
-"RosalieHarveyFamiliar.25": "I'm sorry, I've taken enough of your time.$1. #$b# Emily, Rosalie, @, have a good night...",
-"RosalieHarveyFamiliar.26": "What was that about, Rosalie?$3",
-"RosalieHarveyFamiliar.27": "Nothing, we were just talking.$1 #$b# Anyway, I'll be back.#$b# @, you should also be heading home. Have a good night!$1",
-"RosalieHarveyFamiliar.28": "@...$3 #$b# I need you to tell me what Harvey and Rosalie talked about.$3",
-"RosalieHarveyFamiliar.29": "Oh my Yoba! I knew it!$6",
-"RosalieHarveyFamiliar.30": "I had a feeling when Rosalie came to town!$1 #$b# There's something... strange about her...$3 #$b# Everyone in town has been acting different since she arrived.$3 #$b# I need to talk to Sandy about this!$1",
-"RosalieHarveyFamiliar.31": "@...This is our secret.$3 #$b# Please, don't tell anyone.$3",
-
-
-//7H event i18n is in QUESTS (unsure if will be 7H)
-
+"RosaliesFlareUp.MessageHarvey": "Harvey tenderly takes Rosalie's hand. She looks at their joined hands in surprise.", //change if they are not a couple
 
 //8H Event
 
