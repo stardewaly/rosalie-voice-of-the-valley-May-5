@@ -58,33 +58,35 @@ Rosalie Arrived In Town
 
 //SHANE'S LOW DAY CT//
 
-"Shane.RosalieShanesLowDayCT1": "It's weird how Rosa and I hadn't talked for twenty years, and now that we're friends again, it feels like no time has passed. #$b# Sure, we're older and I've lost my good looks, but she's still Rosa.$1",
-"Shane.RosalieShanesLowDayCT2": "I'm glad that Rosa and I are able to take care of each other. We don't feel the need to hide anything just to make the other more comfortable. #$e# I do worry she isn't taking care of herself though...$s",
-
-
+"Shane.ShaneRosalieLowDayCT": "It's weird how Rosa and I hadn't talked for twenty years, and now that we're friends again, it feels like no time has passed.$6 #$b# Sure, we're older and I've lost my good looks, but she's still Rosa.$1",
+"Shane.ShaneRosalieLowDayCT2": "I'm glad that Rosa and I are able to take care of each other. We don't feel the need to hide anything just to make the other more comfortable. #$e# I do worry she isn't taking care of herself though...$2",
+"Shane.ShaneRosalieLowDayCT3": "Hey, don't take offence to Rosa saying I'm her best friend. #$b# Rosa and I have history, we've just known each other for longer. #$b# You're still the person who saved my life. No one's taking that away from you.$1 #$e# I can have more than one best friend, calm down.$1",
+"Shane.ShaneRosalieLowDayCT4": "For as long as I've known her, Rosa has been great with animals. #$b# She used to tell me that animals don't judge you for being different or being too much...$2 #$b# But Charlie is probably the one animal on earth who hates her. I guess we can't all be perfect.$1 #$e# She's trying though. Rosa I mean, Charlie not so much.$1 #$e# Don't worry, I won't let Rosa get hurt. It's actually kind of cute how much she's trying.$6",
+    
 //DREAMS AND DISASTERS CT//
 
 "Shane.RosalieDreamsAndDisastersCT1": "Can you believe there are people out there who just... live to take the joy out of people?$11 #$b# I mean, you worked for Joja, you know what it's like.$3 #$e# No one deserves to be treated that way by anyone. Especially by someone you love.$5",
 "Shane.RosalieDreamsAndDisastersCT2": "It sucks that Rosa and I didn't get to achieve our dreams. But I think we're doing alright.$6 #$e#",
+"Shane.RosalieDreamsAndDisastersCT3": "What kind of man hurts the woman he claims to love? I can't stand the fact people like that exist. #$e# I'll never understand why Rosa didn't leave when he did, but I guess it's the kind of person she is...$2 #$e# I hope she knows now that she deserves better than that.",
 
 //SLEEP OVER CT//
 
 "Shane.ShaneSleepoverCT1": "Thanks for not telling anyone about me sleeping over. #$b# I trust you with my life, @. #$b# But the last thing Rosa needs is for people to gossip about her. #$e# I could care less about what people say about me, but Rosa doesn't deserve that.$2",
 "Shane.ShaneSleepoverCT2": "Rosa deserves a chance at happiness. #$b# I don't want to screw that up for her. #$e# Her ex husband was her best friend in high school, and he treated her like garbage. #$b# I don't want to be that guy.$3 #$e# I just... want to be someone she can rely on.$2",
-"Shane.ShaneSleepoverCT3": "For the record, I slept *over* the blankets.$3 #$b# She may have put another on top of me in the night or something.$3 #$e# That's all you're getting out of me. Now drop it.$5",
+"Shane.ShaneSleepoverCT3": "For the record, I slept *over* the blankets.$3 #$b# She may have put another on top of me in the night or something, I don't know.$3 #$e# That's all you're getting out of me. Now drop it.$5",
 
 //Sand Castles With Jas CT//
   "Shane.SandCastlesWithJasCT1": "I don't know if Rosa is a witch, or Jas is plotting something, but I swear, Jas is always on her best behaviour when Rosa is around.$1",
   "Shane.SandCastlesWithJasCT2": "I know what people are saying, Jas included, but Rosa and I are just friends. #$b# Not like she'd be interested in me, right?$2 #$e# Me? Interested in Rosa?$10 #$b# I don't have to answer that.$1",
   "Shane.SandCastlesWithJasCT3": "Rosa's mentioned having a goddaughter. #$b# A friend of her's she met after she moved across the sea. #$b# Unlike Jas' parents, her friend is still around. #$e# I know Rosa worries she's not doing enough for her, but she can't exactly compare her experience to mine.$2 #$e# The kid's name? Rosalie.",
-  "Shane.SandCastlesWithJasCT4": "I know Rosa said she doesn't want to be with anyone again, #$b# and I don't blame her after everything her ex put her through...$2 #$b# But... if she did...$2 #$b# ...$6 #$b# Buh, forget it.$3 #$e# We just have a good thing going as friends.$2 #$e# I don't want to mess that up by making things weird.$2",
+  "Shane.SandCastlesWithJasCT4": "I know Rosa said she doesn't want to be with anyone again, #$b# and I don't blame her after everything her ex put her through...$2 #$b# But... if she did...$2 #$b# ...$6 #$b# Buh, forget it.$3 #$e# We just have a good thing going as friends.$2 #$b# I don't want to mess that up by making things weird.$11",
 
 
 
 //KITCHEN LOVE//
 
 "Shane.RosalieKitchenLoveCT": "Urg... I don't know if I almost did something really stupid,#$b# Or almost did something really smart.$6 #$e# Um... I'd rather not talk about it...$3 #$e#",
-"Shane.RosalieKitchenLoveCT2": "I don't know if you know what it's like feeling happy, then anxious thinking it's going to leave you...$2 #$b# I sometimes wonder if I rely on Rosa too much... #$b# Not that she's in charge of my emotions, I'd never do that. #$b# But I don't know... if everything is just temporary... Why stick around?$11 #$b# I guess it would be selfish to want to keep that light to yourself, huh?$2",
+"Shane.RosalieKitchenLoveCT2": "I don't know if you know what it's like feeling happy, then anxious thinking it's going to leave you...$2 #$b# I sometimes wonder if I rely on Rosa too much... #$b# Not that she's in charge of my emotions, I'd never do that. #$b# But I don't know... if everything is just temporary... Why stick around?$11 #$b# I guess it would be selfish to want to keep that kind of light to yourself, huh?$2",
 
 //TEASING CTs// (when they get closer)
 "Shane.JasTeasing": "Jas has been obsessed with Rosa since you gave her the ribbon!$1 #$b# Here I thought I was her favourite person!$1 #$e$",
@@ -175,7 +177,7 @@ Rosalie Arrived In Town
 //ROSALIES EVENT CTS//
 "Marnie.RosalieGeorgeWCCT": "Shane's been quiet since what happened with George.$s #$b# He's always been protective of Rosa.",
 "Marnie.RosaliesFlareUpEventCT": "*sigh* The poor, poor dear...$s #$b# Just when you think that she's been dealt an awful hand, it gets worse for her...$3 #$e# I hope people don't judge her too harshly. She's very brave to do that and keep a smile on her face.$s",
-
+"Marnie.ShaneRosalieLowDayCT": "Shane really had me worried there...$2 #$b# But I'm glad that he has friends like you and Rosa to depend on.",
 
 
 
@@ -218,6 +220,8 @@ Rosalie Arrived In Town
 //SNEEZE EVENT CT//
 "Jas.RosalieSneezeEventCT": "Miss Rosa explained to me that her condition is like stubbing your toe, and your brain tells you you're hurt.$3 #$b# But her brain is wired different and tells her that she's hurt all the time.$3 #$e# It's kind of scary...$2",
 
+//SHANES LOW DAY//
+        "Jas.ShaneRosalieLowDayCT": "Shane seemed a little low energy today...$3 #$b# But I saw him later with Miss Rosa and he was smiling that goofy grin again! #$e# If there's anything that can brighten Uncle Shane's day, it's chickens and Miss Rosa.$1 #$e# Charlie would probably say otherwise though...$3",
 
 //SANDCASTLES CT//
 
