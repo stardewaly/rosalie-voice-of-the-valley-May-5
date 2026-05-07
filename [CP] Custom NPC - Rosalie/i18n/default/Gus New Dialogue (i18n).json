@@ -25,7 +25,7 @@
     //Flare Up Event CT//
 
     "Gus.RosaliesFlareUpEventCT": "I'm sorry for being so secretive until now about Rosalie's situation, @.$2 #$b# I'm trying to be respectful of her privacy. But you've been such a good friend to her, I thought you should know.",
-    "Gus.RosaliesFlareUpEventCT2": "Rosie is lucky to have a friend like you who cares about her. I'm glad she's making friends. #$e# I know she says she didn't want to get attached and grow roots here in Pelican Town, #$b# But she feels safe with you, and that's all that matters to me.",
+    "Gus.RosaliesFlareUpEventCT2": "Rosie is lucky to have a friend like you who cares about her. #$e# I know she says she didn't want to get attached and grow roots here in Pelican Town,$2 #$b# But she feels safe talking with you, and that's all that matters to me.",
 
 
     //Shane x Rosalie Route CTs//
@@ -34,6 +34,8 @@
 
     "Gus.RosalieSneezeEventCT": "Rosie came home a bit later than usual last night. #$b# I was a bit worried, but she said she had a flare up and went to bed.$2 #$b# But this morning Marnie called to make sure she was okay, and that Shane walked her home. #$b# I don't know why Rosie would hide that from me...$2 #$e# I didn't even know she and Shane were talking again... I don't know to tell her parents or not...$2",
 
+    "Gus.ShaneRosalieLowDayCT": "I worried that with Rosie and Shane being friends again that she'd feel the need to always go to his side.$2 #$b# To try and 'fix' him, you know? She gets that from her mother, Yoba knows my brother isn't perfect.$2 #$b# But it warms my heart to see Shane putting just as much effort into taking care of her as she does for him.$1.",
+    
     "Gus.RosalieDreamsAndDisastersCT": "I'll be honest... I'm not entirely comfortable about people talking about Shane and Rosie like a couple.$2 #$e# It doesn't matter if I approve. But if they say they're friends, they're friends.$3 ",
 
     "Gus.ShaneSleepOverCT1": "I know Shane spent the night. I put the covers on them. #$b# It's not a big deal. They used to pass out all the time as kids after spending the day together, it was honestly sweet.$1",
