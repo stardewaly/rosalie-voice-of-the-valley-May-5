@@ -28,6 +28,8 @@
 
         "{{ModId}}_RoalieGeorgeWCCT": "{{i18n:Gus.RosalieGeorgeWCCT{{Random: 1, 2}} }}",
 
+        "{{ModId}}_RosalieStoryCT": "{{i18n:Gus.RosaliesStoryCT}}",
+
             "{{ModId}}_RosaliesFlareUpEventCT": "{{i18n:Gus.RosaliesFlareUpEventCT{{Random: 1, 2}} }}",
 
 
@@ -38,9 +40,14 @@
 
 "{{ModId}}_RosaliesRibbonCT":"{{i18n:Gus.RosaliesRibbonCT}}",
 "{{ModId}}_RosalieSneezeEventCT": "{{i18n:Gus.RosalieSneezeEventCT}}", 
+"{{ModId}}_ShaneRosalieChildhoodTalkJasCT": "{{i18n:Gus.ShaneRosalieChildhoodTalkJasCT{{Random: 1, 2, 3, 4}} }}",
+"{{ModId}}_ShaneRosalieLowDayCT": "{{i18n:Gus.ShaneRosalieLowDayCT}}",
 "{{ModId}}_RosalieDreamsAndDisastersCT": "{{i18n:Gus.RosalieDreamsAndDisastersCT}}",
 "{{ModId}}_ShaneSleepOverCT": "{{i18n:Gus.ShaneSleepOverCT{{Random: 1, 2 }} }}", 
-"{{ModId}}_RosalieSecondFirstKissCT": "{{i18n:Gus.SecondFirstKissCT{{Random: 1, 2, 3 }} }}"
+"{{ModId}}_SandCastlesWithJasCT": "{{i18n:Gus.SandCastlesWithJasCT}}",
+"{{ModId}}_RosalieSecondFirstKissCT": "{{i18n:Gus.SecondFirstKissCT}}"
+
+
 
 
 

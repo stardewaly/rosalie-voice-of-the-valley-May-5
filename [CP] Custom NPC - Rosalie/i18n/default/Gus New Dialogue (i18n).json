@@ -21,6 +21,7 @@
     "Gus.RosalieGeorgeWCCT1": "Rosie's been quiet today...$2 #$b#I know I didn't have to tell George, #$b# but there was no other way Hewould have understood.$2",
     "Gus.RosalieGeorgeWCCT2": "I'm sure Rosie has thought about moving out... #$b# But she doesn't have anywhere else to go...$2",
 
+    "Gus.RosaliesStoryCT": "I wish Rosie weren't so hard on herself. It's gotten worse since she became disabled.$2",
 
     //Flare Up Event CT//
 
@@ -34,13 +35,18 @@
 
     "Gus.RosalieSneezeEventCT": "Rosie came home a bit later than usual last night. #$b# I was a bit worried, but she said she had a flare up and went to bed.$2 #$b# But this morning Marnie called to make sure she was okay, and that Shane walked her home. #$b# I don't know why Rosie would hide that from me...$2 #$e# I didn't even know she and Shane were talking again... I don't know to tell her parents or not...$2",
 
+    "Gus.ShaneRosalieChildhoodTalkJasC1": "My brother, Rosie's dad, was always seen with a guitar in his hands since we were kids. #$b# He used to play at every event, we often didn't need music!$1 #$b# It's no wonder Rosie turned out so musical!$1 #$e# Well, she doens't play as much as she used to... with her disability and everything...$2 #$b# I hope you get to hear her play sometime.",
+    "Gus.ShaneRosalieChildhoodTalkJasC2": "My brother used to talk all the time about how troubled Rosie's sister and brother were growing up as teens.$2 #$b# Rosie was always very mature for her age. Well behaved. A dream child!$1 #$b# She was also quite lonely though... Even as a child, they were worried that she wouldn't have any friends...$2 #$b# I didn't expect Shane to be the one to bring her out of her shell, and she his!$1 #$e# I sometimes did wonder when serving Shane his drinks what would have happened had he and Rosie went to the same high school like they were supposed to.$2",
+     "Gus.ShaneRosalieChildhoodTalkJasC3": "It's interesting. Rosie has always said that she doesn't like kids, or want any of her own.$2 #$b# But she seems to enjoy spending time with Jas. Maybe she'll reconsider being a mom one day!$1 #$e# Well, it's her business if she wants children, but I know my brother and her mom would say otherwise.",
+     "Gus.ShaneRosalieChildhoodTalkJasC4": "My brother and his wife weren't perfect parents, but they love their kids and tried their best to give Rosie and her siblings a better childhood than they had.$2 #$e# Rosie's always been a bit more... passionate than most kids her age. I think it would be unfair to say it's a reflection of her parents. #$e# Rosie may have been shy, but she was kind to everyone. Yoba forbid that a kid be a bit different.$3 #$b# I'm glad Shane embraced that about her.$2",
+
     "Gus.ShaneRosalieLowDayCT": "I worried that with Rosie and Shane being friends again that she'd feel the need to always go to his side.$2 #$b# To try and 'fix' him, you know? She gets that from her mother, Yoba knows my brother isn't perfect.$2 #$b# But it warms my heart to see Shane putting just as much effort into taking care of her as she does for him.$1.",
     
     "Gus.RosalieDreamsAndDisastersCT": "I'll be honest... I'm not entirely comfortable about people talking about Shane and Rosie like a couple.$2 #$e# It doesn't matter if I approve. But if they say they're friends, they're friends.$3 ",
 
     "Gus.ShaneSleepOverCT1": "I know Shane spent the night. I put the covers on them. #$b# It's not a big deal. They used to pass out all the time as kids after spending the day together, it was honestly sweet.$1",
     "Gus.ShaneSleepOverCT2": "I'm glad that Shane found something to focus on when he needed it most. Really, they both do. #$e# I didn't even realize Rosie was struggling, and I've known her her whole life... He's always been good at that though.$2",
-
+"Gus.SandCastlesWithJasCT": "Rosie's been smiling a lot. Singing to herself. It's been really nice to see her happy. #$b# I hope it lasts...$2",
     "Gus.SecondFirstKissCT": "Rosalie doesn't seem like herself today...$2 #$b# I didn't know how to feel about her and Shane being friends again, but I'd never seen them so happy.$2 #$b# I hope whatever disagreement happened between them that they can move past it. I'd hate to see them lose each other again...$2"
 
 

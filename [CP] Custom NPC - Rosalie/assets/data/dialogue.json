@@ -193,6 +193,7 @@
                 "{{ModId}}_ShaneRosalieTherapyCT":"{{i18n:Rosalie.RosalieShaneTherapyCT}}",
                 "{{ModId}}_RosaliesRibbonCT": "{{i18n:Rosalie.RosaliesRibbonCT}}",
                 "{{ModId}}_RosalieSneezeEventCT": "{{i18n:Rosalie.RosalieSneezeEventCT}}", //not sure if this will play the next day, hoping it will so we don't have to randomize it.
+                "{{ModId}}_ShaneRosalieChildhoodTalkJasCT": "{{i18n:Rosalie.ShaneRosalieChildhoodTalkJasCT{{Random: 1, 2}} }}",
                 "{{ModId}}_RosalieShanesLowDayCT":"{{i18n:Rosalie.RosalieShanesLowDayCT{{Random: 1, 2 }} }}",
                 "{{ModId}}_RosalieDreamsAndDisastersCT":"{{i18n:Rosalie.RosalieDreamsAndDisastersCT{{Random: 1, 2}} }}",
                 "{{ModId}}_ShaneSleepoverCT": "{{i18n:Rosalie.ShaneSleepoverCT}}",

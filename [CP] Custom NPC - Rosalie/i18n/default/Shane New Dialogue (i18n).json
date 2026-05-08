@@ -55,6 +55,9 @@ Rosalie Arrived In Town
 "Shane.RosalieSneezeEventCT1": "Not you too, @!$5 #$b# Why can't I just walk a friend home without it 'meaning' something?!$11 #$e# Yeah, we talked a lot yesterday, and shared some laughs. #$b# She's just... easy to talk to, okay?$3",
 "Shane.RosalieSneezeEventCT2": "I won't lie, seeing Rosa fall like that... It really shows you how much she puts up with every day.$2 #$b# She's a lot stronger than me, that's for sure.",
 
+//CHILDHOOD TALK WITH JAS CT//
+"Shane.ShaneRosalieChildhoodTalkJasCT1": "I hate to say it, but Dr Harvey was right. #$b# It doesn't matter how much you try to hide it, kids can tell when something's wrong.$2 #$e# I was always able to tell when my parents were struggling financially. #$b# It didn't surprise me when I found out my dad gambled away my tuition for gridball camp.$11 #$b# I met Rosa that summer, but I think I have the right to hold a grudge.$11",
+"Shane.ShaneRosalieChildhoodTalkJasCT2": "Don't tell Rosa I said this, but I think the reason she married so young is because she wanted to get out of the house. #$b# She loves her family, and people in town said she was 'very mature for her age', but that's because she was forced to grow up too fast. #$e# I think we clicked because I understood what it was like to be 'too young' to do anything, then be expected to act like an adult...$11 #$e# I hope Jas doesn't ever have to know what it was like growing up feeling that way...$2",
 
 //SHANE'S LOW DAY CT//
 
@@ -177,8 +180,6 @@ Rosalie Arrived In Town
 //ROSALIES EVENT CTS//
 "Marnie.RosalieGeorgeWCCT": "Shane's been quiet since what happened with George.$s #$b# He's always been protective of Rosa.",
 "Marnie.RosaliesFlareUpEventCT": "*sigh* The poor, poor dear...$s #$b# Just when you think that she's been dealt an awful hand, it gets worse for her...$3 #$e# I hope people don't judge her too harshly. She's very brave to do that and keep a smile on her face.$s",
-"Marnie.ShaneRosalieLowDayCT": "Shane really had me worried there...$2 #$b# But I'm glad that he has friends like you and Rosa to depend on.",
-
 
 
 
@@ -186,6 +187,16 @@ Rosalie Arrived In Town
 
     "Marnie.RosalieSneezeEventCT1": "It's hard seeing the little girl you watched grow up in so much pain...$s #$b# I was worried about her with Shane walking her home to the saloon,$s #$b# But last night was the first time in years Shane came home from the saloon without any alcohol in his system.$1 #$b# I haven't seen Shane smile so much in years.$1 #$e# I know Rosa has her struggles as well, but I think the two of them are really good for each other.$1 #$b# I hope they continue to be friends. #$e# Sometimes an old friend is exactly what you need to get through the tough times...$2",
     "Marnie.RosalieSneezeEventCT2": "I hope Rosa will come by again sometime. It was so nice having her back at the ranch despite the circumstances… #$b# Maybe I'll ask if she's allergic to something so we can prevent further sneezes.",
+
+
+//CHILDHOOD WITH JAS//
+"Marnie.ShaneRosalieChildhoodTalkJasCT1": "I know it seems like Rosa and Shane are very different people, #$b# But they're actually more similar than you think. #$b# They were both shy children who had a talent they were known for by their parents, #$b# And were left alone a lot as kids.",
+"Marnie.ShaneRosalieChildhoodTalkJasCT2": "I sometimes wonder if my sister had allowed Shane's half siblings into his life growing up if things would have turned out differently... #$b# Rosa loves her family, but it was clear she kept a lot of her troubles to herself growing up...$3 #$b# I'm glad that she and Shane are seeking therapy though. It seems to be working well for them.$1",
+"Marnie.ShaneRosalieChildhoodTalkJasCT3": "You know, over the last twenty years, I always wondered what it would have been like if Rosa's family hadn't moved... #$b# Even though he got the scholarship the summer she left, Shane and Rosa still would have gone to the same high school, you know? #$b# I would have bet a year's worth of milk and eggs on him asking her to prom.$1 #$b# *sigh* It's unfortunate they had to grow up without each other... I'm sure it would have saved them a lot of heartbreak and trouble...$3",
+
+//SHANE'S LOW DAY CT//
+"Marnie.ShaneRosalieLowDayCT": "Shane really had me worried there...$2 #$b# But I'm glad that he has friends like you and Rosa to depend on.",
+
 
 
 //SLEEP OVER CT//
@@ -219,6 +230,12 @@ Rosalie Arrived In Town
 
 //SNEEZE EVENT CT//
 "Jas.RosalieSneezeEventCT": "Miss Rosa explained to me that her condition is like stubbing your toe, and your brain tells you you're hurt.$3 #$b# But her brain is wired different and tells her that she's hurt all the time.$3 #$e# It's kind of scary...$2",
+
+
+//Childhood Talk With Jas//
+"Jas.ShaneRosalieChildhoodTalkJasCT1": "I think it's funny that Uncle Shane and Miss Rosa have known each other since they were kids. #$e# Uncle Shane can try to deny it, but he was definitely in love with Miss Rosa!$1 #$e# I know Miss Rosa is an actress, but I bet that I can get her to admit if she loved Uncle Shane, too!$4",
+"Jas.ShaneRosalieChildhoodTalkJasCT2": "I hope I'm as pretty as Miss Rosa when I grow up!$2",
+"Jas.ShaneRosalieChildhoodTalkJasCT3": "I wonder if Uncle Shane was as much of a grump as he is now when he was a kid$1 #$e# I wonder if Uncle Shane and Miss Rosa would still be friends now if they hadn't met when they were kids...$3",
 
 //SHANES LOW DAY//
         "Jas.ShaneRosalieLowDayCT": "Shane seemed a little low energy today...$3 #$b# But I saw him later with Miss Rosa and he was smiling that goofy grin again! #$e# If there's anything that can brighten Uncle Shane's day, it's chickens and Miss Rosa.$1 #$e# Charlie would probably say otherwise though...$3",

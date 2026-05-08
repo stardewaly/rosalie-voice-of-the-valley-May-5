@@ -27,6 +27,7 @@ Rosalie Arrived In Town
 "{{ModId}}_RosalieSneezeEventCT": "{{i18n:Shane.RosalieSneezeEventCT{{Random: 1, 2 }} }}",
 "{{ModId}}_RosaliesRibbonCT": "{{i18n:Shane.RosaliesRibbonCT}}",
 "{{ModId}}_RosaliesRibbonCT2": "{{i18n:Shane.RosaliesRibbonCT2}}", //not sure if this will play the next day, hoping it will so we don't have to randomize it.
+"{{ModId}}_ShaneRosalieChildhoodTalkJasCT": "{{i18n:Shane.ShaneRosalieChildhoodTalkJasCT{{Random: 1, 2}} }}",
 "{{ModId}}_ShaneRosalieLowDayCT":"{{i18n:Shane.ShaneRosalieLowDayCT{{Random: 1, 2, 3, 4}} }}",
 "{{ModId}}_RosalieDreamsAndDisastersCT":"{{i18n:Shane.RosalieDreamsAndDisastersCT{{Random: 1, 2, 3}} }}",
 "{{ModId}}_ShaneSleepoverCT": "{{i18n:Shane.ShaneSleepoverCT{{Random: 1, 2, 3}} }}",

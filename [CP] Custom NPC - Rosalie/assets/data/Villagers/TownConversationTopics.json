@@ -169,6 +169,7 @@
 "{{ModId}}_RosaliesRibbonCT":"{{i18n:Jas.RosaliesRibbonCT}}",
 "{{ModId}}_RosalieSneezeEventCT": "{{i18n:Jas.RosalieSneezeEventCT}}", 
 "{{ModId}}_ShaneRosalieLowDayCT": "{{i18n:Jas.ShaneRosalieLowDayCT}}",
+"{{ModId}}_ShaneRosalieChildhoodTalkJasCT": "{{i18n:Jas.ShaneRosalieChildhoodTalkJasCT{{Random: 1, 2, 3}} }}",
 "{{ModId}}_RosalieDreamsAndDisastersCT": "{{i18n:Jas.RosalieDreamsAndDisastersCT}}",
 "{{ModId}}_SandCastlesWithJasCT": "{{i18n:Jas.SandCastlesWithJasCT}}",
 "{{ModId}}_RosalieSecondFirstKissCT": "{{i18n:Jas.SecondFirstKissCT}}"
@@ -258,6 +259,7 @@
 
 				"{{ModId}}_RosaliesRibbonCT":"{{i18n:Marnie.RosaliesRibbonCT}}",
 				"{{ModId}}_RosalieSneezeEventCT": "{{i18n:Marnie.RosalieSneezeEventCT}}", 
+				"{{ModId}}_ShaneRosalieChildhoodTalkJasCT": "{{i18n:Marnie.ShaneRosalieChildhoodTalkJasCT{{Random: 1, 2, 3}} }}",
 				"{{ModId}}_ShaneRosalieLowDayCT": "{{i18n:Marnie.ShaneRosalieLowDayCT}}",
 				"{{ModId}}_RosalieDreamsAndDisastersCT": "{{i18n:Marnie.RosalieDreamsAndDisastersCT}}",
 				"{{ModId}}_ShaneSleepOverCT": "{{i18n:Marnie.ShaneSleepOverCT{{Random: 1, 2 }} }}", 

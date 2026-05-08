@@ -35,7 +35,7 @@
         
         //Shane x Rosalie Trigger
         "stardewaly.rosalie_ShaneRosalieTherapy": "%action AddConversationTopic {{ModId}}_ShaneRosalieTherapyCT 5 %%",
-        "{{ModId}}_ShanexRosalieBFFFlag": "%action AddConversationTopic {{ModId}}_JasTeasingCT 28 %%"//Temporaty for now just to help differ the 6 heart event for Rosalie for the Harvey vs Shane version! DOn't have an actual CT in i don't think
+        "{{ModId}}_ShanexRosalieBFFFlag": "%action AddConversationTopic {{ModId}}_JasTeasingCT 28 %%",//Temporaty for now just to help differ the 6 heart event for Rosalie for the Harvey vs Shane version! DOn't have an actual CT in i don't think
       }
     },
 
@@ -61,10 +61,13 @@
 			"Action": "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_Rosalie \"{{i18n:RosaliesRibbonForJas.RosalieDialogue}}\" true"
 		},
 
+    //Triggers for Shane x Rosalie version of Rosalie's 6 Heart Event 
 		"{{ModId}}_ShanexRosalieBFFFlagTrigger": {
-			"Id": "Jas Quest Dialogue Safety Net",
+			"Id": "Shane x Rosalie BFF Flag Trigger",
 			"Trigger": "DayEnding",
-			"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ShaneRosalieSneezeEvent", 
+			"Condition": ["PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ShaneRosalieSneezeEvent", 
+         "PLAYER_HAS_HEARTS Current {{ModId}}_Rosalie 6"                    
+],
 			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieBFFFlag"
 		},
 
