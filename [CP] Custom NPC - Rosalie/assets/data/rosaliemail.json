@@ -36,6 +36,7 @@
         //Shane x Rosalie Trigger
         "stardewaly.rosalie_ShaneRosalieTherapy": "%action AddConversationTopic {{ModId}}_ShaneRosalieTherapyCT 5 %%",
         "{{ModId}}_ShanexRosalieBFFFlag": "%action AddConversationTopic {{ModId}}_JasTeasingCT 28 %%",//Temporaty for now just to help differ the 6 heart event for Rosalie for the Harvey vs Shane version! DOn't have an actual CT in i don't think
+        "{{ModId}}_LowEventDayFlag": "%action AddConversationTopic {{ModId}}_JasTeasingCT 5 %%"
       }
     },
 
@@ -60,16 +61,30 @@
 			"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION {{ModId}}_JasQuestforRosaliesRibbonDialogue false", //let's see if this works
 			"Action": "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_Rosalie \"{{i18n:RosaliesRibbonForJas.RosalieDialogue}}\" true"
 		},
-
-    //Triggers for Shane x Rosalie version of Rosalie's 6 Heart Event 
+/*
+    //Triggers for Shane x Rosalie version of Rosalie's 6 Heart Event //DOES NOT WORK WITH MULTIPLE CONDITIONS
 		"{{ModId}}_ShanexRosalieBFFFlagTrigger": {
 			"Id": "Shane x Rosalie BFF Flag Trigger",
 			"Trigger": "DayEnding",
-			"Condition": ["PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ShaneRosalieSneezeEvent", 
+			"Condition": ["PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ShaneRosalieSneezeEvent",
+      "!PLAYER_HAS_SEEN_EVENT Current {{ModId}}_Rosalie6HeartEvent", 
          "PLAYER_HAS_HEARTS Current {{ModId}}_Rosalie 6"                    
 ],
-			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieBFFFlag"
+			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieBFFFlag now"
 		},
+
+
+
+//Trigger for Shane x Rosalie Low Day Event, triggered if player has seen the Childhood Talk event but the CT is not active anymore, and it's a Monday (so it hopefully triggers)
+    		"{{ModId}}_ShanexRosalieLowDayEventTrigger": {
+			"Id": "Shane x Rosalie Low Event Day Trigger",
+			"Trigger": "DayStarted",
+			"Condition": ["PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ShaneRosalieChildhoodTalkJasEvent", 
+      "!PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_ShaneRosalieChildhoodTalkJasCT",
+         "DAY_OF_WEEK Monday"],
+			"Action": "AddMail Current stardewaly.rosalie_LowEventDayFlag now" 
+		},
+*/
 
 
 
