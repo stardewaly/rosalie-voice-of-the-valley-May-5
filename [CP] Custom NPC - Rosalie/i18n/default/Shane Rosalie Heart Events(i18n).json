@@ -151,7 +151,7 @@
 "ShaneRosalieSneezeEvent.21": "Rosa!$10",
 "ShaneRosalieSneezeEvent.22": "Ow...$6 #$b# Sorry... that was embarrassing...$1 #$b#...$2",
 "ShaneRosalieSneezeEvent.23": "Are you okay, Miss Rosa?$2",
-"ShaneRosalieSneezeEvent.24": "$p {{i18n:ShaneRosalieSneezeEvent.A1}})#Of course, Minnie! I'm fi--$1|Of course, Jas! I'm fi--$1",
+"ShaneRosalieSneezeEvent.24": "$p {{i18n:ShaneRosalieSneezeEvent.A1}}#Of course, Minnie! I'm fi--$1|Of course, Jas! I'm fi--$1",
 "ShaneRosalieSneezeEvent.25": "Rosa. Don't say you're fine. You're not fine.$5",
 "ShaneRosalieSneezeEvent.Q2": "Rosalie looks like she's on the verge of tears. From embarassment, or pain, or both.",
 "ShaneRosalieSneezeEvent.A3": "Suggest Rosalie lays down.",
@@ -286,18 +286,201 @@
 
 //Dreams And Disasters//
 
+"ShaneRosalieDreamsAndDisasters.1": "$query (NOT SURE WHAT TO PUT HERE FOR WHEN SHE ARRIVES BEFORE/AFTER 6 HEART EVENT)#I'm so sorry you’re going through that, Shane. I’m glad @ was able to help you.$2|I'm so sorry you’re going through that, Shane. I’m glad @ was able to help you.$2 #$b# I... I wish I could have... reached out sooner...$6"
+"ShaneRosalieDreamsAndDisasters.2": "$query (NOT SURE WHAT TO PUT HERE FOR WHEN SHE ARRIVES BEFORE/AFTER 6 HEART EVENT)#No, don't feel bad... We were both shy kids growing up.$6 #$b# Figures as adults, we’d be too awkward to talk.$1|No, I’m glad you never saw me like that.$2#$b# I’ll take you seeing me through temper tantrums over you seeing me in such a dark place.$3",
+"ShaneRosalieDreamsAndDisasters.3": "We didn't have friends as kids...but we had each other...",
+"ShaneRosalieDreamsAndDisasters.4": "Rosa...$2#$b# I’ve been meaning to ask you, and you don’t need to tell me if you’re not ready but...$3 #$b# Did he ever... hurt you?$2",
+"ShaneRosalieDreamsAndDisasters.5": "He did. Didn’t he.$3",
+"ShaneRosalieDreamsAndDisasters.6": "Once...",
+"ShaneRosalieDreamsAndDisasters.7": "What’s why you left, right?$3",
+"ShaneRosalieDreamsAndDisasters.8": "Rosa! Why didn’t you—$10",
+"ShaneRosalieDreamsAndDisasters.9": "Does Gus know? Will the guy try and come after you?$3",
+"ShaneRosalieDreamsAndDisasters.10": "No... and no, he's not dangerous...$2",
+"ShaneRosalieDreamsAndDisasters.11": "So who does know?$3",
+"ShaneRosalieDreamsAndDisasters.12": "Just my sister. And Harvey... And now you.$2",
+"ShaneRosalieDreamsAndDisasters.13": "Rosa, I wish...$2 #$b# ...I just...$11 #$b# ...I don’t...$5",
+"ShaneRosalieDreamsAndDisasters.14": "I’m sorry. The important thing is you’re out of there.$2 #$b# And you’re not going back to him, right?$2",
+"ShaneRosalieDreamsAndDisasters.15": "No. It's over. It should have been over years ago...$3 #$b# Love makes you do crazy things... including staying when logic says you shouldn't...$2 #$b# I defended him for so long that... I guess I didn't want to believe what everyone was saying...$2 #$b# I know, it's a tale as old as time. But it's true.$3",
+"ShaneRosalieDreamsAndDisasters.16": "Shane gently takes Rosalie's hand."
+"ShaneRosalieDreamsAndDisasters.17": "I know...$2 #$b# You don’t need to explain, Rosa. He’s gone. You suffered enough. You don't need I told you sos.",
+"ShaneRosalieDreamsAndDisasters.18": "I'm here for you, Rosa. I'm here in Stardew Valley to stay.$6 #$b# Not just for the summers anymore, I’m not going anywhere...$6 #$b# And Marnie is here for you too, as always.$6 #$b# You also have Jas as a new best friend, so you’re stuck with her as long as you’re living here.$1",
+"ShaneRosalieDreamsAndDisasters.19": "$p {{i18n:ShaneRosalieSneezeEvent.A1}}#That's not a bad thing, I love Minnie!$1|That's not a bad thing, I love Jas!$1",
+"ShaneRosalieDreamsAndDisasters.20": "I missed this... Sitting in silence and it not feeling awkward...$6 #$b# I’m glad that hasn’t changed.$1",
+"ShaneRosalieDreamsAndDisasters.21": "Me too, Farm Boy...#$b# ...and thanks for taking me outside. Having a wheelchair sucks a little less with you being understanding.$7 #$b# And not feeling like a burden...$2",
+"ShaneRosalieDreamsAndDisasters.22": "I'm glad I could help, Rosa.$6 #$b# We said we'd always be there for each other. We just had a bit of a break.$1",
+"ShaneRosalieDreamsAndDisasters.23": "Exactly! #$b# ...But if I ever become too much—$2",
+"ShaneRosalieDreamsAndDisasters.24": "I know. But honestly, Rosa... I doubt you ever will be.$6",
+"ShaneRosalieDreamsAndDisasters.25": "Same here. I like your company too much."
+"ShaneRosalieDreamsAndDisasters.26": "Hey, Farm Boy?",
+"ShaneRosalieDreamsAndDisasters.27": "Yeah?",
+"ShaneRosalieDreamsAndDisasters.28": "...You’re still my best friend.",
+"ShaneRosalieDreamsAndDisasters.29": "$query !PLAYER_NPC_RELATIONSHIP Any Shane Married Engaged#...Rosa...I um...$2|Rosa... can we um...$2",
+"ShaneRosalieDreamsAndDisasters.30": "$query !PLAYER_NPC_RELATIONSHIP Any Shane Married Engaged#*sigh*... you too.$6|Never mind... I just wanted to say that I'm glad you and @ get along so well.$3 #$b# You both mean a lot to me.$6",
+"ShaneRosalieDreamsAndDisasters.31": "How are you, on a scale from 1-20? Your arm is looking better.$3"
 
+NAME.DreamsAndDisastersCT
 
 
 
 
 //Sleep Over//
 
-    
+"ShaneRosalieSleepOver.1": "Go back to sleep. I’ll see you later okay? Rest up. I mean it."
+"ShaneRosalieSleepOver.2": "@! What are you—$10 #$b# Don’t sneak up on a guy like that!$5",
+"ShaneRosalieSleepOver.Q1": "What? Why are you looking at me like that?",
+"ShaneRosalieSleepOver.A1": "What are you doing at the saloon this early?",
+"ShaneRosalieSleepOver.A2": "Do I want to know?",
+"ShaneRosalieSleepOver.A3": "What are you hiding?",
+"ShaneRosalieSleepOver.A4": "I thought you were sober!",
+"ShaneRosalieSleepOver.3": "It’s not what you think!$10 #$b# I just...$3",
+"ShaneRosalieSleepOver.4": "I had... the urge last night... and I came here wanting a drink.$11",
+"ShaneRosalieSleepOver.5": "I know, I know, but...$11 #$b# Rosa was working and...$3 #$b# ...she was pushing herself too hard...$3 #$b# She was smiling, cracking jokes, but I could tell she was struggling...$2 #$b# It wasn’t busy so I hung out with her, made sure she rested, and she made sure I didn’t drink and...$2 #$b# Well, I stayed the night. We were both... tired, I guess.$3",
+"ShaneRosalieSleepOver.Q2": "*Shane isn't looking at your face*",
+"ShaneRosalieSleepOver.A5": "You know she’s married right?"
+"ShaneRosalieSleepOver.A6": "I’m glad you two are supporting each other."
+"ShaneRosalieSleepOver.A7": "How is she now?",
+"ShaneRosalieSleepOver.A8": "How are you now?",
+"ShaneRosalieSleepOver.R5": "Yeah, I know. But it’s over. She has a lawyer and everything. #$b# The guy even has a girlfriend now, if you can believe it!$3 #$b# You know, I thought I was pathetic, but this guy was something else...$11 #$b# Wait, what does her being married have to do with—-$5",
+"ShaneRosalieSleepOver.R6": "Yeah. It’s crazy that we still... get each other.$1 #$b# I was scared that with how messed up our lives turned out that we wouldn’t fall into the same rhythm.$2 #$b# But somehow, it feels like no time has passed.$6 #$b# Things are just... lighter, I guess... Even when we talk about the heavy stuff.$4 #$b# I’m happy she’s in my life... and Jas is too... #$b# *ahem* We’re... good for each other I guess...$3",
+"ShaneRosalieSleepOver.A7": "Good, I think.$6 #$b# I mean, she could wake up feeling awful but, last night, we kinda just... hung out.$2 #$b# I know she’s good at hiding her pain and when something bothers her, but honestly, I see it clearly.$2 #$b# Its like looking in a... weird mirror, I don’t know.$3 #$b# She can somehow read me too. Ever since we were kids...$6 #$b# We’ve always been good at that...$4",
+"ShaneRosalieSleepOver.A8": "Tired. Better. Glad I didn't do it.$2 #$b# We just watched TV all night. Played some video games that weren’t so hard on her hands. #$b# Then we just... talked.$3 #$b# I don’t even remember falling asleep. We used to do that all the time as kids. It just happened.$6 #$b# It sucks that our lives went sideways but,$2 #$b# I feel like Rosa... I don’t know... doesn’t see me as broken or something to fix.$6 #$b# I don’t see her like that either.$6",
+"ShaneRosalieSleepOver.6": "Hold on! You don’t think—$10 #$b# @, It’s not like that!$5 #$b# I don’t—-$5 #$b# I can’t—-$11 #$b# She—-$2",
+"ShaneRosalieSleepOver.7": "Buh…$2 #$b# @, you’re the closest friend I’ve got besides Rosa.$3 #$b# So, be honest with me... #$b# Do you think that...$2 #$b# I mean, I don’t... want to ruin anything between me and Rosa after we finally got close again.$3 #$b# But… do you think that she could...$2"
+"ShaneRosalieSleepOver.8": "Never mind. Forget I said anything… $3 #$b# I need to go sleep... in my own bed.... before I say something stupid. Before Marnie and Jas notice...$3",
+"ShaneRosaliesSleepover.9": "Don’t say anything to Rosa. Okay? I don’t want her getting more anxious...",
+
+
+GUS: I know Shane spent the night. I put the covers on them. They used to pass out all the time as kids after spending the day together, it was honestly sweet. 
+I’m glad that Shane found something to focus on when he needed it most. I didn’t even realize Rosie was struggling, and I’ve known her her whole life… He’s always been good at that though.
+
+MARNIE: I thought I heard Shane coming home early this morning, but I guess I must have been dreaming… 
+
+JAS: Uncle Shane came home early this morning. He didn’t see me but he looked like he did something bad… #$e# Miss Rosa and him also had a weird look this morning when she and Uncle Shane talked… #$e# They said it was because of “grown up stuff”. I can’t wait until I’m a grown up, then I’ll know what “grown up stuff” is!
+
+
+SHANE: Forget I said anything this morning, I was still half asleep through our conversation. Who knows what I said… For the record, I slept over the blankets. That’s all you’re getting out of me. Now drop it.
+
+
+ROSALIE: I don’t think Shane realizes how much he means to me… having a friend stay with you through your hardest moments… I know he doesn’t think it’s much, but it’s honestly everything to me. I really love him… AS A FRIEND! I MEANT AS A FRIEND! I AM NOT THINKING OF DATING ANYONE NEVER MIND SHANE! I LOVE HIM, PLATONICALLY!
+WE ONLY SLEPT NEXT TO EACH OTHER! THAT'S NOT THE SAME THING AS SLEEPING TOGETHER! %Rosalie cannot look at you without her face turning red.
+
+
+
+//Sandcastles With Jas//
+Sandcastles With Jas (Mermaid Confession)
+
+"ShaneRosalieSandcastles.1": "You know, I used to make sandcastles all the time with your Uncle Shane when I was your age.",
+"ShaneRosalieSandcastles.2": "Do you come here often, Miss Rosa?",
+"ShaneRosalieSandcastles.3": "Whenever I can, it’s harder some days than others.",
+"ShaneRosalieSandcastles.4": "Why? Doesn’t the water help you?$3 #$b# You know, with the pain of walking on land?$3",
+"ShaneRosalieSandcastles.5": "Hey, @! Good to see you!$1",
+"ShaneRosalieSandcastles.Q1": "Can you help me with something?",
+"ShaneRosalieSandcastles.A1": "What is it?",
+"ShaneRosalieSandcastles.A2": "I'm kinda busy.",
+"ShaneRosalieSandcastles.A3": "You mean commit robbery? You only need one ribbon, Jas."
+"ShaneRosalieSandcastles.6": "I'm trying to get Miss Rosa to confess!$1"
+"ShaneRosalieSandcastles.7": "Confess what?",
+"ShaneRosalieSandcastles.8": "You know, Miss Rosa... I can keep a secret.",
+"ShaneRosalieSandcastles.9": "Is that so?$9"
+"ShaneRosalieSandcastles.10": "Like that Uncle Shane listens to your show every morning before work! #$b# And Vincent’s brother, Sam, his name is Samson!$4",
+"ShaneRosalieSandcastles.11": "Oops!...$3 #$b# Well, I won’t tell anyone your secrets!$1 #$b# Besides, no one would believe me 'cause I'm a kid!$4"
+"ShaneRosalieSandcastles.12": "Believe you about what?"
+"ShaneRosalieSandcastles.13": "Come on!I Miss Rosa, I think it’s pretty obvious.$1",
+"ShaneRosalieSandcastles.14": "Oh...?$8 #$b# ...Have you told your Uncle Shane?$2",
+"ShaneRosalieSandcastles.15": "Yeah... But he doesn’t believe me...$2"
+"ShaneRosalieSandcastles.Q2": "You believe me, right?"
+"ShaneRosalieSandcastles.A4": "Of course!",
+"ShaneRosalieSandcastles.A5": "I prefer cold hard facts.",
+"ShaneRosalieSandcastles.16": "Wow... maybe I am easy to read...$2 #$b# But you got me!$1",
+"ShaneRosalieSandcastles.17": "So you admit it! It’s true!$1",
+"ShaneRosalieSandcastles.18": "Yeah... just don’t tell your uncle, okay?$1 #$b# You too, @!$3",
+"ShaneRosalieSandcastles.19": "AHHH!!",
+"ShaneRosalieSandcastles.20": "I knew it I knew it I knew it!!!$1 #$b# Don’t worry Miss Rosa, your secret is safe with me!$1",
+"ShaneRosalieSandcastles.21": "Hey Jas! Hey @!$6 #$b# Rosa, I thought I said no sugar after six!$3",
+"ShaneRosalieSandcastles.22": "Uncle Shane! Miss Rosa—-"
+"ShaneRosalieSandcastles.23": "Yeah?$1",
+"ShaneRosalieSandcastles.24": "... I can’t tell you. I promised I wouldn’t.$4",
+"ShaneRosalieSandcastles.25": "*sigh* Rosa, did you tell Jas you’re a mermaid?",
+"ShaneRosalieSandcastles.26": "What? No!$1",
+"ShaneRosalieSandcastles.27": "Yes you did! Right @?$1 #$b# @ was here when she confessed! You didn’t believe me, but I told you!$4",
+"ShaneRosalieSandcastles.28": "I uh... gotta go... Uncle Gus is expecting me for dinner.$2",
+"ShaneRosalieSandcastles.29": "You want me to walk you home?$6",
+"ShaneRosalieSandcastles.30": "No no, I’m okay. You guys finish up the sand castle. I think it needs a moat. #$b# See you guys around!$1",
+"ShaneRosalieSandcastles.31": "Am I gonna have a mermaid as my new aunt?$3"
+"ShaneRosalieSandcastles.32": "Not unless you know any.$1",
+"ShaneRosalieSandcastles.33": "So, if Miss Rosa was a mermaid, you'd marry her?$4",
+"ShaneRosalieSandcastles.34": "I think if she was a mermaid she’d tell me.$1 #$b# And even if she was, we're just friends.$6"
+"ShaneRosalieSandcastles.35": "Then why do you have that stupid grin on your face?$1"
+"ShaneRosalieSandcastles.36": "Enough with the questions, kid.$11"
 
 
 
 
+
+
+
+
+//Kitchen Love//
+"ShaneRosalieKitchen.1": "I don’t know why Jas likes you so much.",
+"ShaneRosalieKitchen.2": "What's not to like? I’m adorable.$9",
+"ShaneRosalieKitchen.3": "You know you say you’ve changed but honestly, you haven’t. Not really.$6",
+"ShaneRosalieKitchen.4": "You too. You’re the same, but different.",
+"ShaneRosalieKitchen.5": "You mean, the bags under my eyes and my beer gut.$2",
+"ShaneRosalieKitchen.6": "I mean, you’re still a grump, but I can still manage to make you smile. #$b# Your sense of humour hasn’t changed. #$b# And yeah, you’re older, been through the ringer, but that’s just what twenty years does to you.$1",
+"ShaneRosalieKitchen.7": "And you’re still shy yet can’t shut up with me around.$1",
+"ShaneRosalieKitchen.8": " You’re still listening, aren’t you?$1 #$b# You’re... probably the only person I’ve met who does.$2",
+"ShaneRosalieKitchen.9": "What are you doing?",
+"ShaneRosalieKitchen.10": "The dishes?$2",
+"ShaneRosalieKitchen.11": "Don’t worry about that. I’ll take care of it after you leave.$3",
+"ShaneRosalieKitchen.12": "Rosa? What's wrong?$10"
+"ShaneRosalieKitchen.13": "I'm fine, I'm just... thinking about things.$3",
+"ShaneRosalieKitchen.14": "I hope it’s not my lack of cooking skills. Sorry, I made just a frozen pizza.$1",
+"ShaneRosalieKitchen.15": "Hey now, it was frozen pizza and you *added* things to it!$1 #$b# That’s a drastic improvement to the frozen box foods my ex used to cook for me every night. And he was a cook!$3",
+"ShaneRosalieKitchen.16": "Ouch. That on top of everything else...$1",
+"ShaneRosalieKitchen.17": "I know, I know. I married a loser. Shouldn’t have stayed. I deserve so much better and all that.$3",
+"ShaneRosalieKitchen.18": "You’ve been talking to your mom again, haven’t you?$3",
+"ShaneRosalieKitchen.19": "Robin, actually. As you can tell, she’s very supportive. I know she means well... #$b# You know, I just haven’t spoken to him since that day... and it’s becoming more real.$2",
+"ShaneRosalieKitchen.20": "You know, I noticed that we talk a lot about me and my depression and anxiety...$2 #$b# But you kind of... avoid talking about him in the end. I mean, you do in therapy, kind of. But I try not to...",
+"ShaneRosalieKitchen.21": "I appreciate that more than you know, Farm Boy. #$b# What do you want to know? I can handle it.$1",
+"ShaneRosalieKitchen.22": "I don’t know... What did you see in him? #$b# I mean, you clearly loved the guy to put up with what you did. I just want to know.$3",
+"ShaneRosalieKitchen.23": "You know, when I was a teenager I read somewhere that the reason you fall in love with someone sometimes becomes the reason you fall out of love with them.#$b# Like, they’re spontaneous and then you realize how reckless they are, and you can't make plans.$2 #$b# Or, you love how much they love their family, then they prioritize them over you, even if you're in the middle of a crisis and need support, that kind of thing...$2 #$b# In my case, he was an emotional and sensitive person.$3 #$b# You know, he wasn’t afraid to cry or tell me how he felt. He loved openly and freely...$1 #$b#... and after a while, it became crippling to him. I was his entire world...$2",
+"ShaneRosalieKitchen.24": "Oh... I see. He couldn't let you go.$2",
+"ShaneRosalieKitchen.25": "Wouldn’t.$3",
+"ShaneRosalieKitchen.24": "Wouldn’t, sorry... #$b# Well, I'm glad you're not with him anymore, with that and everything else...$2 #$b# I learned a long time ago that real love is putting someone else’s needs before yours.$3",
+"ShaneRosalieKitchen.25": "No I don’t believe that.$3 #$b# He did that, or he thought he did, and it destroyed us both.$3 #$b# You need to take care of yourself too...$2 #$b# Not that he believed me, even when I told him what it was doing to me, to us... He wouldn't.$3 #$b# He would resent me for all the things he did to help me. That he said he did 'for' me.$3 #$b# And it just poisoned us...$3",
+"ShaneRosalieKitchen.26": "It’s okay not to be okay... #$b# But if you’re not helping yourself, not trying to be the best person you can be for that person, especially when it matters,$2 #$b# Then you not being okay is at the expense of someone else. And that’s not love to me, because, why would you do that to the person you love?$3",
+"ShaneRosalieKitchen.27": "I don’t want to burden anyone. #$b# But if you burden yourself then... I guess it spills out anyway...$2 #$b# It took me a long time to realize that... too long.$2#$b# I’m glad that you weren’t there to see me like that.$2",
+"ShaneRosalieKitchen.28": "And I'm sure Jas and Marnie are happier, right? Now that you're happy?"
+"ShaneRosalieKitchen.29": "Yeah. I guess so.$6",
+"ShaneRosalieKitchen.30": "$query !PLAYER_NPC_RELATIONSHIP Any Shane Divorced#Enough about me though. I can't believe I never asked, but have you ever gotten married?$1|Enough about me though...$1 #$b# Speaking of exes... You don’t mind me and and your ex being friends, right?$1 #$b# I can’t imagine seeing your ex every day... Do you think you’ll get married again?",
+"ShaneRosalieKitchen.31": "$query !PLAYER_NPC_RELATIONSHIP Any Shane Divorced#Not even close. I haven’t dated anyone since... #$b# I think since around the time I took in Jas. After her parents passed...$3 #$b# Marnie’s been on me about that, but between work, and Jas, the chickens, I don’t have time.|I don’t mind, I mean, we wouldn’t be talking if it weren’t for them...#$b# But before them, I hadn't dated anyone since... I think since around the time I took in Jas. #$b# Marnie’s been on me about that, but between work, and Jas, the chickens, I don’t have time.$3",
+"ShaneRosalieKitchen.32": "You make time for me.$7"
+"ShaneRosalieKitchen.33": "Yeah, but you’re different. I don’t need to spend as much mental or physical energy with you.$1 #$b# We just, kinda, hang out. I like being around you.$6 #$b# You don’t mind that I’m damaged...$6 #$b# It wouldn’t be fair to put my baggage on some poor person who isn’t my therapist.$3 #$b# Besides I’m not exactly a catch.$2",
+"ShaneRosalieKitchen.34": "Hey, you’re not allowed to speak for us women... Or men if you’re into them.$1 #$b# Maybe I can't speak for them either as I'm getting a divorce with my high school sweetheart.$1",
+"ShaneRosalieKitchen.35": "$p {{i18n:ShaneRosalieSneezeEvent.A1}}#But honestly, Farm Boy, the fact that you’re working on yourself, and you took in Minnie and basically fathering her, #$b# Plus, not only you see the flaws within yourself but you’re working to fix them... #$b# You have one of the biggest hearts I’ve ever known. And you're going to make someone very happy one day. I know it.$4|But honestly, Farm Boy, the fact that you’re working on yourself, and you took in Jas and basically fathering her, #$b# Plus, not only you see the flaws within yourself but you’re working to fix them... #$b# You have one of the biggest hearts I’ve ever known. And you're going to make someone very happy one day. I know it.$4", 
+"ShaneRosalieKitchen.36": "Thanks, Rosa... I think you would too.$4",
+"ShaneRosalieKitchen.37": "I don't think so...$2 #$b# The idea of dating and falling in love again...$2 #$b# Being vulnerable and open, just to get manipulated and gas lit and forced to think of every moment and decision of my life to include someone else...$3 #$b# I get anxious thinking about it..." 
+"ShaneRosalieKitchen.38": "You're never going to date again?$3 #$b# Rosa, I know you. You were planning your wedding when we were ten!$1" 
+"ShaneRosalieKitchen.39": "I wasn’t disabled or fat when I was ten, or when I met my ex.$3",
+"ShaneRosalieKitchen.40": "Rosa, can you just listen for a minute without putting yourself down?$11 #$b# Yes, you’re disabled, and you’re not... whatever the average weight is for a woman our age.$3",
+"ShaneRosalieKitchen.41": "Thanks, but listen.$3 #$b# You’re also kind. You’re one of the smartest people I know.$6 #$b# You’re talented in... so many things, I can’t keep track but I’m trying... $1 #$b# You’re funny, and sweet... #$b# And... I think Jas mentioned something about you being ‘really pretty’$2",
+"ShaneRosalieKitchen.42": "Is that so?$9",
+"ShaneRosalieKitchen.43": "Well, Jas is a terrible liar. So, it must be the truth...$3",
+"ShaneRosalieKitchen.44": "Well, tell her I said thanks.$4",
+"ShaneRosalieKitchen.45": "I will...$4"
+"ShaneRosalieKitchen.46": "Shane puts his hand to Rosalie's face and moves slightly closer.",
+"ShaneRosalieKitchen.47": "...$2 #$b# Farm Boy?$2",
+"ShaneRosalieKitchen.48": "Yeah?$4",
+"ShaneRosalieKitchen.49": "You’re... a little close...$2",
+"ShaneRosalieKitchen.50": "Sorry... I know you just said...$3",
+"ShaneRosalieKitchen.51": "No! It’s fine!... We’ve um...$1 #$b# ...$2", 
+"ShaneRosalieKitchen.52": "You know, I've been meaning to apologize for the last day we saw each other as kids.$2 #$b# I shouldn’t have done that... I know we were young but, it doesn't excuse it, and I’m sorry.$2",
+"ShaneRosalieKitchen.53": "Oh um...$3 #$b# I don't even remember what happened...$3",
+"ShaneRosalieKitchen.54": "You don't?$8",
+"ShaneRosalieKitchen.55": "Yeah, not everyone has a perfect memory like you, Rosa.$11 #$b# It was twenty years ago. I had other things on my mind besides you.$5",
+"ShaneRosalieKitchen.56": "Right... Well, I'm sorry, all the same...$2",
+"ShaneRosalieKitchen.57": "I'm gonna go... I'm really tired...$2 #$b# Goodnight, Shane...$11",
+"ShaneRosalieKitchen.58": "Buh..."
 
 }
 
