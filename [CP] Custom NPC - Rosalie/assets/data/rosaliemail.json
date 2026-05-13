@@ -34,9 +34,7 @@
         "stardewaly.rosalie_RosalieFlareUpFlag": "%action AddConversationTopic stardewaly.rosalie_FlareupCT 1 %%",
         
         //Shane x Rosalie Trigger
-        "stardewaly.rosalie_ShaneRosalieTherapy": "%action AddConversationTopic {{ModId}}_ShaneRosalieTherapyCT 5 %%",
-        "{{ModId}}_ShanexRosalieBFFFlag": "%action AddConversationTopic {{ModId}}_JasTeasingCT 28 %%",//Temporaty for now just to help differ the 6 heart event for Rosalie for the Harvey vs Shane version! DOn't have an actual CT in i don't think
-        "{{ModId}}_LowEventDayFlag": "%action AddConversationTopic {{ModId}}_JasTeasingCT 5 %%"
+        "stardewaly.rosalie_ShaneRosalieTherapy": "%action AddConversationTopic {{ModId}}_ShaneRosalieTherapyCT 5 %%"
       }
     },
 
@@ -61,16 +59,13 @@
 			"Condition": "PLAYER_HAS_RUN_TRIGGER_ACTION {{ModId}}_JasQuestforRosaliesRibbonDialogue false", //let's see if this works
 			"Action": "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_Rosalie \"{{i18n:RosaliesRibbonForJas.RosalieDialogue}}\" true"
 		},
-/*
-    //Triggers for Shane x Rosalie version of Rosalie's 6 Heart Event //DOES NOT WORK WITH MULTIPLE CONDITIONS
+
+    //Triggers for Shane x Rosalie version of Rosalie's 6 Heart Event //
 		"{{ModId}}_ShanexRosalieBFFFlagTrigger": {
 			"Id": "Shane x Rosalie BFF Flag Trigger",
 			"Trigger": "DayEnding",
-			"Condition": ["PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ShaneRosalieSneezeEvent",
-      "!PLAYER_HAS_SEEN_EVENT Current {{ModId}}_Rosalie6HeartEvent", 
-         "PLAYER_HAS_HEARTS Current {{ModId}}_Rosalie 6"                    
-],
-			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieBFFFlag now"
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ShaneRosalieSneezeEvent, !PLAYER_HAS_SEEN_EVENT Current {{ModId}}_Rosalie6HeartEvent, PLAYER_HAS_HEARTS Current {{ModId}}_Rosalie 6",                
+			"Action": "AddMail Current stardewaly.rosalie_ShanexRosalieBFFFlag received"
 		},
 
 
@@ -79,12 +74,27 @@
     		"{{ModId}}_ShanexRosalieLowDayEventTrigger": {
 			"Id": "Shane x Rosalie Low Event Day Trigger",
 			"Trigger": "DayStarted",
-			"Condition": ["PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ShaneRosalieChildhoodTalkJasEvent", 
-      "!PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_ShaneRosalieChildhoodTalkJasCT",
-         "DAY_OF_WEEK Monday"],
-			"Action": "AddMail Current stardewaly.rosalie_LowEventDayFlag now" 
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ShaneRosalieChildhoodTalkJasEvent, !PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_ShaneRosalieChildhoodTalkJasCT, DAY_OF_WEEK Monday",
+			"Action": "AddMail Current stardewaly.rosalie_LowEventDayFlag received"
 		},
-*/
+
+          "{{ModId}}_Shane6BeforeRosalieFlagTrigger": //If Shane has gotten sober BEFORE Rosalie Arrives
+          
+        {
+          "Id": "Shane x Rosalie - Shane 6 H Before Rosalie Flag",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current 2118991, !PLAYER_HAS_MAIL Current {{ModId}}_WelcomeRosalieMail Received",
+          "Action": "AddMail Current {{ModId}}_ShaneBeforeRosalieFlag Recieved"
+        },
+
+        "{{ModId}}_Shane6AfterRosalieFlagTrigger"://If Shane has gotten sober AFTER Rosalie Arrives
+        {
+          "Id": "Shane x Rosalie - Shane 6 H After Rosalie Flag",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Current 2118991, PLAYER_HAS_MAIL Current {{ModId}}_WelcomeRosalieMail Received",
+          "Action": "AddMail Current {{ModId}}_ShaneAfterRosalieFlag Recieved"
+        },
+
 
 
 
@@ -96,7 +106,7 @@
         "{{ModId}}_RosalieIsComing.SaloonDelayMail": {
           "Id": "{{ModId}}_RosalieIsComing.SaloonDelayMail",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_HEARTS Current Gus 1",
+          "Condition": "PLAYER_HEARTS Current Gus 1",//change this after, this is so it triggers at the same time as the Ramp Event, and only if ramp event has been seen so it doesn't trigger multiple times if player keeps getting hearts with Gus before ramp event
           "Action": "AddMail Current stardewaly.rosalie_SaloonRampMail now"
         },
 
